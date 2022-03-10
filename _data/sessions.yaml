@@ -1,0 +1,384 @@
+- startTime: "9:30"
+  endTime: "9:55"
+  room: Biblioteca
+  title: "Apertura del evento y bienvenida"
+  description: "Breve introducción al evento por parte de los organizadores."
+
+- startTime: "10:00"
+  endTime: "10:45"
+  room: Biblioteca
+  title: "Videojuegos diferentes para un público diferente"
+  description: |-
+    My granny Lala and me es un videojuego de corte social inspirado en la vida de mis abuelas y las mujeres de mi familia, donde mediante una historia muy intensa basada en hechos reales podremos experimentar de primera mano las dificultades que tiene una persona de la tercera edad en el siglo XXI. Para resolver los puzzles deberemos viajar entre el mundo de la anciana y un mundo imaginario que ha creado su nieta para ayudarla en el día a día. Point and click de corte clásico hecho por más de un 50% de mujeres y que recientemente ha ganado un premio a mejor narrativa con tan solo una build en Alpha.
+  speaker:
+    - name: "Beatriz Olcina"
+      bio: "Productora audiovisual, de videojuegos y VR, comenzó sus pasos en el cine y tras varios proyectos premiados decidió embarcarse en el mundo de las nuevas tecnologías, dónde produjo proyectos como una recreativa arcade VR, actualmente está desarrollando su propio videojuego, una aventura gráfica de corte social, donde una niña ayuda a su abuela a través de su mundo mágico entre otros proyectos."
+      photo: https://yt3.ggpht.com/a-/AAuE7mA_SQzbZE2PSoJ_6YiAg3MPnn79i-s6MTP2pw=s900-mo-c-c0xffffffff-rj-k-no
+      links:
+        - http://beatrizolcina.com/
+        - https://twitter.com/Illinois_break
+        - https://www.linkedin.com/in/beatrizolcinamoncho
+
+- startTime: "10:00"
+  endTime: "10:45"
+  room: Factoría
+  title: "Introducció al programari lliure i la tecnologia ètica"
+  description: |-
+    Introducció amena, senzilla i comprensible del que és el Programari Lliure i les raons per les quals és l'opció ètica, justa, solidària i que respecta la llibertat dels usuaris que l'utilitzen programari en la seua tecnologia del dia a dia.
+  speaker:
+    - name: "Ricard Sancho"
+      bio: "Un dels membres fundador de l'associació GNU/Linux València, activista i apassionat del programari lliure i la tecnologia ètica."
+      photo:
+      links:
+
+- startTime: "10:00"
+  endTime: "10:45"
+  room: Visual Room
+  title: "Ingeniería del caos: Rompiendo cosas a propósito en producción"
+  description: |-
+    La ingeniería del caos es una joven disciplina centrada en la realización de experimentos controlados en sistemas en producción con el fin de mejorar su resiliencia.
+
+    Aunque ha existido desde mucho antes, fue en 2010 cuando empezó a tomar relevancia gracias al trabajo de Netflix con su 'Chaos monkey', desde entonces se ha evolucionado mucho y ha crecido alrededor una vibrante comunidad.
+
+    En esta charla veremos una introducción a los principios, prácticas y herramientas en torno a la ingeniería del caos.
+  speaker:
+    - name: "David Lluna"
+      bio: "Trabaja en esta nuestra industria desde 2002, actualmente como SRE en @flywire, friki de innumerables temas y habitual de ValenciaDevOps"
+      photo: /images/speakers/BENQ0011_400x400.jpg
+      links:
+        - https://twitter.com/llunatweets
+
+- startTime: "11:00"
+  endTime: "11:45"
+  room: Biblioteca
+  title: "Programando al servicio de la especulación financiera"
+  description: |-
+    Vivimos tiempos extraños donde nada es lo que parece. Son los tiempos de la postverdad, del relativismo, de la obsesión por la individualidad. Una de las manifestaciones más representativas de nuestra época es el fenómeno Startup. Un enorme ecosistema plagado de eslóganes de auto-ayuda (¡Todo es posible!)y palabras vacías que se desarrolla como el escenario de un teatro mágico. En él, la mano de obra rebautizada como talento ya no trabaja por el salario, desarrolla su vocación. Tanto es así que es difícil encontrar entre quienes trabajan en ese entorno a alguien que reconozca trabajar con el objeto de procurarse un sustento. Entre partidos de ping-pong y team buildings, hemos aceptado que el trabajo debe dominar la mayor parte de nuestras vidas.
+
+    Pero bajo los lemas estimulantes del éxito y la cultura del esfuerzo se camuflan los procesos especulativos del capitalismo moderno. Las empresas tecnológicas, a través de las múltiples aplicaciones, han descubierto una nueva mecánica de acumulación por desposesión: la desposesión de los datos de nuestras vidas, del control de la información que recibimos, del control incluso de nuestros valores, principios y costumbres. Quienes trabajamos en el sector, cómplices de todo esto, parecemos vivir al margen de la destrucción que se está produciendo a nuestro paso. Vivimos una época dorada, con una explosión de empresas en dura competencia por una mano de obra aún escasa que cualquier día dejará de serlo. Y en ese caldo bullicioso, abrumadoramente masculino, juvenil, entusiasta y aparentemente desenfadado, medra la codiciosa voluntad de los fondos de inversión de convertir dinero en más dinero.
+  speaker:
+    - name: "Carles Climent"
+      bio: "Inició su carrera desarrollando software de scoring para derivados de crédito, conocidos por la crisis financiera de 2009. Continuó en el ámbito Fin-Tech y en otros sectores como el juego online. Hoy trata de que el producto de su trabajo dañe lo menos posible a la sociedad en la que vive."
+      photo: /images/speakers/KUivXHQQ_400x400.jpg
+      links:
+        - https://twitter.com/Carles_Climent
+        - https://github.com/carlescliment
+        - https://www.linkedin.com/in/carlescliment/
+
+- startTime: "11:00"
+  endTime: "11:45"
+  room: Factoría
+  title: "Si no te gusta, pon un concern"
+  description: |-
+    Como programadores ágiles, nos gustan las buenas prácticas: desplegar habitualmente a producción, evitar bloqueos, creemos en la propiedad colectiva del código, tenemos un buen sistema de control de versiones, probamos y revisamos el código que hacemos... pero casi todos nos hemos enfrentado a una pull request que se está llenando de comentarios.
+
+    Las pull request de Github (o merge request de Gitlab) se han convertido en el momento del día en el que revisamos el código de algún compañero antes de que salga a producción, es más, en el peor de los casos, es el único momento en el que revisamos el código.
+
+    Desde hace unos años, me han descubierto otra forma de revisar código, mucho más humana, menos bloqueante y estresante, y que ayuda al equipo a generar consensos, evitar silos y no depender del liderazgo técnico de nadie. ¡Y eso es lo que os quiero contar!
+  speaker:
+    - name: "Vicente Baixauli"
+      bio: "Cuando empezó a programar, tuvo un buen mentor que le enseñó el camino hacia ser un buen programador y mejor compañero. Varios años después sigue recorriendo ese camino, a la vez que intenta ayudar a otros a recorrerlo."
+      photo: /images/speakers/UwnGaXlp_400x400.jpg
+      links:
+        - https://twitter.com/vibaiher
+        - https://github.com/vibaiher
+        - https://www.linkedin.com/in/vibaiher/
+
+- startTime: "11:00"
+  endTime: "11:45"
+  room: Visual Room
+  title: "¿Qué deberíamos construir después?"
+  description: |-
+    Diferentes formas para saber desde producto que es lo siguiente mas interesante para construir. Para ello se tienen que tener en cuenta, métricas (cuantitativas, cualitativas), mercado, problemas del usuario y todo eso al mismo tiempo tiene que estar unido a la estrategia de la empresa. En muchas ocasiones me han hecho esta pregunta por lo que creo la gente podría estar interesado en saber un poco mas que diferentes opciones existen, como se hace en algunas empresas y como varia dependiendo del tamaño de empresa que estes o tipo de producto que trabajes.
+  speaker:
+    - name: "Pedro Igualada"
+      bio: "Product Manager en Flywire. Ha trabajado en diferentes productos dentro de la empresa desde back office interno hasta la experiencia de pago."
+      photo: /images/speakers/-UPP3hET_400x400.jpg
+      links:
+        - https://twitter.com/pediglo
+        - https://www.linkedin.com/in/pedro-igualada-lopez-113ba82a/
+
+- startTime: "12:00"
+  endTime: "12:45"
+  room: Biblioteca
+  title: "Privacidad: atentados a nuestra intimidad y cómo defendernos"
+  description: |-
+    La charla tratará sobre la privacidad y los escándalos con la NSA o similares. Enseñamos a usar Tor a través de una distribución llamada Tails, para que cualquier persona sin conocimientos pueda conectarse a traves de Tor y luchar por su derecho a la intimidad.
+  speaker:
+    - name: "Jesus Marin Garcia"
+      bio: "Técnico Superior en Administración de Sistemas Informáticos con experiencia laboral en el ámbito de la informática y las telecomunicaciones. Al igual que en la creación e implantaciones de proyectos tecnológicos y experto en seguridad informática. Amplia experiencia en el sector de las telecomunicaciones con experiencia en el día a día e implantación en centro de Datos.
+
+      Fundador de asociación nacional P.I.N.T. ( Promoción e Impulsó de las Nuevas Tecnologías ), emprendedor, autodidacta y curioso por defecto."
+      photo: /images/speakers/6VMjwhW_400x400.jpg
+      links:
+        - https://twitter.com/jmaringarcia
+        - https://www.linkedin.com/in/jmaringarcia
+
+- startTime: "12:00"
+  endTime: "12:45"
+  room: Factoría
+  title: "Service workers en Progressive Web Applications"
+  description: |-
+    La rápida evolución del desarrollo de aplicaciones web nos ofrece gran cantidad de herramientas para poder construir páginas realmente increíbles. Los Service Workers nos ayudan a que nuestro sitio web se comporte como una aplicación nativa, ofreciendo al usuario una experiencia de uso más óptima. En esta charla veremos qué son los Service Workers, repasaremos los conceptos y usos básicos, y también aprenderemos de manera práctica cómo implementarlo para poder interactuar con las APIs a nuestra disposición (Cache, Notification, Background Sync e IndexedDB).
+  speaker:
+    - name: "Juan Diego Martín-Blas Ramos"
+      bio: "Trabajo como frontend developer en Mr Jeff. Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a aprender programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y conocer algo nuevo cada día."
+      photo: /images/speakers/rJqwRcWu_400x400.jpg
+      links:
+        - https://twitter.com/JuanDiegoMbr
+        - https://www.linkedin.com/in/juandiego-martin/
+
+- startTime: "12:00"
+  endTime: "12:45"
+  room: Visual Room
+  title: "Ciberseguridad. ¿Por qué a mí? ¿Por qué esto? ¿Por qué ahora?"
+  description: |-
+    La seguridad es incómoda por naturaleza, pero la manera en la que ésta se valore y se integre en todos los procesos y actividades de las compañías (no sólo en el área de Sistemas) será la clave del éxito y, en algunos casos, de la supervivencia de las mismas.
+
+    En la ponencia haremos un repaso sobre el contexto actual, en el que impera la digitalización y el uso de la tecnología, así como en las implicaciones/riesgos que estos cambios conllevan y la relevancia que cobra la ciberseguridad en este nuevo paradigma.
+  speaker:
+    - name: "Lidia García"
+      bio: "Ingeniería informática con más de 10 años de experiencia en el sector de la seguridad de la información, focalizando su experiencia en la gestión del riesgo y la protección de infraestructuras críticas. Actualmente formo parte del equipo de ElevenPaths, área de ciberseguridad de Teléfonica."
+      photo: /images/speakers/EaSq_gy-_400x400.jpg
+      links:
+        - https://twitter.com/ligaresp
+
+- startTime: "13:00"
+  endTime: "13:45"
+  room: Biblioteca
+  title: "Tic y género: rompiendo la brecha"
+  description: |-
+    Que hay pocas mujeres en el ámbito STEM (ciencia, tecnología, ingeniería y matemáticas, en su sigla en inglés) es una realidad. Pero esta brecha de género es aún mayor en el área de las Tecnologías de la Información y las Comunicaciones (TIC). El mercado laboral demanda cada vez más profesionales en este campo, sin embargo, las personas que deciden dedicarse a estas profesiones siguen sin cubrir la demanda. Lo más preocupante es que la proporción de mujeres que lo hacen es muy inferior a la de los hombres. El mercado de las TICS no se puede estar perdiendo el potencial de la mitad de la población. Es imprescindible la presencia de mujeres en todos los niveles.
+
+    Desde la Escuela Técnica Superior de Ingeniería de la Universitat de Valencia (ETSE-UV) creemos que la implicación de las instituciones educativas es clave para cambiar las cifras. Por ese motivo. La ETSE-UV puso en marcha un programa en 2011 para fomentar las vocaciones TIC y aumentar el número de mujeres que deciden cursar este tipo de estudios. El programa ha conseguido colocar a la escuela más de cuatro puntos por encima de la media nacional en porcentaje de mujeres matriculadas en grados TIC.
+  speaker:
+    - name: "Silvia Rueda"
+      bio: "Ingeniera en Informática y Doctora en Ciencias de la Computación por la Universitat de València (UV), directora del Dpt. d’Informàtica de la ETSE-UV y miembro de la Asociación de Mujeres Investigadoras y Tecnólogas (AMIT)."
+      photo: /images/speakers/ycsL3in3_400x400.jpg
+      links:
+        - https://twitter.com/sruedapascual
+        - https://www.linkedin.com/in/silvia-rueda-pascual-14b69946/
+    - name: "Emilia López Iñesta"
+      bio: "Licenciada en Matemáticas y Doctora en Ciencias de la Computación por la UV, es profesora en el Dpt. de Didàctica de la Matemàtica (UV), investigadora en IDAL (ETSE-UV), embajadora de Scientix y mentora en STEM Talent Girl y miembro AMIT"
+      photo: /images/speakers/ELI.png
+      links:
+        - https://twitter.com/elibeni2010
+    - name: "Carmen Botella"
+      bio: "Ingeniera y Doctora en Ingeniería de Telecomunicaciones por la UPV, profesora en el Dpt. d’Informàtica de la ETSE-UV y asesora del Grupo de Afinidad de Rama Estudiantil ETSE-UV Women in Engineering (IEEE)."
+      photo: /images/speakers/dl34cAW1_400x400.jpg
+      links:
+        - https://twitter.com/CBotellaMascar
+    - name: "Paula Marzal"
+      bio: "Licenciada en Química y Doctora en Química por la UV, máster en Ciencia y Tecnología de Alimentos por la UPV, profesora en el Departamento de Ingeniería Química de la UV y Directora de la ETSE-UV."
+      photo: /images/speakers/YaG1dsbk_400x400.jpg
+      links:
+        - https://twitter.com/p_marzal
+
+- startTime: "13:00"
+  endTime: "13:45"
+  room: Factoría
+  title: "Desmontando mitos sobre accesibilidad web"
+  description: |-
+    La accesibilidad web es algo que la mayoría de los proyectos descuidan. Se suele asumir una serie de ideas erróneas, o mitos: que es difícil implementarla; que no hay tiempo para ella; que nadie le presta atención; que se trata de un accesorio, algo bueno pero no necesario; que solo es necesaria si nos dirigimos a personas con discapacidad; que supone un gran coste adicional; o que utilizando alguna herramienta al final se pueden arreglar un par de cosas.
+
+    Esta charla quiere desmontar esos mitos y compartir algunas pautas para hacer efectiva la accesibilidad web. Al mismo tiempo, también quiere concienciar sobre la necesidad de la accesibilidad web, ya no solamente para eliminar barreras que encuentran las personas con discapacidad sino también para mejorar la usabilidad en general.
+  speaker:
+    - name: "Carlos Muncharaz"
+      bio: "Desarrollador front-end en Datamaran, aplicación web de análisis de big data destinada a profesionales de la sostenibilidad. Anteriormente diseñador gráfico y fotógrafo (El Mundo, Corts Valencianes, trabajador autónomo). Persona con discapacidad auditiva, experimentada en el movimiento asociativo y comprometida con la accesibilidad."
+      photo: /images/speakers/HkHD3C82_400x400.jpg
+      links:
+        - https://twitter.com/cmuncharaz
+        - https://www.linkedin.com/in/cmuncharaz
+
+- startTime: "13:00"
+  endTime: "13:45"
+  room: Visual Room
+  title: "Inteligencia Artificial, la nueva herramienta de los agricultores"
+  description: |-
+    El uso de la inteligencia artificial ya no es algo limitado a unos pocos, y como resultado de esto durante 2018 realizamos una aproximación del uso de inteligencia artificial para la maximización de cosechas basándonos en el uso del regadío y fertilizantes. El objetivo es generar un sistema de soporte a la decisión que, a través de una interfaz sencilla permita a los agricultores una mejor planificación de sus cosechas. Una prioridad del sector es reducir el consumo de agua y minimizar el impacto ambiental, a través de la reducción del uso de fertilizantes con el apoyo de IA. Enmarcar esta mejora dentro de la transformación tecnológica que afecta al sector, supone uno de los retos principales de este proyecto.
+
+    Como resultado se desarrolló una primera versión de producto basado en un universo controlado de datos y capaz de responder a las interacciones de un usuario para un cultivo prefijado.
+  speaker:
+    - name: "Pedro Nieto Pelaez"
+      bio: "Siempre he sido un apasionado de los datos, con el paso de los años esta pasión se ha convertido en mi profesión y me ha permitido centrarme en tecnologías tan diversas como IoT, AI, Big Data... "
+      photo: /images/speakers/PNP.jpeg
+      links:
+        - https://www.linkedin.com/in/pedronietopelaez/
+    - name: "Esteban Chiner Sanz"
+      bio: "Arquitecto de software senior con larga experiencia en sistemas backend basados en Java. Trabajando en telcos, portales B2B e instituciones financieras. Acostumbrado a trabajar en equipos distribuidos y multiculturales y con larga experiencia en el ecosistema Java/JEE. También he trabajando en profundidad con Oracle, Informatica PowerCenter, Sistemas de Gestión de Reglas de Negocio (BRMS) y últimamente centrado en Hadoop."
+      photo: /images/speakers/ECS.jpeg
+      links:
+        - https://www.linkedin.com/in/echiner/
+
+- startTime: "14:00"
+  endTime: "15:30"
+  room: Patio
+  title: "Comida"
+  description: "Para reponer fuerzas compartiremos unas paellas en el patio de Las Naves."
+
+- startTime: "15:30"
+  endTime: "16:15"
+  room: Biblioteca
+  title: "Hackers de garaje: mujeres y hombres que cambiaron la historia"
+  description: |-
+    La historia de la informática es una gran herramienta de motivación e inspiración para toda persona que tenga en mente trazar su propio proyecto, empresarial o no, ya que nos enseñan su actitud, ideas, genialidades, problemas que tuvieron que superar, etc hasta lograr su meta final.
+
+    El principal objetivo de esta charla es explicar casos reales de éxito de mujeres y hombres hackers conocidos tanto del mundo de la ciberseguridad como de la historia de la informática, pero siempre partiendo del concepto real de la palabra hacker. Todas las explicaciones se realizarán partiendo de anécdotas y hechos curiosos que acontecieron durante la evolución de su proyecto o actividad empresarial.
+  speaker:
+    - name: "Fran Ramírez"
+      bio: "Ingeniero/Grado en Informática de Sistemas, Técnico Superior en Electrónica Digital y Máster en Seguridad de las TIC, con más de 15 años de experiencia como administrador de sistemas, realizando múltiples proyectos internacionales en EEUU y Canadá. Investigador de seguridad informática en el equipo de Ideas Locas CDO de Telefónica y colabora con LUCA (Big Data e IA) y ElevenPaths (Seguridad Informática). Fundador y escritor en el blog de temas geek www.cyberhades.com (nick: cybercaronte) sobre Seguridad Informática e Historia de la Informática. Co-autor de los libros “MicroHistorias: anécdotas y curiosidades de la Informática” , “Docker:SecDevOps” y “Machine Learning aplicado a la seguridad”"
+      photo: /images/speakers/-ZVXudpe_400x400.jpg
+      links:
+        - https://twitter.com/cybercaronte
+        - https://github.com/tuxotron
+        - https://www.linkedin.com/in/francisco-jos%C3%A9-ram%C3%ADrez-vicente-605a24137/
+
+- startTime: "15:30"
+  endTime: "16:15"
+  room: Factoría
+  title: "Extreme Programming para millenialls"
+  description: |-
+    Ideado hace más de 20 años por Kent Beck, XP es el framework de desarrollo de software más relevante y el origen de todas las metodologías ágiles. Los equipos que adoptan XP tiene éxito desarrollando proyectos y productos de forma efectiva. ¿Por qué? ¿Qué distingue XP de otros frameworks? ¿Cómo aplicar XP teniendo en cuenta los cambios de las últimas dos décadas? ¿Son las tostadas de aguacate necesarias? ¿Cómo adaptar XP al trabajo en remoto? ¿Cómo evolucionar hacia XP y qué tooling usar? ¿Cuál es el futuro de XP?
+  speaker:
+    - name: "David Stanete"
+      bio: "Ingeniero de software... y millennial. Ha sobrevivido a varias startups construyendo productos orientados al consumidor y ahora está intentando vender lechugas en Mercadona Online.
+
+      Le obsesiona estudiar comportamientos que emergen de las interacciones entre distintos actores en sistemas complejos. Eso le lleva a intentar entender cómo liderar equipos para construir productos de la manera más efectiva."
+      photo: /images/speakers/Szg7AEPH_400x400.png
+      links:
+        - https://twitter.com/stanete
+        - https://github.com/stanete
+        - https://www.linkedin.com/in/stanete
+
+- startTime: "15:30"
+  endTime: "16:15"
+  room: Visual Room
+  title: "Creando experiencias VR/AR con Unity 3D"
+  description: |-
+    La Realidad Virtual y Realidad Aumentada (VR/AR) es el presente y no solo en el campo del videojuego. Solo hay que ver las numerosas startups que hay usando la VR para usos medicinales, psicologicos o deportivos. Con Unity3D no hay excusas para crear una experiencia VR o AR y sumarte a la revolución.
+  speaker:
+    - name: "Manuel S. Lemos"
+      bio: "Desarrollador Multiplataforma con amplia experiencia en emprender proyectos. Organiza el Meetup de WordPressValencia y Unity3D, además de colaborar en muchos otros como LinuxCenter."
+      photo: /images/speakers/wROZ8HPx_400x400.jpg
+      links:
+        - https://twitter.com/manuels_lemos
+        - https://www.linkedin.com/in/manuelslemos/
+
+- startTime: "16:30"
+  endTime: "17:15"
+  room: Biblioteca
+  title: "Functional programming principles in JS"
+  description: |-
+    Functional programming? Lambda calculus?? and… JAVASCRIPT!? This talk is a tribute to functional programming and how to solve some of the most common issues while using the latest cutting-edge JavaScript!
+  speaker:
+    - name: "Flavio Corpa"
+      bio: "Lead Frontend Engineer for @EU_IPO. JavaScript and Functional Programming Enthusiast. OSS contributor in: React, Vue, Angular, Babel, Webpack, Styled Components and many others!"
+      photo: /images/speakers/NMaMPDxN_400x400.jpg
+      links:
+        - https://twitter.com/flaviocorpa
+        - https://github.com/kutyel
+        - https://www.linkedin.com/in/flaviocorpa
+
+- startTime: "16:30"
+  endTime: "17:15"
+  room: Factoría
+  title: "Una experiencia real con Lean UX"
+  description: |-
+    Contaremos como hemos llevado a la práctica Lean UX, adaptando el flujo de trabajo a las necesidades del día a día. Y colaborando conjuntamente el equipo de UX, desarrollo, negocio, marketing, datos y usuarios.
+  speaker:
+    - name: "Raquel Gálvez"
+      bio: "User Researcher y Service Designer freelance en proyectos de impacto social y/o medioambiental. No entiendo el diseño de un producto sin comprender a las personas que lo usan: disfruto descubriendo qué necesitan y facilitando soluciones en equipo. Aprendiz de agile."
+      photo: /images/speakers/X7WtESBu_400x400.jpg
+      links:
+        - http://raquelgalvez.com/
+        - https://twitter.com/RaquelGalvezO
+        - https://www.linkedin.com/in/raquelgalvez/
+    - name: "Tony Morellá"
+      bio: "Difundiendo agilismo tanto a nivel de gestión de proyectos (Scrum, Kanban, Lean, Retrospectivas...) como de la calidad del software (TDD, Code reviews, DDD, IDD...). Practicante y fiel creyente de Lean UX."
+      photo: /images/speakers/5fe6bc11582611a74f1dbbcde08b8a86_400x400.jpeg
+      links:
+        - https://twitter.com/Hynnot
+        - https://www.linkedin.com/in/tony-morella-llacer/
+
+- startTime: "16:30"
+  endTime: "17:15"
+  room: Visual Room
+  title: "Entendiendo la red Tor"
+  description: |-
+    Aunque todos hemos oído hablar de la red Tor, casi nadie le ha dedicado el tiempo suficiente para desterrar los mitos, prejuicios y leyendas urbanas que la rodean. El objetivo es revisar con detalle las características de la red Tor, desde distintos puntos de vista, sentando una base sólida que permita entender su uso, tanto para utilizarla como usuarios como para aceptar a usuarios de Tor en nuestros servicios.
+  speaker:
+    - name: "Miguel Macías Enguídanos"
+      bio: "Ingeniero Informático, trabajando en la UPV desde hace 17 años, con interés especial en la seguridad y en la identidad digital. Da charlas relacionadas con estos temas, frecuentemente, en los eventos de RedIRIS."
+      photo: /images/speakers/MME.png
+      links:
+        - https://www.rediris.es/difusion/publicaciones/e-boletin/6/entrevista.html
+
+- startTime: "17:30"
+  endTime: "18:15"
+  room: Biblioteca
+  title: "¿Y la Inteligencia Artificial para cuándo?"
+  description: |-
+    Desmitificación de la Inteligencia Artificial de forma didáctica (sin fórmulas ni teoría) y divertida, presentando casos reales en producción aplicados en la ciudad de Alicante.
+  speaker:
+    - name: "Toni Sánchez Zaplana"
+      bio: "Responsable de Innovación y Tecnología en Aguas Municipalizadas de Alicante, Ingeniero de Telecomunicaciones, Especialista Universitario en Economía de las Telecomunicaciones y MBA.
+
+      Toni tiene más de 20 años de experiencia profesional, ha participado en diferentes proyectos de innovación nacional e internacional de implantación de tecnología en ciudades."
+      photo: /images/speakers/jKsEKy7C_400x400.jpg
+      links:
+        - https://twitter.com/aszapla
+        - https://www.linkedin.com/in/antonio-sánchez-zaplana
+
+- startTime: "17:30"
+  endTime: "18:15"
+  room: Factoría
+  title: "Kaizen: Introduciendo Agile mediante la mejora continua"
+  description: |-
+    Uno de los principios del Manifiesto Ágil que arranca todo el movimiento de las metodologías ágiles es:
+
+    'A intervalos regulares el equipo reflexiona sobre cómo ser más efectivo para a continuación ajustar y perfeccionar su comportamiento en consecuencia'.
+
+    Este principio generalmente se acaba implementando mediante la ceremonia de la retrospectiva.
+    Kaizen es una manera de realizar la retrospectiva para maximizar el proceso de mejora continua que buscamos dentro de las metodologías ágiles.
+
+    En esta charla, el asistente conocerá algunas claves para mejorar sus retrospectivas, así como consejos y ayudas de como arrancar la implementación de las metodologías ágiles en equipos que todavía no lo son.
+  speaker:
+    - name: "Mateja Jermanis"
+      bio: "Product Owner, actualmente trabajando con Devscola y Makoto Squad. Creativo y orientado al detalle. Obsesionada con Agile, los proyectos Open Source y el trabajo en equipo."
+      photo: /images/speakers/5UFVQcDf_400x400.jpg
+      links:
+        - https://twitter.com/matejovski
+        - https://www.linkedin.com/in/mateja-jermanis/
+
+- startTime: "17:30"
+  endTime: "18:15"
+  room: Visual Room
+  title: "Tuneando el browser con extensiones"
+  description: |-
+    Los navegadores están construidos bajo un principio muy simple: la misma experiencia para todos los usuarios. A partir de ahí, ponen a nuestra disposición unas extensiones para que podamos personalizarlo a nuestro gusto. ¿Y si nos pusieramos al otro lado de la pantalla? ¡Construyamos una extensión! Si eres un programador, las APIs existentes te lo ponen muy fácil para adaptar el navegador a tus necesidades personales. Y por si esto no fuera del todo convincente, la extensión puede instalarse tanto en Firefox, Chrome como en Opera sin cambios o con mínimos cambios.
+
+    En esta sesión, aprenderás cómo desarrollar una extensión que se pueda utilizar en varios navegadores usando javascript. Además crearemos e instalaremos una extensión en directo y enseñaremos cómo hemos adaptado el navegador a nuestras necesidades con extensiones creadas por nosotros.
+
+    Cuando termine la sesión serás capaz de hacer que el navegador ejecute tareas por ti, como por ejemplo publicar una conferencia en tu sitio de eventos favorito.
+  speaker:
+    - name: "Alvaro Martinez de Miguel [Demi]"
+      bio: "Programador @Xing. Modern JavaScript y lo que caiga."
+      photo: /images/speakers/AMM.jpeg
+      links:
+        - https://twitter.com/DemiTralla
+        - https://github.com/demipel8
+        - https://www.linkedin.com/in/demigames/
+    - name: "Miguel Angel Fernández"
+      bio: "Full Stack Amo de Casa."
+      photo: 'https://secure.gravatar.com/avatar/159bdb09ad33a775a9220e4f78d68421?s=400&d=identicon'
+      links:
+        - https://twitter.com/elmendalerenda
+        - https://github.com/elmendalerenda
+        - https://www.linkedin.com/in/miguelangelfernandezpaco/
+
+- startTime: "18:30"
+  endTime: "19:30"
+  room: Patio
+  title: "Asamblea VLCTechHub"
+  description: "Todo el mundo está invitado. Hablaremos de lo que hemos hecho en el último año y de lo que queremos hacer en adelante. Si tienes alguna propuesta, quieres colaborar o simplemente informarte serás más que bienvenid@ ¡VLCTechHub lo hacemos entre tod@s!."
+

@@ -1,0 +1,71 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+:root {
+    --base-color: #97285d;
+    --hover-color: #bf3376;
+}
+
+#main-form {
+    padding: 0 5% 0 5%;
+}
+
+#main-form label {
+    color: var(--base-color);
+    font-weight: bold;
+}
+
+#main-form div {
+    padding: 10px;
+}
+
+#icon {
+    width: 1em;
+}
+
+#custom-icon {
+    width: 100%;
+    max-height: 10rem;
+}
+
+.text-input {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--base-color);
+    border-left: 0;
+    width: 100%;
+}
+
+.button {
+    border: 1px solid var(--base-color);
+    padding: 10px;
+    background-color: var(--base-color);
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover, .button:focus {
+    border: 1px solid var(--hover-color);
+    background-color: var(--hover-color);
+    transition: background-color 0.8s;
+}
+
+.button {
+    text-decoration: none !important; /* Disclaimer: I can do it, because the link has another style */
+}
+
+.page-header {
+    background-image: none;
+    background-color: black;
+    padding: 2rem 3rem;
+}
+
+.project-name {
+    font-size: 1.8rem;
+}
+
+.project-tagline {
+    margin-bottom: 0;
+}

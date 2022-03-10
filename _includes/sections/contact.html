@@ -1,0 +1,43 @@
+<div id="contact" class="container">
+  <div class="row">
+    <div class="col-xs-3 col-xs-offset-2 action-box">
+      <p>Organiza:</p>
+      <a href="https://vlctechhub.org" target="blank">
+        <img style="width: 100%" src="images/vlctechhub_blanco.svg" alt="Logotipo de VLCTechHub">
+      </a>
+    </div>
+    <div class="col-xs-3 col-xs-offset-2 action-box">
+      <p>Colabora:</p>
+      <a href="https://www.lasnaves.com" target="blank">
+        <img style="width: 100%" src="images/lasnaves.svg" alt="Logotipo del Centro Cultural Las Naves">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="text-center action-box">
+        <p>VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una agenda de eventos, un tablón de ofertas de trabajo, un chat donde la comunidad puede compartir y el evento VlcTechFest.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ul>
+  {%- assign types = "organizers,collaborators" | split: "," -%}
+  {%- for type in types -%}
+    <li class="type">
+      <span>{{ site.data.t[page.lang].company.type[type] }}</span>
+      <ul>
+      {%- for company in site.data.companies[type] -%}
+        <li>
+          <a href="{{ company.link }}" target="_blank">
+            <img src="{{ folder.company.images }}/{{ company.image }}"
+                  alt="{{ community.name }}"
+                  title="{{ site.data.t[page.lang].communities.logo_from }} {{ community.name }}">
+          </a>
+        </li>
+      {%- endfor -%}
+      </ul>
+    </li>
+    {%- endfor -%}
+</ul>

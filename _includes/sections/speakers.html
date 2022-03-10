@@ -1,0 +1,31 @@
+{%- assign speakers = site.data.t[page.lang].speakers -%}
+<section id="speakers">
+  <div class="container">
+    <h1>{{ speakers.title }} </h1>
+  </div>
+  <div class="container -big">
+    <ul class="speakers">
+      {%- assign sessions = site.data.sessions | concat: site.data.kids-%}
+      {%- for session in sessions -%}
+        {%- for speaker in session.speaker -%}
+          <li>
+            {% if speaker.photo %}
+              <img src="{{speaker.photo}}" alt="">
+            {% else %}
+              {%- include icon-megaphone.svg -%}
+            {% endif %}
+            <p class="title"><span>{{speaker.name}}</span></p>
+            <p>
+              {{speaker.bio}}
+              <ul class="social">
+                {%- for link in speaker.links -%}
+                  <li>{% include icon-social.html url=link %}</li>
+                {%- endfor -%}
+              </ul>
+            </p>
+          </li>
+        {%- endfor -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>

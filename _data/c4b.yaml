@@ -1,0 +1,36 @@
+en:
+    subtitle: Do you know someone who could participate in our event?
+    label:
+        name: I'm thinking about
+        reason: Why? Imagine that your mate is right here!
+    placeholder:
+        name: Name
+        reason: Because you ...
+    button:
+        generate-invite: Generate invite
+        copy-invite: Copy
+        send-email: Send email
+es:
+    subtitle: ¿Conoces a alguien que podría participar en nuestro evento?
+    label:
+        name: Estoy pensando en
+        reason: ¿Por qué? ¡Imagina que la persona está justo aquí!
+    placeholder:
+        name: Nombre
+        reason: Porque tú ...
+    button:
+        generate-invite: Crear invitación
+        copy-invite: Copiar
+        send-email: Enviar correo
+ca:
+    subtitle: Coneixes a alguna persona que podría participar al nostre esdeveniment?
+    label:
+        name: Estic pensant en
+        reason: Per què? Imagina't que eixa persona està davant!
+    placeholder:
+        name: Nom
+        reason: Perquè tú ...
+    button:
+        generate-invite: Crear invitació
+        copy-invite: Copiar
+        send-email: Enviar correu

@@ -1,0 +1,30 @@
+{% assign parts = include.url | split: "/" %}
+{% assign domain = parts[2] %}
+{% case domain %}
+{% when 'www.facebook.com' %} {% assign service = "facebook" %} {% assign name = parts[3] %}
+{% when 'github.com' %} {% assign service = "github" %} {% assign name = parts[3] %}
+{% when 'www.instagram.com' %} {% assign service = "instagram" %} {% assign name = parts[3] %}
+{% when 'www.linkedin.com' %} {% assign service = "linkedin" %} {% assign name = parts[4] %}
+{% when 'www.meetup.com' %} {% assign service = "meetup" %} {% assign name = parts[3] %}
+{% when 'telegram.me' %} {% assign service = "telegram" %} {% assign name = parts[3] %}
+{% when 'twitter.com' %} {% assign service = "twitter" %} {% assign name = "@" | append: parts[3] %}
+{% when 'youtube.com' %} {% assign service = "youtube" %} {% assign name = parts[3] %}
+{% else %}
+  {% if link contains ".tumblr.com" %}
+    {% assign service = "tumblr" %} {% assign name = parts[2] | remove_first: ".tumblr.com" }} %}
+  {% else %}
+    {% assign service = "web" %} {% assign name = link | remove_first: "https://" | remove_first: "http://" }} %}
+  {% endif %}
+{% endcase %}
+
+<a target="_blank" href="{{ include.url }}" class="{{ service }}" title="{{ service }} {{ name }}">
+  <span class="icon icon--{{ service }}">
+    <i>{% include icon-{{ service }}.svg %}</i>
+    <span class="sr-only">{{ service }}</span>
+  </span>
+  {% if name %}
+    <span class="name">
+      {{ name }}
+    </span>
+  {% endif %}
+</a>

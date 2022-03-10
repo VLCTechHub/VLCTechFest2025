@@ -1,0 +1,233 @@
+es:
+  head:
+    description: 11 de mayo // Las Naves // Evento gratuito // Acceso libre
+    description_1: 11 de mayo // 09:30 - 19:30 // Las Naves
+    description_2: Un evento gratuito y de acceso libre
+  navigation:
+    index:
+      link: "#top"
+      label: Inicio
+    about:
+      link: "#about"
+      label: Qué es
+    cfp:
+      link: "#cfp"
+      label: Propuestas
+    agenda:
+      link: "#sessions"
+      label: Agenda
+    kids:
+      link: "#kids"
+      label: Track familiar
+    diversity:
+      link: "#diversity"
+      label: Diversidad
+    upfront:
+      link: "#upfront"
+      label: Upfront
+    coc:
+      link: "#coc"
+      label: CoC
+    faq:
+      link: "#faq"
+      label: FAQ
+    vtf2018:
+      link: https://2018.vlctechfest.org
+      label: 2018
+    communities:
+      link: "#communities"
+      label: Comunidades
+  main:
+    subtitle: Un evento gratuito y de acceso libre
+    date: 11 Mayo 2019
+    place: Las Naves
+  communities:
+    title: Comunidades
+    text: Estas son las comunidades que colaboran con la organización del evento. Si organizas una comunidad que no está en la lista y quieres colaborar escríbenos a hola@vlctechfest.org
+    logo_from: Logotipo de
+  company:
+    type:
+      organizers: "Organiza:"
+      collaborators: "Colabora:"
+      sponsors: "Patrocinadores"
+  news:
+    cfp_open:
+      text: Call for papers abierto
+      button: Envía tu propuesta
+      url: https://goo.gl/forms/Xa2ikyc8Gt9bxsRt1
+    c4b_open:
+      button: Anima a otra persona
+  sessions:
+    title: Agenda
+  kids:
+    title: "**Track** familiar"
+    description: "Queremos que VLCTechFest sea un evento para todos y por eso hemos añadido un track extra dedicado a los más pequeños.
+
+
+Vente a pasar un día aprendiendo a programar con Scratch, a navegar por internet de forma segura o construyendo un coche para hacer carreras con él.
+
+
+Reserva tu entrada escribiendo un mail a <a href='mailto:hola@vlctechfest.org'>hola@vlctechfest.org</a> con el título del taller al que quieres asistir, tu nombre y tu edad.
+
+
+¡Nos vemos allí!"
+  speakers:
+    title: Ponentes
+  footer:
+    vlctechhub_description: VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda de eventos</a>, <a target="_blank" href="https://vlctechhub.org/job/board">un tablón de ofertas de trabajo</a>, y <a target="_blank" href="https://slack.vlctechhub.org">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>
+
+en:
+  head:
+    description: May 11 // Las Naves // Free event // Free access
+    description_1: May 11 // 09:30 - 19:30 // Las Naves
+    description_2: Free event and free access
+  navigation:
+    index:
+      link: "#top"
+      label: Index
+    about:
+      link: "#about"
+      label: About
+    cfp:
+      link: "#cfp"
+      label: Proposals
+    agenda:
+      link: "#sessions"
+      label: Schedule
+    kids:
+      link: "#kids"
+      label: Kids sessions
+    diversity:
+      link: "#diversity"
+      label: Diversity
+    upfront:
+      link: "#upfront"
+      label: Upfront
+    coc:
+      link: "#coc"
+      label: CoC
+    faq:
+      link: "#faq"
+      label: FAQ
+    vtf2018:
+      link: https://2018.vlctechfest.org
+      label: 2018
+    communities:
+      link: "#communities"
+      label: Communities
+  main:
+    subtitle: Free event and free access
+    date: 11 May 2019
+    place: Las Naves
+  communities:
+    title: Communities
+    text: These are the communities that collaborate with the organization of the event. If you organize a community that is not on the list and you want to collaborate write to hola@vlctechfest.org
+    logo_from: Logo of
+  company:
+    type:
+      organizers: "Organized by:"
+      collaborators: "Supported by:"
+      sponsors: "Sponsors"
+  news:
+    cfp_open:
+      text: Open call for papers
+      button: Send us your proposal
+      url: https://goo.gl/forms/Xa2ikyc8Gt9bxsRt1
+    c4b_open:
+      button: Encourage another person
+  sessions:
+    title: Schedule
+  kids:
+    title: "**Kids** Sessions"
+    description: "We want VLCTechFest to be an event for everybody and that is why we have added an extra track dedicated to the little ones.
+
+
+Come to spend a day learning how to program with Scratch, how to surf the internet safely or building a car to play races with it.
+
+
+Book your ticket by writing an email to <a href='mailto:hola@vlctechfest.org'>hola@vlctechfest.org</a> with the title of the workshop you want to attend, your name and your age.
+
+
+See you there!"
+  speakers:
+    title: Speakers
+  footer:
+     vlctechhub_description: VLCTechHub promotes and encourages the different technological communities of Valencia. For this, it has an <a target="_blank" href="https://vlctechhub.org/events/upcoming"> events calendar</a>, <a target="_blank" href="https://vlctechhub.org/job/board">a job board</a>, and <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organises events like <strong>VLCTechFest</strong>.
+
+ca:
+  head:
+    description: 11 de Maig // Las Naves // Esdeveniment gratuït // Accés lliure
+    description_1: 11 de Maig // 09:30 - 19:30 // Las Naves
+    description_2: Un esdeveniment gratuït i d'accés lliure
+  navigation:
+    index:
+      link: "#top"
+      label: Inici
+    about:
+      link: "#about"
+      label: Què és
+    cfp:
+      link: "#cfp"
+      label: Propostes
+    agenda:
+      link: "#sessions"
+      label: Agenda
+    kids:
+      link: "#kids"
+      label: Track familiar
+    diversity:
+      link: "#diversity"
+      label: Diversitat
+    upfront:
+      link: "#upfront"
+      label: Upfront
+    coc:
+      link: "#coc"
+      label: CoC
+    faq:
+      link: "#faq"
+      label: FAQ
+    vtf2018:
+      link: https://2018.vlctechfest.org
+      label: 2018
+    communities:
+      link: "#communities"
+      label: Comunitats
+  main:
+    subtitle: Un esdeveniment gratuït i d'accés lliure
+    date: 11 Mayo 2019
+    place: Las Naves
+  communities:
+    title: Comunitats
+    text: Aquestes són les comunitats que col·laboren amb l'organització de l'esdeveniment. Si organitzes una comunitat que no està a la llista i vols col·laborar escriu-nos a hola@vlctechfest.org
+    logo_from: Logotip de
+  company:
+    type:
+      organizers: "Organitza:"
+      collaborators: "Col·labora:"
+      sponsors: "Sponsors"
+  news:
+    cfp_open:
+      text: Call for papers obert
+      button: Envia la teua proposta
+      url: https://goo.gl/forms/Xa2ikyc8Gt9bxsRt1
+    c4b_open:
+      button: Anima a altra persona
+  sessions:
+    title: Agenda
+  kids:
+    title: "**Track** familiar"
+    description: "Volem que VLCTechFest siga un esdeveniment per a tots i per això hem afegit un track extra dedicat als més menuts.
+
+
+Vine't a passar un dia aprenent a programar amb Scratch, a navegar per internet de forma segura o construint un cotxe per a fer carreres amb ell.
+
+
+Reserva la teua entrada escrivint un mail a <a href='mailto:hola@vlctechfest.org'>hola@vlctechfest.org</a> amb el títol del taller al qual vols assistir, el teu nom i la teua edat.
+
+
+Ens veiem allí!"
+  speakers:
+    title: Ponents
+  footer:
+    vlctechhub_description: VlcTechHub promou i fomenta les diferents comunitats tecnològiques de València. Per a això compta amb una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda d'esdeveniments</a>, <a target="_blank" href="https://vlctechhub.org/job/board">un tauló d'ofertes de treball</a>, y <a target="_blank" href="https://slack.vlctechhub.org/" >un xat</a> on la comunitat pot compartir. També organitza esdeveniments com aquest <strong>VLCTechFest</strong>.

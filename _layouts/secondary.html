@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale[page.lang] | replace: '_', '-' }}">
+  {%- include head.html -%}
+  <body id="top-secondary">
+    <div class="wrapper">
+      <div class="page-content">
+        <header class="post-header">
+          <ol class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="{{ site.url }}{{ site.baseurl }}/" class="home">
+                <span itemprop="name">{{ site.title }}</span>
+              </a>
+              <meta itemprop="position" content="1">
+            </li>
+            <span class="separator"></span>
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
+              <meta itemprop="position" content="2">
+            </li>
+          </ol>
+        </header>
+        <div class="post-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {%- include footer.html -%}
+  </body>
+</html>

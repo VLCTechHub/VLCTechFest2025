@@ -1,0 +1,13 @@
+{%- assign diversity = site.data.diversity[page.lang] -%}
+<section id="diversity" class="diversity">
+  <div class="wrapper">
+    <h1>{{ diversity.title }}</h1>
+    <p>{{ diversity.description }}</p>
+    {%- for action in diversity.actions -%}
+      <article>
+        <h2>{{ action.title }}</h2>
+        {{ action.description | markdownify }}
+      </article>
+    {%- endfor -%}
+  </div>
+</section>

@@ -1,0 +1,30 @@
+<section id="communities" class="communities">
+
+  {%- assign section = site.data.t[page.lang].communities -%}
+  <div class="container">
+    <article>
+      <h1>{{ section.title }}</h1>
+      <p>{{ section.text }}</p>
+    </article>
+  </div>
+
+  <div class="container -big">
+    <ul>
+      {% for community in site.data.communities %}
+        <li>
+          <p>{{ community.name }}</p>
+          <div class="logo">
+            <img src="{{ site.path.community_images }}{{ community.image }}" alt="{{ site.data.t[page.lang].communities.logo_from }} {{ community.name }}" title="{{ community.name }}">
+          </div>
+          <ul class="links">
+            {% for link in community.links %}
+              <li>
+                {% include icon-social.html url=link %}
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

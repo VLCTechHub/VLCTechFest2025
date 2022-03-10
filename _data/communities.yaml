@@ -1,0 +1,185 @@
+- name: ACM UPC Chapter
+  image: ACM_logo.png
+  links:
+    - https://twitter.com/AcmUpv
+    - https://www.facebook.com/AcmUpv/
+    - https://www.linkedin.com/company/acmupv/
+    - https://acmupv.webs.upv.es/
+
+- name: ACM-W UPC Chapter
+  image: ACMW_logo.png
+  links:
+    - https://twitter.com/AcmWUpv
+    - https://www.facebook.com/AcmWUpv/
+    - https://acm-w.webs.upv.es/
+
+- name: Agile Levante
+  image: agilelevante_logo.png
+  links:
+    - https://twitter.com/agilelevante
+    - https://www.meetup.com/Agile-Levante/
+
+- name: Alcoià Comtat Devs
+  image: alcoiacomtatdevs_logo.png
+  links:
+    - https://twitter.com/AlcoiaComtatDev
+
+- name: Alicante Frontend
+  image: alicantefrontend_logo.svg
+  links:
+    - https://twitter.com/AlicanteFront
+    - https://youtube.com/AlicanteFrontend
+    - https://www.alicantefrontend.es/
+
+- name: BitUp Ciberseguridad
+  image: logo_bitup.png
+  links:
+    - https://twitter.com/bitupalicante
+    - https://www.meetup.com/es-ES/bitupalicante/
+    - http://telegram.me/bitupalicante
+    - http://bitupalicante.com/
+
+- name: ByLinedu
+  image: bylinedu_logo.svg
+  links:
+    - https://twitter.com/bylinedu
+    - https://www.facebook.com/ByLInEdu/
+    - https://www.instagram.com/byl_inedu
+    - https://youtube.com/channel/UCmWL2J-Dgq58eWRUwTLwhBw
+    - https://www.linkedin.com/company/byl-inedu
+    - https://bylinedu.es/
+
+- name: Databeers Valencia
+  image: databeersvlc_logo.png
+  links:
+    - https://twitter.com/databeersvlc
+    - https://databeersvlc.tumblr.com/
+
+- name: Decharlas
+  image: decharlas_logo.jpg
+  links:
+    - https://twitter.com/decharlas
+    - https://www.meetup.com/decharlas/
+
+- name: Devscola
+  image: devscola_logo.jpeg
+  links:
+    - https://twitter.com/devscola
+    - https://www.meetup.com/Aprende-a-programar-en-Valencia/
+    - https://youtube.com/devscolavlc
+    - http://devscola.org/
+
+- name: DevWomen
+  image: devwomen_logo.png
+  links:
+    - https://twitter.com/DevWomen_ES
+    - https://www.facebook.com/DevWomenES/
+    - https://www.instagram.com/DevWomen_es/
+    - https://www.linkedin.com/showcase/devwomen/
+    - http://devwomen.com/
+
+- name: Drupal Valencia
+  image: drupalvlc_logo.png
+  links:
+    - https://twitter.com/drupalval
+    - https://www.meetup.com/Drupalval/
+
+- name: GDG Valencia
+  image: gdgvalencia_logo.png
+  links:
+    - https://twitter.com/gdgvalencia
+    - https://www.facebook.com/gdgvalencia
+    - https://www.meetup.com/GDGValencia/
+    - https://github.com/gdgvalencia
+    - http://gdgvalencia.es/
+
+- name: Geoinquietos Valencia
+  image: geoinquietosvlc_logo.svg
+  links:
+    - https://twitter.com/geoinquietosvlc
+    - https://www.facebook.com/geoinquietosVLC
+    - http://www.meetup.com/es-ES/Geoinquietos-Valencia
+    - https://github.com/geoinquietosvlc
+    - https://telegram.me/geoinquietosvlc
+
+- name: GNU Linux Valencia
+  image: gnuvalencia_logo.png
+  links:
+    - https://twitter.com/GnuLinuxVlc
+    - https://telegram.me/canalgnulinuxvalencia
+    - https://floss.social/@gnulinuxvalencia
+    - https://diasp.org/public/gnulinuxvalencia
+    - https://gnulinuxvalencia.org
+
+- name: Hack & Beers
+  image: hack&beers_logo.png
+  links:
+    - https://twitter.com/hackandbeers
+
+- name: Hackerspace Valencia
+  image: hackerspace_logo.jpeg
+  links:
+    - https://twitter.com/HackVlc
+    - https://www.meetup.com/Hackerspace-Valencia/
+    - http://hackvlc.es
+
+- name: MeetMobile
+  image: meetmobile_logo.png
+  links:
+    - https://twitter.com/meetmobileVLC
+    - https://www.meetup.com/http-meetmobile-es/
+    - http://meetmobile.es/
+
+- name: PHP Valencia
+  image: phpvalencia_logo.png
+  links:
+    - https://twitter.com/phpvalencia
+    - https://www.meetup.com/PHP-Valencia/
+
+- name: Python Valencia
+  image: pythonvalencia_logo.png
+  links:
+    - https://twitter.com/python_vlc
+    - https://www.meetup.com/Python-Valencia-Meetup/
+    - https://telegram.me/python_vlc
+    - https://www.youtube.com/channel/UCyqYMlhpsYgIu-pRjkuycqg
+
+- name: Software Crafters Alicante
+  image: CraftsmanshipALC.png
+  links:
+    - https://twitter.com/AlicanteSwCraft
+    - https://www.meetup.com/Software-Crafters-Alicante/
+    - https://github.com/alicanteswcraft
+
+- name: School of AI
+  image: schoolofai.png
+  links:
+    - https://www.facebook.com/groups/302152843664687
+    - https://www.meetup.com/es-ES/Meetup-Valencia-School-of-AI/
+    - https://www.theschool.ai/
+
+- name: Valencia Java User Group
+  image: valenciajug_logo.jpg
+  links:
+    - https://twitter.com/VLC_JUG
+    - https://www.meetup.com/ValenciaJUG/
+
+- name: Valencia JS
+  image: valenciajs_logo.jpeg
+  links:
+    - https://twitter.com/VlcJS
+    - https://www.meetup.com/ValenciaJS/
+
+- name: Valencia.rb
+  image: valenciarb_logo.png
+  links:
+    - https://twitter.com/valenciarb
+    - https://github.com/valenciarb
+    - http://valenciarb.org/
+
+- name: Women Techmakers Valencia
+  image: wtmvalencia_logo.png
+  links:
+    - https://twitter.com/WtmValencia/
+    - https://www.facebook.com/WtmValencia/
+    - https://womentechmakersvalencia.com

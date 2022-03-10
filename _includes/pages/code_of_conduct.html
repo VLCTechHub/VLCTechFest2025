@@ -1,0 +1,7 @@
+{%- assign coc = site.data.coc[page.lang] -%}
+<div class="wrapper">
+  <p class="notice">{{coc.notice}}</p>
+  <div class="short">{{coc.short | markdownify}}</div>
+  <div class="long">{{coc.long | markdownify}}</div>
+  <p class="help">{{coc.help}}</p>
+</div>

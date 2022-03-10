@@ -1,0 +1,9 @@
+{%- assign about = site.data.about[page.lang] -%}
+<section id="about" class="about">
+  <div class="wrapper">
+    <article>
+    <h1>{{ about.title }}</h1>
+      {{ about.content | markdownify }}
+    </article>
+  </div>
+</section>
