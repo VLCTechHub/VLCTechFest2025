@@ -1,7 +1,7 @@
 es:
   head:
-    description: 11 de mayo // Las Naves // Evento gratuito // Acceso libre
-    description_1: 11 de mayo // 09:30 - 19:30 // Las Naves
+    description: 21 de mayo // Las Naves // Evento gratuito // Acceso libre
+    description_1: 21 de mayo // 09:30 - 19:30 // Las Naves
     description_2: Un evento gratuito y de acceso libre
   navigation:
     index:
@@ -34,12 +34,15 @@ es:
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
+    vtf2019:
+      link: https://2019.vlctechfest.org
+      label: 2019
     communities:
       link: "#communities"
       label: Comunidades
   main:
     subtitle: Un evento gratuito y de acceso libre
-    date: 11 Mayo 2019
+    date: 11 Mayo 2022
     place: Las Naves
   communities:
     title: Comunidades
@@ -78,8 +81,8 @@ Reserva tu entrada escribiendo un mail a <a href='mailto:hola@vlctechfest.org'>h
 
 en:
   head:
-    description: May 11 // Las Naves // Free event // Free access
-    description_1: May 11 // 09:30 - 19:30 // Las Naves
+    description: May 21 // Las Naves // Free event // Free access
+    description_1: May 21 // 09:30 - 19:30 // Las Naves
     description_2: Free event and free access
   navigation:
     index:
@@ -112,12 +115,15 @@ en:
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
+    vtf2019:
+      link: https://2019.vlctechfest.org
+      label: 2019
     communities:
       link: "#communities"
       label: Communities
   main:
     subtitle: Free event and free access
-    date: 11 May 2019
+    date: 11 May 2022
     place: Las Naves
   communities:
     title: Communities
@@ -156,8 +162,8 @@ See you there!"
 
 ca:
   head:
-    description: 11 de Maig // Las Naves // Esdeveniment gratuït // Accés lliure
-    description_1: 11 de Maig // 09:30 - 19:30 // Las Naves
+    description: 21 de Maig // Las Naves // Esdeveniment gratuït // Accés lliure
+    description_1: 21 de Maig // 09:30 - 19:30 // Las Naves
     description_2: Un esdeveniment gratuït i d'accés lliure
   navigation:
     index:
@@ -190,12 +196,15 @@ ca:
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
+    vtf2019:
+      link: https://2019.vlctechfest.org
+      label: 2019
     communities:
       link: "#communities"
       label: Comunitats
   main:
     subtitle: Un esdeveniment gratuït i d'accés lliure
-    date: 11 Mayo 2019
+    date: 11 Mayo 2022
     place: Las Naves
   communities:
     title: Comunitats
