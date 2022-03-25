@@ -27,7 +27,7 @@ es:
       label: Upfront
     coc:
       link: "#coc"
-      label: CoC
+      label: Código de Conducta
     faq:
       link: "#faq"
       label: FAQ
@@ -108,7 +108,7 @@ en:
       label: Upfront
     coc:
       link: "#coc"
-      label: CoC
+      label: Code of Conduct
     faq:
       link: "#faq"
       label: FAQ
@@ -189,7 +189,7 @@ ca:
       label: Upfront
     coc:
       link: "#coc"
-      label: CoC
+      label: Codi de Conducta
     faq:
       link: "#faq"
       label: FAQ

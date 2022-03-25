@@ -38,11 +38,8 @@ path:
   community_images: /images/communities/
 navigation:
   - about
-  - agenda
-  - kids
-  - upfront
+  - cfp
   - coc
-  - communities
   - faq
 locale:
   es: es_ES
