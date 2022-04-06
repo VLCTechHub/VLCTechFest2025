@@ -1,7 +1,7 @@
 es:
   head:
-    description: 21 de mayo // Las Naves // Evento gratuito // Acceso libre
-    description_1: 21 de mayo // 09:30 - 19:30 // Las Naves
+    description: 18 de junio // Las Naves // Evento gratuito // Acceso libre
+    description_1: 18 de junio // 09:30 - 19:30 // Las Naves
     description_2: Un evento gratuito y de acceso libre
   navigation:
     index:
@@ -81,8 +81,8 @@ Reserva tu entrada escribiendo un mail a <a href='mailto:hola@vlctechfest.org'>h
 
 en:
   head:
-    description: May 21 // Las Naves // Free event // Free access
-    description_1: May 21 // 09:30 - 19:30 // Las Naves
+    description: June 18th // Las Naves // Free event // Free access
+    description_1: June 18th // 09:30 - 19:30 // Las Naves
     description_2: Free event and free access
   navigation:
     index:
@@ -162,8 +162,8 @@ See you there!"
 
 ca:
   head:
-    description: 21 de Maig // Las Naves // Esdeveniment gratuït // Accés lliure
-    description_1: 21 de Maig // 09:30 - 19:30 // Las Naves
+    description: 18 de Juny // Las Naves // Esdeveniment gratuït // Accés lliure
+    description_1: 18 de Juny // 09:30 - 19:30 // Las Naves
     description_2: Un esdeveniment gratuït i d'accés lliure
   navigation:
     index:
