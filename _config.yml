@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: VLCTechFest 2019
+title: VLCTechFest 2022
 email: hola@vlctechfest.org
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: https://vlctechfest.org # the base hostname & protocol for your site
 description:
-  es: 11 de mayo de 2019. Evento gratuito y abierto a todo el mundo que reúne a las comunidades tecnológicas de la Comunidad Valenciana.
-  en: May 11th, 2019. Free and open event for everyone to bring together the technical communities of Valencian Community.
-  ca: 11 de maig de 2019. Esdeveniment gratuït i obert a tothom que reuneix les comunitats tecnològiques de la Comunitat Valenciana.
+  es: 21 de mayo de 2022. Evento gratuito y abierto a todo el mundo que reúne a las comunidades tecnológicas de la Comunidad Valenciana.
+  en: May 21th, 2022. Free and open event for everyone to bring together the technical communities of Valencian Community.
+  ca: 21 de maig de 2022. Esdeveniment gratuït i obert a tothom que reuneix les comunitats tecnològiques de la Comunitat Valenciana.
 share_image:
   es: vlctechfest2019-date4-2-1-es.png
   en: vlctechfest2019-date4-2-1-en.png
@@ -38,11 +38,8 @@ path:
   community_images: /images/communities/
 navigation:
   - about
-  - agenda
-  - kids
-  - upfront
+  - cfp
   - coc
-  - communities
   - faq
 locale:
   es: es_ES

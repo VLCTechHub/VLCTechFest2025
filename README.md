@@ -1,6 +1,6 @@
-# VLCTechFest2019
+# VLCTechFest2022
 
-Website for the VLCTechFest2019 event.
+Website for the VLCTechFest2022 event.
 Created with ❤ by volunteers.
 
 ## How to use

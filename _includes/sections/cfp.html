@@ -1,5 +1,5 @@
 {%- assign cfp = site.data.cfp[page.lang] -%}
-<section id="cfp" class="cfp">
+<section id="cfp" class="section-purple">
   <div class="wrapper">
     <article>
       <h1>{{ cfp.title }}</h1>
@@ -7,7 +7,8 @@
       <a class="button" target="_blank" href="{{ site.data.t[page.lang].news.cfp_open.url }}">
         {{ site.data.t[page.lang].news.cfp_open.button }}
       </a>
-        {{ cfp.call4buddies | markdownify }}
+        <p>{{ cfp.call4buddies | markdownify }}</p>
+
       <a class="button" href="call4buddies">
         {{ site.data.t[page.lang].news.c4b_open.button }}
       </a>
