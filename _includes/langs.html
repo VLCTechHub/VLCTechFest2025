@@ -1,0 +1,16 @@
+<ul class="languages">
+  {%- assign lang = page.lang -%}
+  {%- assign pages = site.pages | where:"ref", page.ref | sort: 'lang' -%}
+  {%- for page in pages -%}
+    {%- if page.lang == lang -%}
+      {%- assign active = "active" -%}
+    {%- else -%}
+      {%- assign active = "" -%}
+    {%- endif -%}
+    <li>
+      <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }} {{ active }}">
+        {{ page.lang | replace: "ca", "va" }}
+      </a>
+    </li>
+  {%- endfor -%}
+</ul>

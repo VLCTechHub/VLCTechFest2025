@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{%- else -%}{{ site.description[page.lang] }}{%- endif -%}">
+  <meta name="msapplication-TileColor" content="#bf3376">
+  <meta name="theme-color" content="#ffffff">
+  {%- include meta-facebook.html -%}
+  {%- include meta-twitter.html -%}
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}
+  {%- for post in posts -%}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+  {%- endfor -%}
+  {%- assign pages=site.pages | where:"ref", page.ref | sort: 'lang' -%}
+  {%- for page in pages -%}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+  {%- endfor -%}
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bf3376">
+  <title>{%- if page.title -%}{{ page.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}</title>
+</head>

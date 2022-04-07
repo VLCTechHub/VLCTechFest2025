@@ -1,0 +1,49 @@
+{% comment %}
+<section id="sponsors" class="section-white">
+  <div class="wrapper">
+    <span>{{ site.data.t[page.lang].company.type.sponsors }}:</span>
+    <ul>
+      {%- for company in site.data.companies.sponsors -%}
+      <li class="{{ company.name | downcase | replace: ' ', '' |  }}">
+        <a href="{{ company.link }}" target="_blank">
+          <img
+            src="{{ site.path.company_images }}{{ company.image }}"
+            alt="{{ company.name }}"
+            title="{{ site.data.t[page.lang].communities.logo_from }} {{
+              company.name
+            }}"
+          />
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+{% endcomment %}
+<section id="companies" class="companies">
+  <div class="wrapper">
+    <ul>
+      {%- assign types = "organizers,collaborators" | split: "," -%} {%- for
+      type in types -%}
+      <li class="type">
+        <span>{{ site.data.t[page.lang].company.type[type] }}</span>
+        <ul>
+          {%- for company in site.data.companies[type] -%}
+          <li>
+            <a href="{{ company.link }}" target="_blank">
+              <img
+                src="{{ site.path.company_images }}{{ company.image }}"
+                alt="{{ company.name }}"
+                title="{{ site.data.t[page.lang].communities.logo_from }} {{
+                  company.name
+                }}"
+              />
+            </a>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>

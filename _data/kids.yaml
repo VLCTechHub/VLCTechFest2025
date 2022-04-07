@@ -1,0 +1,47 @@
+- startTime: "10:30"
+  endTime: "12:00"
+  room: ThinkTank
+  title: "Creamos historias con Scratch"
+  description: "Durante la sesión aprenderás a crear tu propio videojuego en el ordenador con Scratch, una herramienta divertida para iniciarte en la tecnología.
+
+
+  Facilitadores: Bernat Llopis junto a componentes del equipo de voluntariado de ByLinedu
+
+
+  Para niñ@s a partir de 7 años acompañados o no por un adulto. Imprescindible traer portátil y reservar entrada!"
+  speaker:
+    - name: "Bernat Llopis"
+      bio: "Coordinador de ByLinedu, maker , champion de CoderDojo Valencia"
+      photo: /images/speakers/2m5ZduSK_400x400.jpg
+      links:
+        - https://twitter.com/inedu
+        - https://bylinedu.es/
+
+- startTime: "12:00"
+  endTime: "13:30"
+  room: ThinkTank
+  title: "Seguridad digital para todos"
+  description: "Manejarse en la red va mucho más allá de saber saber encender y apagar pantallas, descargar aplicaciones, poner filtros molones a las fotos, grabar vídeos creativos o estar al día con la última red social o videojuego online de moda. Eso los menores lo saben hacer a la perfección y está bien pero hay que acompañarlo de algo más para que puedan hacer un uso seguro y responsable de Internet.
+
+
+  Una charla-taller práctica con la que aprender consejos de seguridad, saber cómo configurar mejor la privacidad en cuentas y dispositivos, repasar conceptos de netiqueta, hablar de contenidos inapropiados, prácticas de riesgo en la red, cosas que no se deberían hacer ni compartir y en la que ponerle nombre a los principales peligros y amenazas que existen.
+
+
+  Para niñ@s a partir de 7 años acompañados o no por un adulto. Imprescindible reservar entrada!"
+  speaker:
+    - name: "Yolanda Corral"
+      bio: "Licenciada en Ciencias de la Información, Periodismo. Máster en Community Management y gestión de las redes sociales. Periodista y formadora freelance especializada en seguridad digital, privacidad, alfabetización digital, TICs, redes sociales y contenidos digitales. Fundadora y organizadora de las Jornadas de Seguridad Informática PaellaCON y dinamizadora de Hack&Beers Valencia. Cibercooperante de INCIBE-Internet Segura For Kids (IS4K). Fundadora del canal especializado en ciberseguridad Palabra de hacker."
+      photo: "/images/speakers/yocomu_redes.png"
+      links:
+        - https://twitter.com/yocomu
+        - https://www.yolandacorral.com/
+
+
+- startTime: "15:30"
+  endTime: "18:00"
+  room: Patio
+  title: "Nerdy Derby"
+  description: "El Hackerspace Valencia nos trae una pista donde podremos construir nuestros propios vehículos y comparar resultados en la pista con otros vehículos.
+
+
+Para niñ@s de todas las edades acompañados por un adulto."

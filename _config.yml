@@ -1,0 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: VLCTechFest 2022
+email: hola@vlctechfest.org
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: https://vlctechfest.org # the base hostname & protocol for your site
+description:
+  es: 18 de junio de 2022. Evento gratuito y abierto a todo el mundo que reúne a las comunidades tecnológicas de la Comunidad Valenciana.
+  en: June 18th, 2022. Free and open event for everyone to bring together the technical communities of Valencian Community.
+  ca: 18 de juny de 2022. Esdeveniment gratuït i obert a tothom que reuneix les comunitats tecnològiques de la Comunitat Valenciana.
+share_image:
+  es: vlctechfest2019-date4-2-1-es.png
+  en: vlctechfest2019-date4-2-1-en.png
+  ca: vlctechfest2019-date4-2-1-ca.png
+fest:
+  twitter_username: vlctechfest
+  youtube_url: https://www.youtube.com/channel/UCS7z_DqAOTqwANFvmKmM5ig
+hub:
+  twitter_username: vlctechhub
+  github_username:  vlctechhub
+  web_url: https://vlctechhub.org/
+  web_title: vlctechhub.org
+  slack_url: https://slack.vlctechhub.org/
+  slack_title:
+    es: Chat
+    en: Chat
+    ca: Xat
+theme: jekyll-theme-cayman
+path:
+  images: /images/
+  company_images: /images/companies/
+  community_images: /images/communities/
+navigation:
+  - about
+  - cfp
+  - coc
+  - faq
+locale:
+  es: es_ES
+  en: en_US
+  ca: ca_ES
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
