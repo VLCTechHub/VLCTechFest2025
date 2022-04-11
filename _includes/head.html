@@ -5,6 +5,8 @@
   <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{%- else -%}{{ site.description[page.lang] }}{%- endif -%}">
   <meta name="msapplication-TileColor" content="#bf3376">
   <meta name="theme-color" content="#ffffff">
+  {%- include meta-facebook.html -%}
+  {%- include meta-twitter.html -%}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}
