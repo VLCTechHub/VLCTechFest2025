@@ -547,7 +547,7 @@ body {
   --secondaryColor: var(--green);
   --secondaryTextColor: var(--white);
 }
-.section-purple {
+.section-purple, .section-main {
   --backgroundColor: var(--purple);
   --textColor: var(--white);
   --primaryColor: var(--pink);
@@ -562,6 +562,10 @@ body {
   --primaryTextColor: var(--pink);
   --secondaryColor: var(--blue);
   --secondaryTextColor: var(--white);
+}
+
+.section-main {
+  padding-top: 0;
 }
 
 section {
