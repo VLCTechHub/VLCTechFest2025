@@ -40,6 +40,9 @@ es:
     communities:
       link: "#communities"
       label: Comunidades
+    sponsors:
+      link: "#sponsors"
+      label: Patrocinadores
   main:
     subtitle: Un evento gratuito y de acceso libre
     date: 11 Mayo 2022
@@ -53,6 +56,7 @@ es:
       organizers: "Organiza:"
       collaborators: "Colabora:"
       sponsors: "Patrocinadores"
+      claim: "Quiero patrocinar"
   news:
     cfp_open:
       text: Call for papers abierto
@@ -121,6 +125,9 @@ en:
     communities:
       link: "#communities"
       label: Communities
+    sponsors:
+      link: "#sponsors"
+      label: Sponsors
   main:
     subtitle: Free event and free access
     date: 11 May 2022
@@ -134,6 +141,7 @@ en:
       organizers: "Organized by:"
       collaborators: "Supported by:"
       sponsors: "Sponsors"
+      claim: "I want to sponsor"
   news:
     cfp_open:
       text: Open call for papers
@@ -202,6 +210,9 @@ ca:
     communities:
       link: "#communities"
       label: Comunitats
+    sponsors:
+      link: "#sponsors"
+      label: Patrocinadors
   main:
     subtitle: Un esdeveniment gratuït i d'accés lliure
     date: 11 Mayo 2022
@@ -215,6 +226,7 @@ ca:
       organizers: "Organitza:"
       collaborators: "Col·labora:"
       sponsors: "Sponsors"
+      claim: "Vull patrocinar"
   news:
     cfp_open:
       text: Call for papers obert
