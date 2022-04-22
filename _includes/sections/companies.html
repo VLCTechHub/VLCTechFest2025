@@ -1,6 +1,6 @@
 <section id="sponsors" class="section-white">
   <div class="wrapper">
-    <span>{{ site.data.t[page.lang].company.type.sponsors }}:</span>
+    <h1>{{ site.data.t[page.lang].company.type.sponsors }}</h1>
     <ul>
       {%- for company in site.data.companies.sponsors -%}
       <li class="{{ company.name | downcase | replace: ' ', '' |  }}">
@@ -16,7 +16,7 @@
       </li>
       {%- endfor -%}
     </ul>
-    <a class="button" href="mailto:vlctechfest@gmail.com?subject=Patrocinio%20VLCTechFest">{{ site.data.t[page.lang].company.type.claim }}</a>
+    <a href="mailto:vlctechfest@gmail.com?subject=Patrocinio%20VLCTechFest">{{ site.data.t[page.lang].company.type.claim }}</a>
   </div>
 </section>
 <section id="companies" class="companies">
