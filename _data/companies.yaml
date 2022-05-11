@@ -1,17 +1,18 @@
 organizers:
   - name: VLCTechHub
-    link: https://vlctechhub.org
     image: vlctechhub_blanco.svg
+    link: https://vlctechhub.org
 
 collaborators:
   - name: Las Naves
-    link: https://www.lasnaves.com
     image: lasnaves.svg
+    link: https://www.lasnaves.com
 
 sponsors:
   - name: New Work
-    link: https://www.new-work.se/en/career/valencia
     image: newwork.png
+    link: https://www.new-work.se/en/career/valencia
+
   - name: realizon
-    link: https://www.realizon.eu/
     image: realizon.png
+    link: https://www.realizon.eu/

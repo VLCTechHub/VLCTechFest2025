@@ -23,6 +23,13 @@ When adding a new community, there are two steps that need to be done:
 1. Add the community logo (preferably in SVG format) to `images/communities/`
 2. Modify the `_data/communities.yaml` file, with the next fields: `name`, `image` (the logo image name, with no path) and `links`: a list of social media links.
 
+## Adding a new sponsor
+
+When adding a new sponsor, there are two steps that need to be done:
+
+1. Add the company logo (preferably in SVG format) to `images/companies/`
+2. Modify the `collaborators` section in the `_data/companies.yaml` file, with the next fields: `name`, `image` (the logo image name, with no path) and `link`.
+
 ## Theme
 
 Original theme created over the [Jekyll default theme](https://github.com/jglovier/jekyll-new).
