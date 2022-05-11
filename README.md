@@ -5,7 +5,7 @@ Created with ❤ by volunteers.
 
 ## How to use
 
-Ruby required. You must use the Github Pages Gem bundled Jekyll in order to make it work properly: 
+Ruby 2.7.3 required. You must use the Github Pages Gem bundled Jekyll in order to make it work properly:
 
 ```
 $ bundle install
