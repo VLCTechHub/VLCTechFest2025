@@ -1104,12 +1104,6 @@ ul.speakers {
       margin: 2em 0;
     }
   }
-  li.mrjeff {
-    max-width: 219px;
-  }
-  li.xing {
-    margin-bottom: 14px;
-  }
   @include media-query($on-palm) {
     display: block;
   }
