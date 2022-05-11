@@ -1104,6 +1104,10 @@ ul.speakers {
       margin: 2em 0;
     }
   }
+  li.realizon {
+    max-width: 300px;
+    margin-left: 50px;
+  }
   @include media-query($on-palm) {
     display: block;
   }
