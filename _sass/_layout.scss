@@ -1104,8 +1104,15 @@ ul.speakers {
       margin: 2em 0;
     }
   }
+  li.newwork {
+    max-height: 200px;
+  }
   li.realizon {
     max-width: 300px;
+    margin-left: 50px;
+  }
+  li.qatium {
+    max-width: 200px;
     margin-left: 50px;
   }
   @include media-query($on-palm) {
