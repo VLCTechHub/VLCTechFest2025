@@ -69,15 +69,6 @@
     - https://youtube.com/devscolavlc
     - http://devscola.org/
 
-- name: DevWomen
-  image: devwomen_logo.png
-  links:
-    - https://twitter.com/DevWomen_ES
-    - https://www.facebook.com/DevWomenES/
-    - https://www.instagram.com/DevWomen_es/
-    - https://www.linkedin.com/showcase/devwomen/
-    - http://devwomen.com/
-
 - name: Drupal Valencia
   image: drupalvlc_logo.png
   links:
