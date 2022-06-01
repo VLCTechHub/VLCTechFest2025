@@ -4,6 +4,12 @@
     - https://twitter.com/agilelevante
     - https://www.meetup.com/Agile-Levante/
 
+- name: AWS Valencia
+  image: aws.png
+  links:
+    - https://twitter.com/awsvalenciaes
+    - https://www.meetup.com/es-ES/AWS-Valencia/
+
 - name: Devscola
   image: devscola_logo.jpeg
   links:
@@ -42,6 +48,12 @@
     - https://twitter.com/HackVlc
     - https://www.meetup.com/Hackerspace-Valencia/
     - http://hackvlc.es
+
+- name: MuleSoft Valencia
+  image: mulesoft.png
+  links:
+    - https://twitter.com/muledev
+    - https://meetups.mulesoft.com/valencia/
 
 - name: PHP Valencia
   image: phpvalencia_logo.png
