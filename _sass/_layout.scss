@@ -1089,12 +1089,16 @@ ul.speakers {
 
 #sponsors ul {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin-top: 3em;
   li {
     width: 25%;
     max-width: 190px;
+    text-align: center;
+    flex-basis: 20%;
+    margin-top: 5%;
 
     img,
     svg {
@@ -1107,9 +1111,12 @@ ul.speakers {
   }
   li:not(:first-child) {
     margin-left: 35px;
+    @include media-query($on-palm) {
+      margin-left: 0px;
+    }
   }
   @include media-query($on-palm) {
-    display: block;
+    flex-direction: column;
   }
 }
 
