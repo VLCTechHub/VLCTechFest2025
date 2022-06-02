@@ -12,19 +12,34 @@ sponsors:
   - name: New Work
     image: newwork.png
     link: https://www.new-work.se/en/career/valencia
+    size: 50%
 
   - name: realizon
     image: realizon.png
     link: https://www.realizon.eu/
+    size: 100%
 
   - name: Qatium
     image: qatium.png
     link: https://nofuturewithoutwater.com/
+    size: 100%
 
   - name: Idecrea
     image: idecrea.png
     link: https://idecrea.es/
+    size: 100%
 
   - name: CCSTech.io
     image: ccstech.png
     link: https://ccsolutions.io
+    size: 100%
+
+  - name: Sopra Steria
+    link: https://www.soprasteria.es/
+    image: sopra-steria.jpeg
+    size: 100%
+
+  - name: GFT
+    link: https://www.gft.com/es/es
+    image: gft.jpeg
+    size: 100%
