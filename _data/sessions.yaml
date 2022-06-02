@@ -155,12 +155,13 @@
 
     El objetivo de esta charla es mostrar cómo integramos la accesibilidad web, de manera práctica, en nuestro trabajo diario. Desde que tenemos presente la accesibilidad en todo lo que hacemos, hemos comprobado que no solo mejoramos nuestras webs, sino que también nos ayuda, entre otras cosas, a definir tests mucho más claros y semánticos, y a empatizar de una manera más amplia con todas las necesidades de los usuarios."
   speaker:
-    - name: "Juan Diego"
+    - name: "Juan Diego Martín-Blas Ramos"
       bio: "Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a estudiar programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y aprender algo nuevo cada día. Actualmente trabajo vendiendo lechugas online en MercadonaTech como Frontend Developer."
       photo: /images/speakers/rJqwRcWu_400x400.jpg
       links:
         - https://twitter.com/JuanDiegoMbr
         - https://github.com/juandiegombr
+        - https://www.linkedin.com/in/juandiego-martin/
 
 - startTime: "14:30"
   endTime: "16:30"
@@ -198,7 +199,7 @@
       photo: /images/speakers/carlastabile_400x400.jpg
       links:
         - https://github.com/carlastabile
-        - https://twitter.com/carlastabile/photo
+        - https://twitter.com/carlastabile
         - https://www.linkedin.com/in/carlastabile/
 
 - startTime: "17:30"
