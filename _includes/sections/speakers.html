@@ -5,7 +5,7 @@
   </div>
   <div class="container -big">
     <ul class="speakers">
-      {%- assign sessions = site.data.sessions | concat: site.data.kids-%}
+      {%- assign sessions = site.data.sessions -%}
       {%- for session in sessions -%}
         {%- for speaker in session.speaker -%}
           <li>
