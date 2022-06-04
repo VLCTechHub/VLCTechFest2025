@@ -137,7 +137,7 @@
     Cuando se quiere llegar a un cierto nivel de rendimiento y paralelismo, se imponen las arquitecturas orientadas a eventos por encima de las APIs síncronas. En esta charla diseñaré y construiré una arquitectura de alto rendimiento utilizando Go y Kafka, mostrando cómo exprimir productores y consumidores para maximizar la eficiencia del sistema.
   speaker:
     - name: "David Torres Garrigós"
-      bio: "Me gusta pensar y desarrollar nuevas ideas. Ingeniero Informático entusiasmado con todo aquello relacionado con arquitecturas y desarrollo backend, en especial en Go, mi lenguaje favorito y que promociono siempre que puedo."
+      bio: "Team lead y Senior Backend Engineer en The Hotels Network. Me gusta pensar y desarrollar nuevas ideas. Ingeniero Informático entusiasmado con todo aquello relacionado con arquitecturas y desarrollo backend, en especial en Go, mi lenguaje favorito y que es sin duda uno de los lenguajes top del presente y del futuro."
       photo: /images/speakers/datoga_400x400.jpg
       links:
         - https://twitter.com/datoga
