@@ -70,13 +70,13 @@
   speaker:
     - name: "Cristina Pastor Carbonell"
       bio: "Gran apasionada de la tecnología desde pequeña, estudié ingeniera informática en la UPV y desde que me licencié he trabajado en diversos ámbitos de programación y consultoría, sobre todo para banca y empresas. "
-      photo: 'https://secure.gravatar.com/avatar/159bdb09ad33a775a9220e4f78d68421?s=400&d=identicon'
+      photo: '/images/speakers/Cristina_Pastpr400.jpg'
       links:
         - https://www.linkedin.com/in/cristina-pastor-carbonell-01264029
 
     - name: "Tamara Arnedo García"
       bio: "Analista Mainframe con amplia experiencia en el sector bancario.  Acostumbrada a trabajar en equipos distribuidos, multiculturales e internacionales realizando diferentes tareas. Soy creativa y me gustan los retos."
-      photo: 'https://secure.gravatar.com/avatar/159bdb09ad33a775a9220e4f78d68421?s=400&d=identicon'
+      photo: '/images/speakers/Tamara_Arnedo400.jpg'
       links:
         - https://www.linkedin.com/in/tamara-arnedo-99059b39/
 
