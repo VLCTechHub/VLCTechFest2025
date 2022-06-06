@@ -207,7 +207,7 @@
   room: Biblioteca
   title: "Mesa redonda: Futuro y presente del trabajo de programación informática"
   description: |-
-    "Ponencia en formato de \"mesa redonda\" en la que tres programadoras con diversas especializaciones y tiempo en la industria contaremos nuestra experiencia entorno a las siguientes preguntas:
+    Mesa redonda en la que tres programadoras con diversas especializaciones y tiempo en la industria compartiremos nuestra experiencia entorno a las siguientes preguntas:
 
     ¿Por qué estudiar programación?
 
@@ -218,16 +218,23 @@
     ¿Cómo será mi trabajo?
 
     ¿Cómo será mi evolución laboral?
-
-    Con el objetivo de animar a más personas a estudiar programación mostrándonos como referentes.
-
-    Esta charla participarán también Alba Y Beatriz"
   speaker:
+    - name: "Alba Marrades"
+      bio: "Alba Marrades es programadora junior. Ha cursado el ciclo de FP DAW en modalidades semipresencial y presencial. Durante sus prácticas ha estado en un proyecto vehicular a cargo de Xavi Gost, donde ha aprendido testing, prácticas ágiles como pair programming y a priorizar un código más legible a nivel humano. Actualmente, tras completar las prácticas, se encuentra trabajando en Belike Software."
+      photo: /images/speakers/alba_400x400.jpg
+      links:
+        - https://www.linkedin.com/in/alba-marrades-7a1aa5240/
+    - name: "Bea Couchoud"
+      bio: "Bea Couchoud es programadora Junior. Empezó a programar de forma autodidacta en 2018, estudió DAW y DAM y acaba de finalizar un bootcamp de React. Actualmente trabaja como fullstack developer en una fintech."
+      photo: /images/speakers/bea_400x400.jpg
+      links:
+        - https://www.linkedin.com/in/bea-couchoud/
     - name: "Meritxell Calvo"
       bio: "Meritxell Calvo es programadora Senior especializada en Ruby y experta en Extreme Programming. Tras cursar DAI en 2008 y ASIR en 2010, ha trabajado como programadora en diversas empresas, consultoras, fintech, startups y scaleups locales y extranjeras."
       photo: /images/speakers/nyan_dev_400x400.jpg
       links:
         - https://twitter.com/nyan_dev
+        - https://nyandevorg.wordpress.com/
 
 - startTime: "17:30"
   endTime: "18:15"
