@@ -165,8 +165,8 @@
 - startTime: "14:30"
   endTime: "16:30"
   room: Patio
-  title: "Comida"
-  description: "Para reponer fuerzas todos al bar"
+  title: "Pausa"
+  description: "Descanso para reponer fuerzas."
 
 - startTime: "16:30"
   endTime: "17:15"
