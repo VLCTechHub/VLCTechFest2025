@@ -24,17 +24,29 @@
 - startTime: "10:00"
   endTime: "10:45"
   room: Visual Room
-  title: "Cómo los devs pueden contribuir a crear aplicaciones seguras"
+  title: "El impacto de una buena arquitectura para realizar pruebas en producción."
   description: |-
-    A medida que aumenta la adopción en el uso de contenedores y Kubernetes en producción, la seguridad comienza a ser una preocupación fundamental. Pero...¿Por dónde empezar?
-    En esta charla queremos dar una visión general sobre los distintos controles de seguridad que se pueden aplicar durante el ciclo de vida de la aplicación, en pre-deployement, así como en runtime, lo que nos permitirá trabajar de forma proactiva, en vez de reactiva y ser más eficientes.
-    Hablaremos de cómo reforzar el uso de buenas prácticas entre los desarrolladores, asegurarnos de que nuestros contenedores no tienen vulnerabilidades en pre-producción, de los beneficios de integrar las herramientas que usan los developer para que fluya la información y por supuesto, cómo mantener nuestros workloads actualizados con los últimos CVEs descubiertos es clave para mantener un entorno productivo seguro
+    "En esta charla, exploraremos el \"eterno problema\" de las pruebas en producción. No sólo qué probar y qué no, sino también qué hacer y pensar antes de probar en producción.
+
+    Todos hemos tenido la experiencia de lanzarnos a automatizar todo lo que podíamos, sin suficiente estrategia ni previsión. Luego hemos tenido que tirar el trabajo a la basura y dedicar mucho tiempo a refactorizar para acabar pasando más horas solucionando problemas que automatizando.
+
+    La sesión explorará la persistencia de datos, la historia, la construcción y el diseño de una API, y las pruebas en todos los navegadores y dispositivos posibles. Los asistentes aprenderán en qué hay que pensar antes de automatizar cualquier proceso, ahorrando tiempo y evitando problemas en el futuro.
+
+    Veremos cómo mostrar toda esta información unificada en un único lugar para tener un control absoluto de qué ocurre a tiempo real en nuestros proyectos."
   speaker:
-    - name: "Alba Ferri"
-      bio: "Ingeniero técnico de telecomunicaciones, ahora trabajando en ciberseguridad de contenedores, Kubernetes y la nube. Mi carrera profesional es un tanto ecléctica, desde operación a marketing...Soy una apasionada del software libre, por lo que no es raro verme en eventos de tecnología, tanto de ponente, como de oyente."
-      photo: /images/speakers/alba_ferri_400x400.jpg
+    - name: "Jesús Sánchez"
+      bio: "Viajero incansable viviendo actualmente en República Checa. Ingeniero técnico con máster en Machine Learning por la UPV. Apasionado del deporte y ponente ocasional. Actualmente QA Manager en Onestic y fundador de McClane y QA Minds Europe. Automatizo todo lo que me dejan. Obseso del dato y la información."
+      photo: /images/speakers/jesus_sanchez_400x400.jpg
       links:
-        - https://www.linkedin.com/in/alba-ferri-fitó
+        - https://twitter.com/qa_jesus
+        - https://www.linkedin.com/in/jesus-sanchez-martinez-89a62953
+
+    - name: "Pepe Monleón"
+      bio: "Estudié para ser desarrollador de aplicaciones móviles, pero el destino me ha llevado a compartir equipo con un grupo de personas increíbles donde desarrollamos un software propio llamado McClane. En nuestro \"barco\", me muevo por la bodega de carga con Selenium, uso Django como vela y K8s como timón. Primera experiencia como ponente. Con nervios, pero muy contento de poder aportar a la comunidad."
+      photo: /images/speakers/pepemonleon_400x400.png
+      links:
+        - https://twitter.com/pepemonleon
+        - https://www.linkedin.com/in/pepemonleon/
 
 - startTime: "11:00"
   endTime: "11:45"
@@ -105,29 +117,16 @@
 - startTime: "12:30"
   endTime: "13:15"
   room: Visual Room
-  title: "El impacto de una buena arquitectura para realizar pruebas en producción."
+  title: "Mejora tu calidad de código en JavaScript con la programación funcional"
   description: |-
-    "En esta charla, exploraremos el \"eterno problema\" de las pruebas en producción. No sólo qué probar y qué no, sino también qué hacer y pensar antes de probar en producción.
-
-    Todos hemos tenido la experiencia de lanzarnos a automatizar todo lo que podíamos, sin suficiente estrategia ni previsión. Luego hemos tenido que tirar el trabajo a la basura y dedicar mucho tiempo a refactorizar para acabar pasando más horas solucionando problemas que automatizando.
-
-    La sesión explorará la persistencia de datos, la historia, la construcción y el diseño de una API, y las pruebas en todos los navegadores y dispositivos posibles. Los asistentes aprenderán en qué hay que pensar antes de automatizar cualquier proceso, ahorrando tiempo y evitando problemas en el futuro.
-
-    Veremos cómo mostrar toda esta información unificada en un único lugar para tener un control absoluto de qué ocurre a tiempo real en nuestros proyectos."
+    La programación funcional es otro enfoque a la hora de resolver la complejidad de un sistema. No podemos vivir siempre en burbuja de herramientas o paradigmas (como el orientado a objetos). Abrir la mente a otras soluciones te hará mejor profesional y aumentará tus habilidades técnicas. Repasemos juntos los principios, las ventajas y desventajas de la programación funcional, que es la expresión Lambda, inmutabilidad, manipulación de listas, limitaciones de JavaScript, librerías y libros para dar los primeros pasos.
   speaker:
-    - name: "Jesús Sánchez"
-      bio: "Viajero incansable viviendo actualmente en República Checa. Ingeniero técnico con máster en Machine Learning por la UPV. Apasionado del deporte y ponente ocasional. Actualmente QA Manager en Onestic y fundador de McClane y QA Minds Europe. Automatizo todo lo que me dejan. Obseso del dato y la información."
-      photo: /images/speakers/jesus_sanchez_400x400.jpg
+    - name: "Andros Fenollosa Hurtado"
+      bio: "Ejercer el rol de CTO en un estudio de desarrollo de software y a la docencia en tecnologías Web con más de década de experiencia. Además, es escritor (un libro publicado y otro en camino), bloguero, enamorado de la programación funcional y donante de código en diversos proyectos Opensource relacionados con Python y Clojure."
+      photo: /images/speakers/androsfenollosa_400x400.jpg
       links:
-        - https://twitter.com/qa_jesus
-        - https://www.linkedin.com/in/jesus-sanchez-martinez-89a62953
-
-    - name: "Pepe Monleón"
-      bio: "Estudié para ser desarrollador de aplicaciones móviles, pero el destino me ha llevado a compartir equipo con un grupo de personas increíbles donde desarrollamos un software propio llamado McClane. En nuestro \"barco\", me muevo por la bodega de carga con Selenium, uso Django como vela y K8s como timón. Primera experiencia como ponente. Con nervios, pero muy contento de poder aportar a la comunidad."
-      photo: /images/speakers/pepemonleon_400x400.png
-      links:
-        - https://twitter.com/pepemonleon
-        - https://www.linkedin.com/in/pepemonleon/
+        - https://twitter.com/androsfenollosa
+        - https://github.com/tanrax
 
 - startTime: "13:30"
   endTime: "14:15"
@@ -239,13 +238,14 @@
 - startTime: "17:30"
   endTime: "18:15"
   room: Visual Room
-  title: "Mejora tu calidad de código en JavaScript con la programación funcional"
+  title: "Cómo los devs pueden contribuir a crear aplicaciones seguras"
   description: |-
-    La programación funcional es otro enfoque a la hora de resolver la complejidad de un sistema. No podemos vivir siempre en burbuja de herramientas o paradigmas (como el orientado a objetos). Abrir la mente a otras soluciones te hará mejor profesional y aumentará tus habilidades técnicas. Repasemos juntos los principios, las ventajas y desventajas de la programación funcional, que es la expresión Lambda, inmutabilidad, manipulación de listas, limitaciones de JavaScript, librerías y libros para dar los primeros pasos.
+    A medida que aumenta la adopción en el uso de contenedores y Kubernetes en producción, la seguridad comienza a ser una preocupación fundamental. Pero...¿Por dónde empezar?
+    En esta charla queremos dar una visión general sobre los distintos controles de seguridad que se pueden aplicar durante el ciclo de vida de la aplicación, en pre-deployement, así como en runtime, lo que nos permitirá trabajar de forma proactiva, en vez de reactiva y ser más eficientes.
+    Hablaremos de cómo reforzar el uso de buenas prácticas entre los desarrolladores, asegurarnos de que nuestros contenedores no tienen vulnerabilidades en pre-producción, de los beneficios de integrar las herramientas que usan los developer para que fluya la información y por supuesto, cómo mantener nuestros workloads actualizados con los últimos CVEs descubiertos es clave para mantener un entorno productivo seguro
   speaker:
-    - name: "Andros Fenollosa Hurtado"
-      bio: "Ejercer el rol de CTO en un estudio de desarrollo de software y a la docencia en tecnologías Web con más de década de experiencia. Además, es escritor (un libro publicado y otro en camino), bloguero, enamorado de la programación funcional y donante de código en diversos proyectos Opensource relacionados con Python y Clojure."
-      photo: /images/speakers/androsfenollosa_400x400.jpg
+    - name: "Alba Ferri"
+      bio: "Ingeniero técnico de telecomunicaciones, ahora trabajando en ciberseguridad de contenedores, Kubernetes y la nube. Mi carrera profesional es un tanto ecléctica, desde operación a marketing...Soy una apasionada del software libre, por lo que no es raro verme en eventos de tecnología, tanto de ponente, como de oyente."
+      photo: /images/speakers/alba_ferri_400x400.jpg
       links:
-        - https://twitter.com/androsfenollosa
-        - https://github.com/tanrax
+        - https://www.linkedin.com/in/alba-ferri-fitó
