@@ -189,17 +189,20 @@
 - startTime: "16:30"
   endTime: "17:15"
   room: Visual Room
-  title: "Going hybrid "
+  title: "A women in test "
   description: |-
-    In this talk we will discuss how to make hybrid work accessible for all team members (both remote and on site), how does it feel to work within a hybrid team. We will see some examples on do's and dont's.
+    En la charla abordaré inicialmente cuál ha sido mi experiencia hasta llegar a ser QA, ya que a día de hoy sigue siendo un gran desconocido y puede llegar a ser una profesión apasionante.
+
+    Veremos que puede aportar un QA a un equipo de desarrollo y que tipo de técnicas tecnologías y herramientas se hacen uso en el día a día.
+
+    También se hará un pequeño ejemplo para poner al público en la mente de un tester.
   speaker:
-    - name: "Carla Urrea Stabile"
-      bio: "Carla Urrea Stabile is a software engineer and content creator currently working at New Work. Carla brings a unique perspective gained after working in distributed teams for over 7 years. When not speaking or coding Carla can be found going on walks with her dog or going for a bike ride."
-      photo: /images/speakers/carlastabile_400x400.jpg
+    - name: "Sara Martínez Giner"
+      bio: "Soy Sara y desde hace 8 años me dedico al análisis y pruebas de calidad. Gracias ello, he estado involucrada en proyectos de Telecomunicaciones, Geolocalización, Big Data y Electrónica de Potencia. Actualmente trabajo para la unidad de Ciberseguridad de Telefónica, dónde esa calidad está enfocada tanto a los productos como a la seguridad informática de los mismos."
+      photo: /images/speakers/sara_martinez_400x400.jpg
       links:
-        - https://github.com/carlastabile
-        - https://twitter.com/carlastabile
-        - https://www.linkedin.com/in/carlastabile/
+        - https://mobile.twitter.com/_TicTacS
+        - https://www.linkedin.com/in/saramartinezginer/
 
 - startTime: "17:30"
   endTime: "18:15"
