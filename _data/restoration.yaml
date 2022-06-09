@@ -1,0 +1,64 @@
+- name: Bar La Carrasca
+  distance: 79 metros.
+  address: Carrer de Joan Verdeguer
+  description: Comida tipo china. Tapas
+  price: Precio económico. Sin información sobre menú
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/2dqd7R1HaFbAmShZ8
+
+- name: Bar Cerveceria Pinocchio
+  distance: 140 metros.
+  address: Carrer de Joan Verdeguer, 27, 46024 València, Valencia
+  description: Comida tipo china y mediterranea. Almuerzos, tapas, bocadillos y comida china
+  price: Precio económico. Menú 8 €
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/C2vGXHEvvUCP3cdk9
+    
+- name: Bar Ventidue
+  distance: 210 metros.
+  address: Carrer d'Eivissa, 25, 46024 València, Valencia
+  description: Comida tipo china y mediterranea. Almuerzos, tapas, bocadillos y comida china
+  price: Precio económico. Sin información sobre menú
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/q8AjN3V54VApadnp9
+    
+- name: Bar Molí del Port
+  distance: 280 metros.
+  address: Carrer de Joan Verdeguer, 38, 46024 València, Valencia
+  description: Comida tipo mediterránea. Almuerzos, tapas, bocadillos
+  price: Precio económico. Sin información sobre menú
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/LABjw9tf8CjZyzAFA
+    
+- name: El Racó de Jorge
+  distance: 300 metros.
+  address: Carrer d'Isaac Peral, 21, BAJO, 46024 Valencia
+  description: Comida tipo mediterránea. Almuerzos, tapas, bocadillos, arroces y otros platos
+  price: Precio económico. Consultar menú 9,50€
+  menu: https://drive.google.com/file/d/1BIqe3jHCFQy7ucR8j6DPlz9PtqZitYPN/view
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/zjTS2xtVsNg6kcjt9
+
+- name: El Maño
+  distance: 300 metros.
+  address: Carrer de Joan Verdeguer, 55, 46024 València, Valencia
+  description: Comida tipo mediterránea. Almuerzos, tapas, bocadillos, arroces y otros platos
+  price: Precio económico. Menú 8,50€ y medio menú 7€
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/BDmopaW2GE8FHLDX6
+    
+- name: Casa Joan
+  distance: 350 metros.
+  address: Carrer Juan José Sister
+  description: Comida tipo mediterránea. Almuerzos, tapas, bocadillos
+  price: Precio económico. Sin información sobre menú
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/fzns5W279idgoVKR9
+
+- name: Ca'ximo
+  distance: 350 metros.
+  address: Carrer de Joan Josep Sister, 24, 46024 València, Valencia
+  description: Comida tipo mediterranea. Almuerzos, tapas, bocadillos, arroces y otros platos
+  price: Precio económico. Menú 8,50€
+  terrace: Terraza
+  gmaps_address: https://goo.gl/maps/XAJ2iQSA1UXcoe5H6

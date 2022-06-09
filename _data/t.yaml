@@ -66,6 +66,8 @@ es:
       button: Anima a otra persona
   sessions:
     title: Agenda
+  restoration:
+    title: Locales de restauración próximos
   kids:
     title: "**Track** familiar"
     description: "Queremos que VLCTechFest sea un evento para todos y por eso hemos añadido un track extra dedicado a los más pequeños.
@@ -151,6 +153,8 @@ en:
       button: Encourage another person
   sessions:
     title: Schedule
+  restoration:
+    title: Nearby restaurants
   kids:
     title: "**Kids** Sessions"
     description: "We want VLCTechFest to be an event for everybody and that is why we have added an extra track dedicated to the little ones.
@@ -236,6 +240,8 @@ ca:
       button: Anima a altra persona
   sessions:
     title: Agenda
+  restoration:
+    title: Locals de restauració pròxims
   kids:
     title: "**Track** familiar"
     description: "Volem que VLCTechFest siga un esdeveniment per a tots i per això hem afegit un track extra dedicat als més menuts.

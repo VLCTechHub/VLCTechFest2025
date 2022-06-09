@@ -1,0 +1,25 @@
+{%- assign restoration = site.data.t[page.lang].restoration -%}
+<section id="restoration">
+  <div class="container">
+    <h1>{{ restoration.title }}</h1>
+      {%- for restaurant in site.data.restoration -%}
+        <br />
+        <h2>{{ restaurant.name }}</h2>
+        <p>{{ restaurant.description }}<br />
+          {{ restaurant.price }}<br />
+          {{ restaurant.terrace }}<br />
+          <a href="{{ restaurant.gmaps_address }}" target="_blank" title="{{ restaurant.address }}">{{ restaurant.address }}</a>
+        </p>
+        <hr />
+      {%- endfor -%}
+  </div>
+</section>
+
+<script>
+  var nodes = document.querySelectorAll('ul.sessions>li>ul>li');
+  function toggleOpen(){
+    this.classList.toggle('open');
+    window.scrollTo({top:this.offsetTop});
+  };
+  nodes.forEach((node) => node.addEventListener('click', toggleOpen));
+</script>
