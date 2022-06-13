@@ -1,12 +1,12 @@
 - startTime: "9:30"
   endTime: "9:55"
-  room: Biblioteca
+  room: Sala Polivalente
   title: "Apertura del evento y bienvenida"
   description: "Breve introducción al evento por parte de los organizadores."
 
 - startTime: "10:00"
   endTime: "10:45"
-  room: Biblioteca
+  room: Sala Polivalente
   title: "Análisis y visualización la erupción del Cumbre Vieja"
   description: |-
     "En Septiembre de 2021 la actividad seísmica en la isla de la Palma sufrió un pico que vaticinó el inicio de un episodio volcánico que cambió la isla dramáticamente. Miles de personas fueron desplazadas e innumerables infraestructuras fueron destruidas o afectadas. Desde el primer momento diferentes organismos públicos publicaron los datos que se capturaban para entender el avance de las coladas de lava, así como la actividad sísmica.
@@ -50,7 +50,7 @@
 
 - startTime: "11:00"
   endTime: "11:45"
-  room: Biblioteca
+  room: Sala Polivalente
   title: "Construyendo ordenadores con GNU/Linux y contribuyendo con la comunidad"
   description: |-
     Cómo hacemos lo que hacemos desde Valencia, qué caminos y entresijos hemos tenido que cruzar, y hasta donde hemos llegado.
@@ -100,7 +100,7 @@
 
 - startTime: "12:30"
   endTime: "13:15"
-  room: Biblioteca
+  room: Sala Polivalente
   title: "Inteligencia artificial y propiedad intelectual"
   description: |-
     Vivimos un momento de apogeo en EL SUEÑO, ese que nos acompaña desde tiempos inmemoriales: crear una inteligencia parecida a la nuestra, una inteligencia artificial, mucho han evolucionado las escuelas simbolistas y conectivistas y parece que, por fin, empezamos a rozar con los dedos ese sueño, ingenios, dibujos, creaciones, todo eso y más pueden desarrollar las inteligencias artificiales actuales.
@@ -130,7 +130,7 @@
 
 - startTime: "13:30"
   endTime: "14:15"
-  room: Biblioteca
+  room: Sala Polivalente
   title: "Arquitectura de alto rendimiento orientada a eventos con Go y Kafka"
   description: |-
     Cuando se quiere llegar a un cierto nivel de rendimiento y paralelismo, se imponen las arquitecturas orientadas a eventos por encima de las APIs síncronas. En esta charla diseñaré y construiré una arquitectura de alto rendimiento utilizando Go y Kafka, mostrando cómo exprimir productores y consumidores para maximizar la eficiencia del sistema.
@@ -170,7 +170,7 @@
 
 - startTime: "16:30"
   endTime: "17:15"
-  room: Biblioteca
+  room: Sala Polivalente
   title: "Taxonomía y arquitectura de la información orientada a negocio"
   description: |-
     "A la hora de crear una buena estructura para el diseño de una página web debemos tener en cuenta tanto los objetivos de negocio, las tendencias de búsqueda, el posicionamiento SEO y cómo no, quién es nuestro público objetivo. En esta charla abordaremos los principales retos con los que nos encontraremos al realizar el trabajo de arquitectura de la información y las claves que debemos tener en cuenta para realizar paso a paso esta labor.
@@ -206,7 +206,7 @@
 
 - startTime: "17:30"
   endTime: "18:15"
-  room: Biblioteca
+  room: Sala Polivalente
   title: "Mesa redonda: Futuro y presente del trabajo de programación informática"
   description: |-
     Mesa redonda en la que tres programadoras con diversas especializaciones y tiempo en la industria compartiremos nuestra experiencia entorno a las siguientes preguntas:
