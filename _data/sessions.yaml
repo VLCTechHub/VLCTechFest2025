@@ -9,9 +9,9 @@
   room: Sala Polivalente
   title: "Análisis y visualización la erupción del Cumbre Vieja"
   description: |-
-    "En Septiembre de 2021 la actividad seísmica en la isla de la Palma sufrió un pico que vaticinó el inicio de un episodio volcánico que cambió la isla dramáticamente. Miles de personas fueron desplazadas e innumerables infraestructuras fueron destruidas o afectadas. Desde el primer momento diferentes organismos públicos publicaron los datos que se capturaban para entender el avance de las coladas de lava, así como la actividad sísmica.
+    En Septiembre de 2021 la actividad seísmica en la isla de la Palma sufrió un pico que vaticinó el inicio de un episodio volcánico que cambió la isla dramáticamente. Miles de personas fueron desplazadas e innumerables infraestructuras fueron destruidas o afectadas. Desde el primer momento diferentes organismos públicos publicaron los datos que se capturaban para entender el avance de las coladas de lava, así como la actividad sísmica.
 
-    En esta charla se mostrará cómo se automatizó el proceso para cargar en Elasticsearch (una base de datos NoSQL) tanto la actividad sísmica como la extensión de las coladas y las construcciones afectadas utilizando el SDK de Elasticsearch para Python y Github Actions. Finalmente se mostrará cómo se puede utilizar Kibana para visualizar toda esta información, incluyendo visualizaciones geográficas y animaciones."
+    En esta charla se mostrará cómo se automatizó el proceso para cargar en Elasticsearch (una base de datos NoSQL) tanto la actividad sísmica como la extensión de las coladas y las construcciones afectadas utilizando el SDK de Elasticsearch para Python y Github Actions. Finalmente se mostrará cómo se puede utilizar Kibana para visualizar toda esta información, incluyendo visualizaciones geográficas y animaciones.
   speaker:
     - name: "Jorge Sanz"
       bio: "Geoinquieto e Ingeniero en Cartografía y Geodesia por la UPV. Desarrollo mi actividad profesional en el ámbito de los Sistemas de Información Geográfica y los datos geoespaciales desde hace más de 15 años. Actualmente trabajo en el equipo de Kibana en Elastic."
@@ -26,13 +26,13 @@
   room: Visual Room
   title: "El impacto de una buena arquitectura para realizar pruebas en producción."
   description: |-
-    "En esta charla, exploraremos el \"eterno problema\" de las pruebas en producción. No sólo qué probar y qué no, sino también qué hacer y pensar antes de probar en producción.
+    En esta charla, exploraremos el \"eterno problema\" de las pruebas en producción. No sólo qué probar y qué no, sino también qué hacer y pensar antes de probar en producción.
 
     Todos hemos tenido la experiencia de lanzarnos a automatizar todo lo que podíamos, sin suficiente estrategia ni previsión. Luego hemos tenido que tirar el trabajo a la basura y dedicar mucho tiempo a refactorizar para acabar pasando más horas solucionando problemas que automatizando.
 
     La sesión explorará la persistencia de datos, la historia, la construcción y el diseño de una API, y las pruebas en todos los navegadores y dispositivos posibles. Los asistentes aprenderán en qué hay que pensar antes de automatizar cualquier proceso, ahorrando tiempo y evitando problemas en el futuro.
 
-    Veremos cómo mostrar toda esta información unificada en un único lugar para tener un control absoluto de qué ocurre a tiempo real en nuestros proyectos."
+    Veremos cómo mostrar toda esta información unificada en un único lugar para tener un control absoluto de qué ocurre a tiempo real en nuestros proyectos.
   speaker:
     - name: "Jesús Sánchez"
       bio: "Viajero incansable viviendo actualmente en República Checa. Ingeniero técnico con máster en Machine Learning por la UPV. Apasionado del deporte y ponente ocasional. Actualmente QA Manager en Onestic y fundador de McClane y QA Minds Europe. Automatizo todo lo que me dejan. Obseso del dato y la información."
@@ -148,11 +148,11 @@
   room: Visual Room
   title: "Mejorando la accesibilidad web con TDD"
   description: |-
-    "La accesibilidad sigue siendo una gran desconocida dentro del mundo del desarrollo web. Al no saber construir “rampas” en nuestras aplicaciones web para los/as usuarias con necesidades especiales, dificultamos cada día su acceso y, por tanto, les invisibilizamos.
+    La accesibilidad sigue siendo una gran desconocida dentro del mundo del desarrollo web. Al no saber construir “rampas” en nuestras aplicaciones web para los/as usuarias con necesidades especiales, dificultamos cada día su acceso y, por tanto, les invisibilizamos.
 
     Mejorar la accesibilidad en los proyectos en los que trabajamos es un deber social; nuestro trabajo no está hecho si no es accesible para todas las personas.
 
-    El objetivo de esta charla es mostrar cómo integramos la accesibilidad web, de manera práctica, en nuestro trabajo diario. Desde que tenemos presente la accesibilidad en todo lo que hacemos, hemos comprobado que no solo mejoramos nuestras webs, sino que también nos ayuda, entre otras cosas, a definir tests mucho más claros y semánticos, y a empatizar de una manera más amplia con todas las necesidades de los usuarios."
+    El objetivo de esta charla es mostrar cómo integramos la accesibilidad web, de manera práctica, en nuestro trabajo diario. Desde que tenemos presente la accesibilidad en todo lo que hacemos, hemos comprobado que no solo mejoramos nuestras webs, sino que también nos ayuda, entre otras cosas, a definir tests mucho más claros y semánticos, y a empatizar de una manera más amplia con todas las necesidades de los usuarios.
   speaker:
     - name: "Juan Diego Martín-Blas Ramos"
       bio: "Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a estudiar programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y aprender algo nuevo cada día. Actualmente trabajo vendiendo lechugas online en MercadonaTech como Frontend Developer."
@@ -173,11 +173,11 @@
   room: Sala Polivalente
   title: "Taxonomía y arquitectura de la información orientada a negocio"
   description: |-
-    "A la hora de crear una buena estructura para el diseño de una página web debemos tener en cuenta tanto los objetivos de negocio, las tendencias de búsqueda, el posicionamiento SEO y cómo no, quién es nuestro público objetivo. En esta charla abordaremos los principales retos con los que nos encontraremos al realizar el trabajo de arquitectura de la información y las claves que debemos tener en cuenta para realizar paso a paso esta labor.
+    A la hora de crear una buena estructura para el diseño de una página web debemos tener en cuenta tanto los objetivos de negocio, las tendencias de búsqueda, el posicionamiento SEO y cómo no, quién es nuestro público objetivo. En esta charla abordaremos los principales retos con los que nos encontraremos al realizar el trabajo de arquitectura de la información y las claves que debemos tener en cuenta para realizar paso a paso esta labor.
 
     Comenzaremos por definir conceptos, describir paso a paso el proceso de trabajo y analizando por qué cada parte es importante. Revisaremos la investigación UX, el estudio de keywords, el análisis del negocio y cómo llevar a cabo una buena investigación de usuarios.
 
-    Posteriormente analizaremos casos de éxito y casos de no con tanto éxito para poder aprender sobre ellos y poder tener criterio a la hora de realizar nuestro trabajo."
+    Posteriormente analizaremos casos de éxito y casos de no con tanto éxito para poder aprender sobre ellos y poder tener criterio a la hora de realizar nuestro trabajo.
   speaker:
     - name: "María Usán Porta"
       bio: "María Usán cuenta con más de 15 años de experiencia como diseñadora gráfica y de productos digitales. Actualmente combina su actividad como diseñadora UX / UI en Sapps studio con la docente en el área de diseño gráfico, UX / UI y Marketing Online en Idecrea, escuela de diseño y creación digital."
