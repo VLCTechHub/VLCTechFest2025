@@ -1,6 +1,6 @@
-# VLCTechFest2022
+# VLCTechFest2024
 
-Website for the VLCTechFest2022 event.
+Website for the VLCTechFest2024 event.
 Created with ❤ by volunteers.
 
 ## How to use
@@ -17,7 +17,7 @@ $ bundle exec jekyll serve --watch
 If you rather use Docker, you can start a functional working environment by issuing:
 
 ```
-$ docker run -it -v $(pwd):/srv -p 4000:4000 -w /srv ruby:2.7.3 bash
+$ docker run -it -v $(pwd):/srv -p 1221:1221 -w /srv ruby:2.7.3 bash
 # bundle install
 # bundle exec jekyll serve --host 0.0.0.0 --watch
 ```
