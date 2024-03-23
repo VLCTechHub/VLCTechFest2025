@@ -26,6 +26,10 @@ $ docker run -it -v $(pwd):/srv -p 4000:4000 -w /srv ruby:2.7.3 bash
 
 Based on https://github.com/sylvaindurand/jekyll-multilingual. For more info visit  the [**Making Jekyll multilingual**](https://www.sylvaindurand.org/making-jekyll-multilingual/) article
 
+## Changing the logo
+
+The logo of the main page is embedded into the site's HTML. You can change it by editing the SVG node at `_includes/sections/main.html`
+
 ## Adding a new community
 
 When adding a new community, there are two steps that need to be done:
