@@ -1,6 +1,6 @@
-# VLCTechFest2022
+# VLCTechFest2024
 
-Website for the VLCTechFest2022 event.
+Website for the VLCTechFest2024 event.
 Created with ❤ by volunteers.
 
 ## How to use
@@ -25,6 +25,10 @@ $ docker run -it -v $(pwd):/srv -p 4000:4000 -w /srv ruby:2.7.3 bash
 ## Multilingual Jekyll
 
 Based on https://github.com/sylvaindurand/jekyll-multilingual. For more info visit  the [**Making Jekyll multilingual**](https://www.sylvaindurand.org/making-jekyll-multilingual/) article
+
+## Changing the logo
+
+The logo of the main page is embedded into the site's HTML. You can change it by editing the SVG node at `_includes/sections/main.html`
 
 ## Adding a new community
 
