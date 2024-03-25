@@ -38,10 +38,11 @@ path:
   community_images: /images/communities/
 navigation:
   - about
-  - agenda
+  - cfp
+  # - agenda
   - coc
   - faq
-  - sponsors
+  # - sponsors
 locale:
   es: es_ES
   en: en_US
