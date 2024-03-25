@@ -8,7 +8,7 @@
 # Site settings
 title: VLCTechFest 2024
 email: hola@vlctechfest.org
-baseurl: ""  # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://vlctechfest.org # the base hostname & protocol for your site
 description:
   es: 8 de junio de 2024. Evento gratuito y abierto a todo el mundo que reúne a las comunidades tecnológicas de la Comunidad Valenciana.
@@ -23,7 +23,7 @@ fest:
   youtube_url: https://www.youtube.com/channel/UCS7z_DqAOTqwANFvmKmM5ig
 hub:
   twitter_username: vlctechhub
-  github_username:  vlctechhub
+  github_username: vlctechhub
   web_url: https://vlctechhub.org/
   web_title: vlctechhub.org
   slack_url: https://slack.vlctechhub.org/
@@ -42,6 +42,7 @@ navigation:
   # - agenda
   - coc
   - faq
+  - location
   # - sponsors
 locale:
   es: es_ES

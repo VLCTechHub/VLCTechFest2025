@@ -43,6 +43,9 @@ es:
     sponsors:
       link: "#sponsors"
       label: Patrocinadores
+    location:
+      link: "#location"
+      label: Localización
   main:
     subtitle: Un evento gratuito y de acceso libre
     date: 8 Junio 2024
@@ -130,6 +133,9 @@ en:
     sponsors:
       link: "#sponsors"
       label: Sponsors
+    location:
+      link: "#location"
+      label: Location
   main:
     subtitle: Free event and free access
     date: 8 June 2024
@@ -217,6 +223,9 @@ ca:
     sponsors:
       link: "#sponsors"
       label: Patrocinadors
+    location:
+      link: "#location"
+      label: Localització
   main:
     subtitle: Un esdeveniment gratuït i d'accés lliure
     date: 8 Juny 2024
