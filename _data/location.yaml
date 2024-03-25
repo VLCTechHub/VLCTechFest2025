@@ -1,0 +1,26 @@
+es:
+  title: Localización
+  center: Centro de innovación Las Naves
+  address: Calle Joan Verdeguer, 16-24.<br>46024, Valencia
+  info_bike: Puedes llegar <strong>en bici</strong> o en alguno de los siguientes <strong>autobuses 4, 19, 30, 92</strong>.
+  info_metro: La parada de <strong>metro Maritim-Serreria (L5/6/7/8)</strong> queda a 10 minutos andando.
+  info_car: Si vas en coche no deberías tener problema en aparcar por la zona.
+  button_map: Ver mapa más grande
+
+en:
+  title: Location
+  center: Las Naves Innovation Center
+  address: Calle Joan Verdeguer, 16-24.<br>46024, Valencia
+  info_bike: You can get there <strong>by bike</strong> or by one of the following <strong>buses 4, 19, 30, 92</strong>.
+  info_metro: The Maritim-Serreria metro stop (L5/6/7/8) is a 10-minute walk away.
+  info_car: If you go by car you should have no problem parking in the area.
+  button_map: See bigger map
+
+ca:
+  title: Localització
+  center: Centre d'innovació Las Naves
+  address: Carrer Joan Verdeguer, 16-24.<br>46024, València
+  info_bike: Pots arribar <strong>amb bici</strong> oa algun dels següents <strong>autobusos 4, 19, 30, 92</strong>.
+  info_metro: La parada de <strong>metro Maritim-Serreria (L5/6/7/8)</strong> és a 10 minuts a peu.
+  info_car: Si vas amb cotxe no hauries de tenir problema a aparcar per la zona.
+  button_map: Veure mapa més gran
