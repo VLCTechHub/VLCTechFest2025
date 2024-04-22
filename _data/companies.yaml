@@ -2,11 +2,13 @@ organizers:
   - name: VLCTechHub
     image: vlctechhub_blanco.svg
     link: https://vlctechhub.org
+    size: 80%
 
 collaborators:
   - name: Las Naves
     image: lasnaves.png
     link: https://www.lasnaves.com
+    size: 100%
 
 sponsors:
   - name: New Work
