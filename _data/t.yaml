@@ -10,9 +10,9 @@ es:
     about:
       link: "#about"
       label: Qué es
-    cfp:
-      link: "#cfp"
-      label: Propuestas
+    # cfp:
+    #   link: "#cfp"
+    #   label: Propuestas
     agenda:
       link: "#sessions"
       label: Agenda
@@ -100,9 +100,9 @@ en:
     about:
       link: "#about"
       label: About
-    cfp:
-      link: "#cfp"
-      label: Proposals
+    # cfp:
+    #   link: "#cfp"
+    #   label: Proposals
     agenda:
       link: "#sessions"
       label: Schedule
@@ -190,9 +190,9 @@ ca:
     about:
       link: "#about"
       label: Què és
-    cfp:
-      link: "#cfp"
-      label: Propostes
+    # cfp:
+    #   link: "#cfp"
+    #   label: Propostes
     agenda:
       link: "#sessions"
       label: Agenda
