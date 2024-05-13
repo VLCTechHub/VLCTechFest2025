@@ -33,11 +33,14 @@
   description: |-
     En el mundo del TDD (Test Driven Development) existen dos escuelas, Outside-In e Inside-Out. En esta charla vamos a ver la diferencia entre ambas y cómo podemos usarlas para conseguir un código de mayor calidad, más robusto y otro montón de beneficios. Además aquello de “me funcionó a la primera!” se convertirá en la norma.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Daniel Ramos Acosta"
+      bio: "Hola! Soy Daniel, desarrollador principalmente enfocado en backend con Javascript. En los últimos años me he centrado en ampliar conocimiento en DDD, testing, y todo lo que le rodea. Y como ya es normal en mí cuando aprendo algo, me encantará compartirlo con todos ustedes :-)"
       photo: /images/speakers/
       links:
-        - 
+        - https://www.danielramos.me/
+        - https://twitter.com/DanielRamosAcos
+        - https://github.com/DanielRamosAcosta
+        - https://www.linkedin.com/in/danielramosacosta/
 
 - startTime: "10:00"
   endTime: "10:45"
@@ -50,11 +53,12 @@
 
     La charla también abordará los desafíos que presenta el sector tecnológico, un campo en constante cambio y evolución, y cómo superarlos.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Paola Peiró Soriano"
+      bio: "Apasionada por la búsqueda de talento en el entorno digital, actualmente formo parte del Grupo Aitana (Consultora tecnológica Partner de Microsoft y de SAGE) seleccionando perfiles IT. Fascinada por el mundo digital y la arquitectura del software, estudiando actualmente DAM y comprometida con mi desarrollo profesional y personal."
       photo: /images/speakers/
       links:
-        - 
+        - https://github.com/Pao9629
+        - https://www.linkedin.com/in/paola-p-753b271b1/
 
 - startTime: "11:00"
   endTime: "11:45"
