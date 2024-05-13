@@ -16,6 +16,9 @@ es:
     agenda:
       link: "#sessions"
       label: Agenda
+    speakers:
+      link: "#speakers"
+      label: Ponentes
     kids:
       link: "#kids"
       label: Track familiar
@@ -106,6 +109,9 @@ en:
     agenda:
       link: "#sessions"
       label: Schedule
+    speakers:
+      link: "#speakers"
+      label: Speakers
     kids:
       link: "#kids"
       label: Kids sessions
@@ -196,6 +202,9 @@ ca:
     agenda:
       link: "#sessions"
       label: Agenda
+    speakers:
+      link: "#speakers"
+      label: Ponents
     kids:
       link: "#kids"
       label: Track familiar

@@ -39,7 +39,8 @@ path:
 navigation:
   - about
   # - cfp
-  # - agenda
+  - agenda
+  - speakers
   - coc
   - faq
   - location
