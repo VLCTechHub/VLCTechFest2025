@@ -1,3 +1,4 @@
+
 - startTime: "9:30"
   endTime: "9:55"
   room: Sala Polivalente
@@ -25,7 +26,6 @@
         - https://twitter.com/DogDeveloper
         - https://www.linkedin.com/in/fjbarrena/
         - https://fjbarrena.dev
-
 - startTime: "10:00"
   endTime: "10:45"
   room: Visual Room
@@ -41,7 +41,6 @@
         - https://twitter.com/DanielRamosAcos
         - https://github.com/DanielRamosAcosta
         - https://www.linkedin.com/in/danielramosacosta/
-
 - startTime: "10:00"
   endTime: "10:45"
   room: Factoría
@@ -76,7 +75,6 @@
         - https://twitter.com/iXorx
         - https://github.com/iXorx
         - https://www.linkedin.com/in/jorditurull/
-
 - startTime: "11:00"
   endTime: "11:45"
   room: Visual Room
@@ -88,12 +86,12 @@
     
     La charla se estructura en diferentes bloques donde explica la necesidad de utilizar estos dispositivos, las posibles opciones que tenemos, como encajan las FPGA, y se presenta la solución Raspberry PI + FPGA.
   speaker:
-    - name: "Acelerando algoritmos en Raspberry Pi"
-      bio: ""
+    - name: "Pablo Trujillo"
+      bio: "Diseñador de FPGA especializado en procesado digital de señal y control. Además autor del blog controlpaths.com donde se desarrollan proyectos sobre FPGA, SOC, procesado digital de señal y aceleración hardware. He sido ponente en conferencias como DSP Online Conference o ViCon."
       photo: /images/speakers/
-      links:
-        - 
-
+      links: 
+        - https://twitter.com/controlpaths
+        - https://www.controlpaths.com/
 - startTime: "11:00"
   endTime: "11:45"
   room: Factoría
@@ -105,11 +103,13 @@
 
     Aprende conmigo que son las passkeys, como funcionan y como deshacerte de las contraseñas de una vez por todas!
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Carla Urrea Stabile "
+      bio: "Carla es Ingeniera de Software y actualmente trabaja como Sr. Developer Advocate en Auth0 by Okta. Carla tiene más de 10 años de experiencia y se especializa en desarrollo backend y diseño de sistemas, su lenguaje preferido es Ruby aunque se considera una programadora agnóstica al lenguaje. "
       photo: /images/speakers/
       links:
-        - 
+        - https://twitter.com/carlastabile
+        - https://carlastabile.tech/
+        - https://www.linkedin.com/in/carlastabile
 
 - startTime: "12:00"
   endTime: "12:30"
@@ -152,12 +152,12 @@
     
     ¡Esta charla es para elevar tu habilidad en el diseño de APIs!
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Francisco Araujo Ruiz"
+      bio: "Líder con más de 20 años de experiencia en tecnologías web. 
+      Disfruto los proyectos con metodología ágil, el trato con los clientes, construir productos escalables, robustos y de calidad. Mi pasión por la docencia me facilita transmitir conocimientos y experiencia laboral, logrando que mis equipos generen valor en un clima agradable, comprometidos y motivados, junto al desafío de crecer y ser creativos."
       photo: /images/speakers/
       links:
-        - 
-
+        - http://www.linkedin.com/in/francisco-araujo-ruiz
 - startTime: "12:30"
   endTime: "13:15"
   room: Factoría
@@ -167,11 +167,12 @@
     
     En esta charla exploraremos la alternativa al monitoring tradicional en sistemas complejos: la Observabilidad. Entenderemos cómo podemos usar OpenTelemetry para encontrar problemas que “no sabemos que no sabemos” gracias a la alta cardinalidad y dimensionalidad de los datos de telemetría. Al tratarse de un estándar de la CNCF, existen SDKs en la gran mayoría de lenguajes, no obstante, se usará ruby para demostrar con un caso el uso práctico de la Observabilidad.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Eduardo Simon Picon"
+      bio: "Mi nombre es Eduardo Simon, actualmente soy un Software Engineer en Flywire. La pasión por los videojuegos me llevó a profundizar en el campo del gamedev, la cual, poco después, evolucionó hacia el campo del desarrollo web. Me considero un desarrollador full-stack, apasionado del backend, frontend e infra. Además de la tecnología, me encanta hacer deporte y cocinar. "
       photo: /images/speakers/
       links:
-        - 
+        - https://es.linkedin.com/in/eduardo-simon
+        - https://github.com/EduardoSimon
 
 - startTime: "13:30"
   endTime: "14:15"
@@ -188,7 +189,6 @@
       links:
         - https://twitter.com/dcolli94
         - https://www.linkedin.com/in/diana-rodriguez-615781132/
-
 - startTime: "13:30"
   endTime: "14:15"
   room: Visual Room
@@ -196,12 +196,11 @@
   description: |-
     En esta charla, exploraremos la importancia de una comunicación efectiva entre los equipos de diseño, producto y desarrollo en el contexto de la creación de productos digitales. Desde mi experiencia en la industria, identificaré los desafíos comunes que enfrentan estos equipos y compartiré estrategias prácticas para superarlos y construir relaciones más sólidas y colaborativas. Aprenderemos cómo fomentar la transparencia, la comprensión mutua y la confianza, lo que conducirá a una mayor eficiencia, calidad y satisfacción del equipo en el desarrollo de productos digitales exitosos.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Irene Beitia"
+      bio: "Diseñadora de productos digitales y responsable de operaciones de diseño en @MediaMarktSaturn. Con experiencia en diversos sectores, destaca en el diseño centrado en el ser humano y la optimización de procesos que prosperan en equipos de mentalidad abierta e impulsados por las ideas."
       photo: /images/speakers/
       links:
-        - 
-
+        - https://www.linkedin.com/in/irenebeitia/
 - startTime: "13:30"
   endTime: "14:15"
   room: Factoría
@@ -209,11 +208,17 @@
   description: |-
     En esta presentación, hablaremos de una nueva funcionalidad específica en la página del evento (una de las páginas más visitadas de todo el sitio), pasando de desarrollar un MVP dentro del monolito para evaluar rápidamente el valor para los usuarios, a extraer esta funcionalidad en un nuevo microservicio alojado en una cuenta propia de AWS que mantiene el propio equipo.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Jorge Maroto"
+      bio: "Me incorporé a Ticketea unos años antes de que fuera adquirida por Eventbrite, donde actualmente trabajo como ingeniero de producto. Como miembro del equipo de Listing, soy el responsable de la página del evento y de varios de los servicios relacionados. Uno de estos servicios es el de Urgency Signals, que es del que hablaremos en la charla. Antes de trabajar en Ticketea, fundé una empresa con otros compañeros de trabajo, especializada en desarrollo móvil, donde descubrí el resto de habilidades necesarias para dirigir un negocio."
+      photo: /images/speakers/
+      links:  
+        - https://twitter.com/patoroco
+    - name: "Sergi Chisvert"
+      bio: "Como Ingeniero de Software Senior en Eventbrite y ex Eng. Manager/Backend engineer en Mercadona Tech y Cecotec, colaboro con el desarrollo de la página del evento en Eventbrite. Mi trabajo se centra en extraer la lógica de la arquitectura monolítica de Eventbrite y, como Individual Contributor, me encanta explorar nuevas metodologías, especialmente en el ámbito de DevOps."
       photo: /images/speakers/
       links:
-        - 
+        - https://twitter.com/SergiChis
+  
 
 - startTime: "14:30"
   endTime: "16:30"
@@ -226,26 +231,30 @@
   room: Sala Polivalente
   title: "El impacto del web scraping en la era digital"
   description: |-
+    Qué es el web scraping, el mundo de los datos ofuscados y qué impacto tiene todo esto en la sociedad. Cómo el web scraping a escala nos está impactando en nuestro día a día más de lo que somos conscientes.
     
+    Datos, datos y más datos, todo cambiando a un ritmo vertiginoso, cada vez más presión por proteger datos de negocio, tener que registrarte en todas las páginas. ¿Cómo compiten las empresas del siglo XXI? ¿Cuál es la importancia de esos datos? Y, como sociedad, su impacto. 
+    
+    Ética de web scraping y técnicas por ambos lados (negocio y scraper) para ofuscar y aclarar  
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Pepe Fabra Valverde"
+      bio: "Líder y Arquitecto Frontend en Capgemini. Curioso, persistente y apasionado del desarrollo del software en todas sus facetas, y busco hacer soluciones fáciles de comprender y de mantener basándome en los principios de código limpio y arquitectura limpia."
       photo: /images/speakers/
       links:
-        - 
+        - https://www.linkedin.com/in/jofaval/
+        - https://github.com/jofaval
 - startTime: "16:30"
   endTime: "17:15"
   room: Visual Room
   title: "Por qué las webs japonesas son tan diferentes?"
   description: |-
-    En esta charla exploraremos el diseño detrás de las páginas web japonesas. Descubriremos cómo la rica cultura japonesa influye en cada aspecto del diseño web, desde la elección de colores y fuentes hasta la disposición de los elementos interactivos
+    En esta charla exploraremos el diseño detrás de las páginas web japonesas. Descubriremos cómo la rica cultura japonesa influye en cada aspecto del diseño web, desde la elección de colores y fuentes hasta la disposición de los elementos interactivos.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Patricia Vazquez"
+      bio: "Valenciana de corazón, he estado trabajando durante 6 años como software and product engineer en diferentes startups, haciendo lo que me gusta, que es crear productos que impacten en la vida de las personas."
       photo: /images/speakers/
       links:
-        - 
-
+        - https://twitter.com/pavazmor
 - startTime: "16:30"
   endTime: "17:15"
   room: Factoría
@@ -257,11 +266,12 @@
 
     Con toda esa información a mano, junto con la ayuda de nuestra experiencia como equipo de pruebas, se desarrollarán algunas mitigaciones para fomentar el uso de análisis de código estático para identificar vulnerabilidades, localizar ciertos conjuntos de datos para obligar a casos de uso críticos, etc. . . Dicho de otra manera, encabezar la estrategia y la cultura de ciberseguridad dentro de nuestro equipo de desarrollo software.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Sara Martínez Giner"
+      bio: "Soy Sara y desde hace 10 años me dedico al análisis y pruebas de calidad. Gracias ello, he estado involucrada en proyectos de Telecomunicaciones, Geolocalización, Big Data y Electrónica de Potencia. Actualmente trabajo para la unidad de Ciberseguridad de Telefónica Tech, dónde esa calidad está enfocada tanto a los productos como a la seguridad informática de los mismos."
       photo: /images/speakers/
       links:
-        - 
+        - https://es.linkedin.com/in/saramartinezginer
+        - https://twitter.com/_TicTacS
 
 - startTime: "17:30"
   endTime: "18:15"
@@ -274,11 +284,16 @@
      
     Para aquellos sin experiencia, será una introducción invaluable a la usabilidad, y para aquellos con experiencia, ¡será un recordatorio refrescante de los principios esenciales! No te pierdas esta oportunidad de mejorar tus habilidades y llevar tus proyectos al siguiente nivel. ¡descubre cómo crear productos digitales que cautiven a tus usuarios!
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Marcela Luz de Brito "
+      bio: "Marcela Luz es UX/UI Head  en GFT, lleva más de 15 años creando estrategias digitales para grandes empresas del sector de Banca y Seguros"
       photo: /images/speakers/
       links:
-        - 
+        -https://www.linkedin.com/in/marcela-luz
+    - name: "José Gonzalez Gonzalez"
+      bio: "José Miguel es UX Lead en Grupo GFT especialista en design Thinking, service design e investigación con usuarios."
+      photo: /images/speakers/
+      links:
+        -
 - startTime: "17:30"
   endTime: "18:15"
   room: Visual Room
@@ -290,12 +305,13 @@
 
     En esta charla intentaré arrojar un poco de luz sobre el desconocimiento general que rodea este tipo de perfiles.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Anastasia Kondratieva"
+      bio: "SRE, AWS Community Builder y User Group Sevilla Leader. Profesora. Ponente y mentora. Defensora del software libre y del conocimiento libre. Trabajo en Crocs."
       photo: /images/speakers/
       links:
-        - 
-
+        - http://www.anastasiakondratieva.com
+        - https://www.linkedin.com/in/anastasiakondratieva/
+        - https://twitter.com/AnastasiaKnt
 - startTime: "17:30"
   endTime: "18:15"
   room: Factoría
@@ -303,8 +319,16 @@
   description: |-
     Cómo afrontar un refactor en el core de tu aplicación con cambios paralelos y sin (casi) morir en el intento, sin downtime en un sistema que da servicio a todos los supermercados de Mercadona.
   speaker:
-    - name: ""
-      bio: ""
+    - name: "Felipe Álvarez Martín"
+      bio: "Backend Engineers en Mercadona Tech. Amantes del software, clean code, patrones de diseño y buenas prácticas."
       photo: /images/speakers/
       links:
-        - 
+        - https://es.linkedin.com/in/felipe%C3%A1lvarez
+        - https://medium.com/@falvarezm97
+    - name: "Alberto Rausell Manchón"
+      bio: "Backend Engineers en Mercadona Tech. Amantes del software, clean code, patrones de diseño y buenas prácticas."
+      photo: /images/speakers/
+      links:
+        - https://es.linkedin.com/in/alberto-rausell-manch%C3%B3n-75838115a
+    
+    
