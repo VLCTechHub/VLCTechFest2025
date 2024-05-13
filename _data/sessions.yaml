@@ -7,90 +7,105 @@
 - startTime: "10:00"
   endTime: "10:45"
   room: Sala Polivalente
-  title: "Análisis y visualización la erupción del Cumbre Vieja"
+  title: "¡Cookiegeddon! Bye a las cookies de terceros y cómo afectará a tu software"
   description: |-
-    En Septiembre de 2021 la actividad seísmica en la isla de la Palma sufrió un pico que vaticinó el inicio de un episodio volcánico que cambió la isla dramáticamente. Miles de personas fueron desplazadas e innumerables infraestructuras fueron destruidas o afectadas. Desde el primer momento diferentes organismos públicos publicaron los datos que se capturaban para entender el avance de las coladas de lava, así como la actividad sísmica.
+    Google Chrome ya ha empezado a bloquear las 3rd Party Cookies. A partir del Q1 de 2024, el 1% de todos los Chromes del mundo empezarán a bloquear cookies de terceros, y progresivamente se extenderá a toda la fucking internet.
 
-    En esta charla se mostrará cómo se automatizó el proceso para cargar en Elasticsearch (una base de datos NoSQL) tanto la actividad sísmica como la extensión de las coladas y las construcciones afectadas utilizando el SDK de Elasticsearch para Python y Github Actions. Finalmente se mostrará cómo se puede utilizar Kibana para visualizar toda esta información, incluyendo visualizaciones geográficas y animaciones.
+    “¡Ya era hora de que bloquearan eso!” “¡Eso eso! Que les den a todos los que trackean tu actividad!”
+
+    Pero queridos, las cookies de terceros no solo se usan para el mal. Hay muchísimas aplicaciones, desde SSO, CDN load balancing, headless CMS, 3rd party API calls, chats embebidos, que las utilizan. Si tu aplicación tiene un iframe embebido, casi 100% que esto va te va a afectar. Si tienes una aproximación de microfrontends, oh amigo, si que te va a afectar de verdad. De hecho, hay incluso protocolos de interoperabilidad que funcionan con 3rd party cookies (CMS, LMS, etc.).
+
+    El impacto es potencialmente grande. En esta charla hablaremos de qué son exactamente las 3rd party cookies, y por qué quieren cargárselas. Y por supuesto, veremos qué alternativas tenemos.
   speaker:
-    - name: "Jorge Sanz"
-      bio: "Geoinquieto e Ingeniero en Cartografía y Geodesia por la UPV. Desarrollo mi actividad profesional en el ámbito de los Sistemas de Información Geográfica y los datos geoespaciales desde hace más de 15 años. Actualmente trabajo en el equipo de Kibana en Elastic."
-      photo: /images/speakers/jorge_sanz_400x400.jpg
+    - name: "Francisco Javier Barrena"
+      bio: "Software architect and developer specialized in scalable systems based on decoupled architectures, microservices and cloud environments."
+      photo: /images/speakers/
       links:
-        - https://github.com/jsanz
-        - https://twitter.com/xurxosanz
-        - https://linkedin.com/in/jsanz
+        - https://github.com/fjbarrena
+        - https://twitter.com/DogDeveloper
+        - https://www.linkedin.com/in/fjbarrena/
+        - https://fjbarrena.dev
 
 - startTime: "10:00"
   endTime: "10:45"
   room: Visual Room
-  title: "El impacto de una buena arquitectura para realizar pruebas en producción."
+  title: "Desarrollo determinista con Outside-in TDD"
   description: |-
-    En esta charla, exploraremos el \"eterno problema\" de las pruebas en producción. No sólo qué probar y qué no, sino también qué hacer y pensar antes de probar en producción.
-
-    Todos hemos tenido la experiencia de lanzarnos a automatizar todo lo que podíamos, sin suficiente estrategia ni previsión. Luego hemos tenido que tirar el trabajo a la basura y dedicar mucho tiempo a refactorizar para acabar pasando más horas solucionando problemas que automatizando.
-
-    La sesión explorará la persistencia de datos, la historia, la construcción y el diseño de una API, y las pruebas en todos los navegadores y dispositivos posibles. Los asistentes aprenderán en qué hay que pensar antes de automatizar cualquier proceso, ahorrando tiempo y evitando problemas en el futuro.
-
-    Veremos cómo mostrar toda esta información unificada en un único lugar para tener un control absoluto de qué ocurre a tiempo real en nuestros proyectos.
+    En el mundo del TDD (Test Driven Development) existen dos escuelas, Outside-In e Inside-Out. En esta charla vamos a ver la diferencia entre ambas y cómo podemos usarlas para conseguir un código de mayor calidad, más robusto y otro montón de beneficios. Además aquello de “me funcionó a la primera!” se convertirá en la norma.
   speaker:
-    - name: "Jesús Sánchez"
-      bio: "Viajero incansable viviendo actualmente en República Checa. Ingeniero técnico con máster en Machine Learning por la UPV. Apasionado del deporte y ponente ocasional. Actualmente QA Manager en Onestic y fundador de McClane y QA Minds Europe. Automatizo todo lo que me dejan. Obseso del dato y la información."
-      photo: /images/speakers/jesus_sanchez_400x400.jpg
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://twitter.com/qa_jesus
-        - https://www.linkedin.com/in/jesus-sanchez-martinez-89a62953
+        - 
 
-    - name: "Pepe Monleón"
-      bio: "Estudié para ser desarrollador de aplicaciones móviles, pero el destino me ha llevado a compartir equipo con un grupo de personas increíbles donde desarrollamos un software propio llamado McClane. En nuestro \"barco\", me muevo por la bodega de carga con Selenium, uso Django como vela y K8s como timón. Primera experiencia como ponente. Con nervios, pero muy contento de poder aportar a la comunidad."
-      photo: /images/speakers/pepemonleon_400x400.png
+- startTime: "10:00"
+  endTime: "10:45"
+  room: Factoría
+  title: "Descubriendo talento tecnológico: Una perspectiva de reclutamiento"
+  description: |-
+    Es una charla que ofrece una visión detallada del mundo del reclutamiento en el sector Tech. Compartiré mi experiencia y conocimientos sobre cómo afrontar los procesos de selección en este campo tan competitivo.
+
+    Hablaré sobre las tendencias actuales en reclutamiento, proporcionando una visión actualizada del panorama de contratación en tecnología. Además, se ofrecerán consejos prácticos y mejoras para optimizar los procesos de selección desde el lado de los candidatos/as que buscan su primer contacto laboral en este sector o un nuevo proyecto dentro del mismo. 
+
+    La charla también abordará los desafíos que presenta el sector tecnológico, un campo en constante cambio y evolución, y cómo superarlos.
+  speaker:
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://twitter.com/pepemonleon
-        - https://www.linkedin.com/in/pepemonleon/
+        - 
 
 - startTime: "11:00"
   endTime: "11:45"
   room: Sala Polivalente
-  title: "Construyendo ordenadores con GNU/Linux y contribuyendo con la comunidad"
+  title: "Mundo unicornio 🦄 testing + accesibilidad"
   description: |-
-    Cómo hacemos lo que hacemos desde Valencia, qué caminos y entresijos hemos tenido que cruzar, y hasta donde hemos llegado.
+    Cada año WebAim estudia el estado global de la accesibilidad analizando el top 1 millón de homepages (https://webaim.org/projects/million/). En el análisis del último año (Febrero 2024) se detectaron cerca de 50 millones de errores diferentes con una media de 50 errores por site. Lo mas curioso es que el 96% de los errores se pueden agrupar en 6 categorías y éstas han sido las mismas durante 6 años.
 
-    Sin dejar de contar nuestros inicios, sin apoyo por parte de Canonical, hasta nuestra ascensión años después, colaborando con KDE e intentándolo con GNOME.
-
-    Cuales son nuestras formulas, y porqué creamos en 2018 Linux Center Valencia.
-
-    Hablando también de algunos fabricantes y de nuestra facturación anual."
+    En este charla vamos a unir dos grandes unicornios de nuestra industria: los tests y la accesibilidad y veremos cuáles son y que podemos hacer para evitar repetir siempre los mismos errores en nuestras aplicaciones, protegiéndonos con el uso de unit test con react-testing-library. Como base, usaremos una aplicación hecha en React para ver tambien las herramientas que nos ofrece el navegador para detectar estos fallos.
   speaker:
-    - name: "Alejandro López"
-      bio: "Fundador de SLIMBOOK, Alejandro López es un apasionado del hardware y de GNU/Linux, pro ello en 2015 inició la venta de hardware premium con el sistema operativo del pingúino."
-      photo: /images/speakers/Alejandro_Lopez_400x400.jpg
+    - name: "Jordi Turull"
+      bio: "Con casi 15 años de experiencia en el sector desempeñando el rol de Frontend. En la actualidad, es Frontend Lead, al mismo tiempo que administra su proyecto personal, Happergy.es. Sus pasiones son el diseño, la fotografía y el deporte y desde hace 3 años: el mundo de la accesibilidad web. Desde entonces, se ha dedicado a ser un Defensor de la Accesibilidad, difundiendo y concienciando sobre este tema tan importante, dentro y fuera de la empresa."
+      photo: /images/speakers/
       links:
-        - https://twitter.com/alejandroxyz123
-        - https://github.com/slimbook
-        - https://www.linkedin.com/in/alejandro-l%C3%B3pez-101/
+        - https://twitter.com/iXorx
+        - https://github.com/iXorx
+        - https://www.linkedin.com/in/jorditurull/
 
 - startTime: "11:00"
   endTime: "11:45"
   room: Visual Room
-  title: "Metaverso, el futuro está más cerca de lo que crees. "
+  title: "Acelerando algoritmos en Raspberry Pi"
   description: |-
-    Hace menos de un año el director general de Facebook, Mark Zuckerberg, anunciaba que cambiaba el nombre de su compañía a Meta, modificando el rumbo de su empresa y apostando por el futuro. Este acontecimiento revolucionó el mundo de la tecnología e hizo que muchas otras empresas se fijaran en este nuevo mundo virtual al que los usuarios podrán acceder mediante dispositivos de realidad virtual y aumentada.
-
-    Siempre que hablamos del Metaverso, pensamos en algo muy lejano, pero se está invirtiendo mucho dinero y tiempo en él y eso hace que las cosas vayan mucho más rápidas de lo que pensamos. En nuestra conferencia, además de explicarte en que consiste este nuevo mundo, queremos enseñarte los diferentes metaversos existentes y todo lo que se mueve en ellos: conciertos, entrevistas de trabajos, compra de propiedades, tiendas de ropa… Hay muchas cosas que ya están pasando en el metaverso y que en un futuro no muy lejano formarán parte de nuestro día a día.
-
-    El futuro está a la vuelta de la esquina, Are you ready for the Metaverso?
+    Son tiempos de inteligencia artificial (AI), en los que utilizamos grandes conjuntos de procesadores para entrenar las redes neuronales. Por otra parte, en el mercado, los ordenadores de tarjeta única (SBC) están cada vez más de moda. Estos, debido a su bajo coste tienen capacidades limitadas, entonces, ¿Dónde se unen los SBC con la AI?, en las FPGA.
+    
+    En esta charla se presenta una solución de SBC + FPGA de bajo coste con la que es posible ejecutar algoritmos recursivos como el cálculo de hash de manera eficiente. El SBC es la Raspberry Pi 5, que gracias a su interfaz PCIe x1 nos permite conectar una tarjeta aceleradora con una FPGA de AMD.
+    
+    La charla se estructura en diferentes bloques donde explica la necesidad de utilizar estos dispositivos, las posibles opciones que tenemos, como encajan las FPGA, y se presenta la solución Raspberry PI + FPGA.
   speaker:
-    - name: "Cristina Pastor Carbonell"
-      bio: "Gran apasionada de la tecnología desde pequeña, estudié ingeniera informática en la UPV y desde que me licencié he trabajado en diversos ámbitos de programación y consultoría, sobre todo para banca y empresas. "
-      photo: '/images/speakers/Cristina_Pastpr400.jpg'
+    - name: "Acelerando algoritmos en Raspberry Pi"
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://www.linkedin.com/in/cristina-pastor-carbonell-01264029
+        - 
 
-    - name: "Tamara Arnedo García"
-      bio: "Analista Mainframe con amplia experiencia en el sector bancario.  Acostumbrada a trabajar en equipos distribuidos, multiculturales e internacionales realizando diferentes tareas. Soy creativa y me gustan los retos."
-      photo: '/images/speakers/Tamara_Arnedo400.jpg'
+- startTime: "11:00"
+  endTime: "11:45"
+  room: Factoría
+  title: "Se vienen cositas: adiós a las contraseñas, hola a las passkeys!"
+  description: |-
+    Imagina que vives en un mundo donde no tienes que usar contraseñas. Seamos sinceras, las contraseñas son lo peor y tener que implementar sistemas de autenticación que manejan contraseñas, son seguros y resistentes al phishing es complicado.  
+
+    Hoy en día puedes implementar tu propio sistema de autenticación totalmente passwordless, pero si quieres llevarlo un paso más allá, vengo a hablarte de las passkeys, también llamadas ""las sucesoras de las contraseñas"" 
+
+    Aprende conmigo que son las passkeys, como funcionan y como deshacerte de las contraseñas de una vez por todas!
+  speaker:
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://www.linkedin.com/in/tamara-arnedo-99059b39/
+        - 
 
 - startTime: "12:00"
   endTime: "12:30"
@@ -101,66 +116,100 @@
 - startTime: "12:30"
   endTime: "13:15"
   room: Sala Polivalente
-  title: "Inteligencia artificial y propiedad intelectual"
+  title: "Cultivando el talento y la diversidad en equipos de ingeniería"
   description: |-
-    Vivimos un momento de apogeo en EL SUEÑO, ese que nos acompaña desde tiempos inmemoriales: crear una inteligencia parecida a la nuestra, una inteligencia artificial, mucho han evolucionado las escuelas simbolistas y conectivistas y parece que, por fin, empezamos a rozar con los dedos ese sueño, ingenios, dibujos, creaciones, todo eso y más pueden desarrollar las inteligencias artificiales actuales.
+    En esta charla presentamos una iniciativa diseñada para mejorar la capacidad y diversidad de los equipos de ingeniería, fomentando el talento y la inclusión. La realidad es que contratar ingenieros e ingenieras con experiencia profesional es un reto, y cuando se encuentran la mayoría cuentan con un historial similar, con lo que cada nuevo miembro potencialmente reduce la diversidad del equipo.
 
-    Pero (siempre tiene que haber un pero), la legalidad apareció y debemos preguntarnos ¿Qué pasará con las creaciones de las inteligencias artificiales? ¿Pueden ser autoras? ¿a quién pertenecen las creaciones? ¿Puedo usar estas obras para entrenar a mi inteligenica artificial? ¿tengo que pedir permiso?
+    Desde el equipo de ingeniería de Qatium se puso en marcha una iniciativa con el objetivo de abordar este problema y ofrecer oportunidades a personas con un background único, pero poca experiencia programando. Un programa de capacitación e inmersión en las prácticas del equipo que promueve el aprendizaje de las habilidades básicas para contribuir al equipo.
+
+    Compartiremos las lecciones aprendidas desde el punto de vista de la organización y también de los participantes. Esto puede servir como ejemplo para que otras organizaciones puedan incrementar la diversidad de habilidades, personas e incentivar el talento y  la innovación. La charla será la mitad en castellano y la mitad en inglés.
   speaker:
-    - name: "Marelisa Blanco"
-      bio: "Abogada especializada en propiedad intelectual y dibujante. Se licenció a través de la Universitat de Valencia y desde 2017 explica el derecho con dibujos, creando cómics jurídicos, infografías y contratos diseñados. Desde 2020 es la capitana de Akme, una consultora visual de derecho especializada en el derecho del entretenimiento y la cultura pop, con especialidad en ilustración, comics, animación y videojuegos. También es profesora de inteligencia artificial, derecho de internet, e-commerce, producción de animación, efectos especiales y videojuegos así como en fotografía. Su punto fuerte es hacer sencillo lo complejo para ello une sus dos pasiones: el derecho y el dibujo."
-      photo: /images/speakers/marelisablanco_400x400.jpg
+    - name: "Natalie Grefenstette"
+      bio: "Data scientist at Qatium working on bringing innovative solutions to the product by leveraging machine learning techniques. As a trained chemist, Natalie recently transitioned from scientific research into tech, where she is striving to make an impact in the climate tech space."
+      photo: /images/speakers/
       links:
-        - https://twitter.com/marelisablanco
-        - https://www.linkedin.com/in/marelisablanco
+        - http://linkedin.com/in/nataliegref
 
+    - name: "Miguel Angel Fernandez"
+      bio: "Miembro del equipo de Qatium, como parte de la organización plana mezcla roles de ingeniería y gestión. Involucrado en reclutamiento, coaching y crecimiento sano del equipo, y además como programador senior ayudando en la definición de la visión técnica y en el desarrollo diariamente."
+      photo: /images/speakers/
+      links:
+        - https://www.linkedin.com/in/miguelangelfernandezpaco/
 - startTime: "12:30"
   endTime: "13:15"
   room: Visual Room
-  title: "Mejora tu calidad de código en JavaScript con la programación funcional"
+  title: "El arte de diseñar APIs"
   description: |-
-    La programación funcional es otro enfoque a la hora de resolver la complejidad de un sistema. No podemos vivir siempre en burbuja de herramientas o paradigmas (como el orientado a objetos). Abrir la mente a otras soluciones te hará mejor profesional y aumentará tus habilidades técnicas. Repasemos juntos los principios, las ventajas y desventajas de la programación funcional, que es la expresión Lambda, inmutabilidad, manipulación de listas, limitaciones de JavaScript, librerías y libros para dar los primeros pasos.
+    Hoy en día el diseño de API es un arte fundamental en el desarrollo de software. 
+
+    En esta charla, exploraremos los principios básicos que todo desarrollador debe dominar para construir APIs eficientes y escalables. Desde la comprensión de RESTful hasta la aplicación de patrones de diseño y prácticas recomendadas.
+
+    Con 20 años de experiencia como Programador y Project Manager en IT, mostraré algunos insights y ejemplos con Python y FastAPI maravilloso framework con documentación automática.
+    
+    ¡Esta charla es para elevar tu habilidad en el diseño de APIs!
   speaker:
-    - name: "Andros Fenollosa Hurtado"
-      bio: "Ejercer el rol de CTO en un estudio de desarrollo de software y a la docencia en tecnologías Web con más de década de experiencia. Además, es escritor (un libro publicado y otro en camino), bloguero, enamorado de la programación funcional y donante de código en diversos proyectos Opensource relacionados con Python y Clojure."
-      photo: /images/speakers/androsfenollosa_400x400.jpg
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://twitter.com/androsfenollosa
-        - https://github.com/tanrax
+        - 
+
+- startTime: "12:30"
+  endTime: "13:15"
+  room: Factoría
+  title: "Bye Monitoring, Hello Observability"
+  description: |-
+    3 de la mañana, suena el oncall. La plataforma de pagos no funciona. Entras en los dashboards y está todo en verde: no tienes ni la menor idea del fallo, mucho menos de la causa del mismo. El monitoring tradicional nos falló en esa situación. Tal vez haya una manera mejor de hacer las cosas…
+    
+    En esta charla exploraremos la alternativa al monitoring tradicional en sistemas complejos: la Observabilidad. Entenderemos cómo podemos usar OpenTelemetry para encontrar problemas que “no sabemos que no sabemos” gracias a la alta cardinalidad y dimensionalidad de los datos de telemetría. Al tratarse de un estándar de la CNCF, existen SDKs en la gran mayoría de lenguajes, no obstante, se usará ruby para demostrar con un caso el uso práctico de la Observabilidad.
+  speaker:
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
+      links:
+        - 
 
 - startTime: "13:30"
   endTime: "14:15"
   room: Sala Polivalente
-  title: "Arquitectura de alto rendimiento orientada a eventos con Go y Kafka"
+  title: "Web Accessibility Wonderland: Dive into the Why and How!"
   description: |-
-    Cuando se quiere llegar a un cierto nivel de rendimiento y paralelismo, se imponen las arquitecturas orientadas a eventos por encima de las APIs síncronas. En esta charla diseñaré y construiré una arquitectura de alto rendimiento utilizando Go y Kafka, mostrando cómo exprimir productores y consumidores para maximizar la eficiencia del sistema.
+    In today's digital age, web accessibility isn't just a nice-to-have feature; it's a necessity for inclusivity. As the internet becomes increasingly integral to everyday life, barriers to access can leave millions of individuals behind.
+    
+    Let's discuss the importance of accessibility on the web, why you need to be updated with the latest trends and how you can apply it in your projects.
   speaker:
-    - name: "David Torres Garrigós"
-      bio: "Team lead y Senior Backend Engineer en The Hotels Network. Me gusta pensar y desarrollar nuevas ideas. Ingeniero Informático entusiasmado con todo aquello relacionado con arquitecturas y desarrollo backend, en especial en Go, mi lenguaje favorito y que es sin duda uno de los lenguajes top del presente y del futuro."
-      photo: /images/speakers/datoga_400x400.jpg
+    - name: "Diana Rodriguez"
+      bio: "Software engineer currently working in the QA world. Thrilled with projects related to Data Science and SRE. Currently discovering, learning and hopefully teaching about accessibility in the web."
+      photo: /images/speakers/
       links:
-        - https://twitter.com/datoga
-        - https://github.com/datoga
-        - https://www.linkedin.com/in/datoga/
+        - https://twitter.com/dcolli94
+        - https://www.linkedin.com/in/diana-rodriguez-615781132/
 
 - startTime: "13:30"
   endTime: "14:15"
   room: Visual Room
-  title: "Mejorando la accesibilidad web con TDD"
+  title: "Pros y Cons del trío de producto"
   description: |-
-    La accesibilidad sigue siendo una gran desconocida dentro del mundo del desarrollo web. Al no saber construir “rampas” en nuestras aplicaciones web para los/as usuarias con necesidades especiales, dificultamos cada día su acceso y, por tanto, les invisibilizamos.
-
-    Mejorar la accesibilidad en los proyectos en los que trabajamos es un deber social; nuestro trabajo no está hecho si no es accesible para todas las personas.
-
-    El objetivo de esta charla es mostrar cómo integramos la accesibilidad web, de manera práctica, en nuestro trabajo diario. Desde que tenemos presente la accesibilidad en todo lo que hacemos, hemos comprobado que no solo mejoramos nuestras webs, sino que también nos ayuda, entre otras cosas, a definir tests mucho más claros y semánticos, y a empatizar de una manera más amplia con todas las necesidades de los usuarios.
+    En esta charla, exploraremos la importancia de una comunicación efectiva entre los equipos de diseño, producto y desarrollo en el contexto de la creación de productos digitales. Desde mi experiencia en la industria, identificaré los desafíos comunes que enfrentan estos equipos y compartiré estrategias prácticas para superarlos y construir relaciones más sólidas y colaborativas. Aprenderemos cómo fomentar la transparencia, la comprensión mutua y la confianza, lo que conducirá a una mayor eficiencia, calidad y satisfacción del equipo en el desarrollo de productos digitales exitosos.
   speaker:
-    - name: "Juan Diego Martín-Blas Ramos"
-      bio: "Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a estudiar programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y aprender algo nuevo cada día. Actualmente trabajo vendiendo lechugas online en MercadonaTech como Frontend Developer."
-      photo: /images/speakers/rJqwRcWu_400x400.jpg
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://twitter.com/JuanDiegoMbr
-        - https://github.com/juandiegombr
-        - https://www.linkedin.com/in/juandiego-martin/
+        - 
+
+- startTime: "13:30"
+  endTime: "14:15"
+  room: Factoría
+  title: "From monolith to serverless: Navigating a — not always smooth — journey at Eventbrite"
+  description: |-
+    En esta presentación, hablaremos de una nueva funcionalidad específica en la página del evento (una de las páginas más visitadas de todo el sitio), pasando de desarrollar un MVP dentro del monolito para evaluar rápidamente el valor para los usuarios, a extraer esta funcionalidad en un nuevo microservicio alojado en una cuenta propia de AWS que mantiene el propio equipo.
+  speaker:
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
+      links:
+        - 
 
 - startTime: "14:30"
   endTime: "16:30"
@@ -171,84 +220,87 @@
 - startTime: "16:30"
   endTime: "17:15"
   room: Sala Polivalente
-  title: "Taxonomía y arquitectura de la información orientada a negocio"
+  title: "El impacto del web scraping en la era digital"
   description: |-
-    A la hora de crear una buena estructura para el diseño de una página web debemos tener en cuenta tanto los objetivos de negocio, las tendencias de búsqueda, el posicionamiento SEO y cómo no, quién es nuestro público objetivo. En esta charla abordaremos los principales retos con los que nos encontraremos al realizar el trabajo de arquitectura de la información y las claves que debemos tener en cuenta para realizar paso a paso esta labor.
-
-    Comenzaremos por definir conceptos, describir paso a paso el proceso de trabajo y analizando por qué cada parte es importante. Revisaremos la investigación UX, el estudio de keywords, el análisis del negocio y cómo llevar a cabo una buena investigación de usuarios.
-
-    Posteriormente analizaremos casos de éxito y casos de no con tanto éxito para poder aprender sobre ellos y poder tener criterio a la hora de realizar nuestro trabajo.
+    
   speaker:
-    - name: "María Usán Porta"
-      bio: "María Usán cuenta con más de 15 años de experiencia como diseñadora gráfica y de productos digitales. Actualmente combina su actividad como diseñadora UX / UI en Sapps studio con la docente en el área de diseño gráfico, UX / UI y Marketing Online en Idecrea, escuela de diseño y creación digital."
-      photo: /images/speakers/maria_usan_400x400.jpg
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://twitter.com/maria_usan
-        - https://www.linkedin.com/in/mar%C3%ADa-us%C3%A1n-porta-0876b156/
-
+        - 
 - startTime: "16:30"
   endTime: "17:15"
   room: Visual Room
-  title: "A women in test "
+  title: "Por qué las webs japonesas son tan diferentes?"
   description: |-
-    En la charla abordaré inicialmente cuál ha sido mi experiencia hasta llegar a ser QA, ya que a día de hoy sigue siendo un gran desconocido y puede llegar a ser una profesión apasionante.
-
-    Veremos que puede aportar un QA a un equipo de desarrollo y que tipo de técnicas tecnologías y herramientas se hacen uso en el día a día.
-
-    También se hará un pequeño ejemplo para poner al público en la mente de un tester.
+    En esta charla exploraremos el diseño detrás de las páginas web japonesas. Descubriremos cómo la rica cultura japonesa influye en cada aspecto del diseño web, desde la elección de colores y fuentes hasta la disposición de los elementos interactivos
   speaker:
-    - name: "Sara Martínez Giner"
-      bio: "Soy Sara y desde hace 8 años me dedico al análisis y pruebas de calidad. Gracias ello, he estado involucrada en proyectos de Telecomunicaciones, Geolocalización, Big Data y Electrónica de Potencia. Actualmente trabajo para la unidad de Ciberseguridad de Telefónica, dónde esa calidad está enfocada tanto a los productos como a la seguridad informática de los mismos."
-      photo: /images/speakers/sara_martinez_400x400.jpg
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://twitter.com/_TicTacS
-        - https://www.linkedin.com/in/saramartinezginer/
+        - 
+
+- startTime: "16:30"
+  endTime: "17:15"
+  room: Factoría
+  title: "Estrategias de Ciberseguridad para Analistas de Calidad Software"
+  description: |-
+    Es una realidad que los ciberataques están aumentando enormemente en la actualidad. Por tanto, ¿cómo podemos contribuir los analistas de calidad software en este entorno de ciberseguridad? ¿Es posible prevenir determinadas situaciones cruciales sin ser especialistas en ciberseguridad?
+
+    En esta sesión se analizaran las principales situaciones que pueden poner en peligro nuestro software. Para ello, será fundamental comprender los principales riesgos y vulnerabilidades a los que estarán expuestos nuestros productos a lo largo de su vida útil. Es en este punto dónde, como analistas de calidad, tenemos algo que aportar.
+
+    Con toda esa información a mano, junto con la ayuda de nuestra experiencia como equipo de pruebas, se desarrollarán algunas mitigaciones para fomentar el uso de análisis de código estático para identificar vulnerabilidades, localizar ciertos conjuntos de datos para obligar a casos de uso críticos, etc. . . Dicho de otra manera, encabezar la estrategia y la cultura de ciberseguridad dentro de nuestro equipo de desarrollo software.
+  speaker:
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
+      links:
+        - 
 
 - startTime: "17:30"
   endTime: "18:15"
   room: Sala Polivalente
-  title: "Mesa redonda: Futuro y presente del trabajo de programación informática"
+  title: "¡No me hagas pensar! - Las bases de la usabilidad"
   description: |-
-    Mesa redonda en la que tres programadoras con diversas especializaciones y tiempo en la industria compartiremos nuestra experiencia entorno a las siguientes preguntas:
+    En esta charla exploraremos los 10 fundamentos esenciales de la usabilidad, diseño de interacción y experiencia de usuario  para entender como se hacen  productos digitales  intuitivos y eficientes!
 
-    ¿Por qué estudiar programación?
-
-    ¿Por dónde empiezo?
-
-    ¿Cómo encuentro trabajo?
-
-    ¿Cómo será mi trabajo?
-
-    ¿Cómo será mi evolución laboral?
+    ¿Qué podemos hacer para garantizar que una persona no tenga que esforzarse demasiado al navegar por una aplicación o página web?Acompáñanos mientras desentrañamos los secretos detrás de una experiencia del usuario excepcional y descubre cómo puedes aplicar estos conocimientos en proyectos técnicos. ¡No importa tu área de especialización, esta charla es para ti!   
+     
+    Para aquellos sin experiencia, será una introducción invaluable a la usabilidad, y para aquellos con experiencia, ¡será un recordatorio refrescante de los principios esenciales! No te pierdas esta oportunidad de mejorar tus habilidades y llevar tus proyectos al siguiente nivel. ¡descubre cómo crear productos digitales que cautiven a tus usuarios!
   speaker:
-    - name: "Alba Marrades"
-      bio: "Alba Marrades es programadora junior. Ha cursado el ciclo de FP DAW en modalidades semipresencial y presencial. Durante sus prácticas ha estado en un proyecto vehicular a cargo de Xavi Gost, donde ha aprendido testing, prácticas ágiles como pair programming y a priorizar un código más legible a nivel humano. Actualmente, tras completar las prácticas, se encuentra trabajando en Belike Software."
-      photo: /images/speakers/alba_400x400.jpg
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://www.linkedin.com/in/alba-marrades-7a1aa5240/
-    - name: "Bea Couchoud"
-      bio: "Bea Couchoud es programadora Junior. Empezó a programar de forma autodidacta en 2018, estudió DAW y DAM y acaba de finalizar un bootcamp de React. Actualmente trabaja como fullstack developer en una fintech."
-      photo: /images/speakers/bea_400x400.jpg
-      links:
-        - https://www.linkedin.com/in/bea-couchoud/
-    - name: "Meritxell Calvo"
-      bio: "Meritxell Calvo es programadora Senior especializada en Ruby y experta en Extreme Programming. Tras cursar DAI en 2008 y ASIR en 2010, ha trabajado como programadora en diversas empresas, consultoras, fintech, startups y scaleups locales y extranjeras."
-      photo: /images/speakers/nyan_dev_400x400.jpg
-      links:
-        - https://twitter.com/nyan_dev
-        - https://nyandevorg.wordpress.com/
-
+        - 
 - startTime: "17:30"
   endTime: "18:15"
   room: Visual Room
-  title: "Cómo los devs pueden contribuir a crear aplicaciones seguras"
+  title: "Sysadmin, DevOps, SRE y cien nombres más : qué narices hacemos la gente de infra"
   description: |-
-    A medida que aumenta la adopción en el uso de contenedores y Kubernetes en producción, la seguridad comienza a ser una preocupación fundamental. Pero...¿Por dónde empezar?
-    En esta charla queremos dar una visión general sobre los distintos controles de seguridad que se pueden aplicar durante el ciclo de vida de la aplicación, en pre-deployement, así como en runtime, lo que nos permitirá trabajar de forma proactiva, en vez de reactiva y ser más eficientes.
-    Hablaremos de cómo reforzar el uso de buenas prácticas entre los desarrolladores, asegurarnos de que nuestros contenedores no tienen vulnerabilidades en pre-producción, de los beneficios de integrar las herramientas que usan los developer para que fluya la información y por supuesto, cómo mantener nuestros workloads actualizados con los últimos CVEs descubiertos es clave para mantener un entorno productivo seguro
+    En los últimos diez años, los perfiles de infraestructura han evolucionado de una forma espectacular. Hemos pasado de tener Sysadmins (y saber más o menos lo que estaban haciendo) a tener SREs, DevOps, Platform Engineers y un largo etc.
+
+    Cómo han cambiado estos perfiles? Qué buscan las empresas ahora? Qué hemos ganado como profesionales en esta evolución? Por qué deberías plantearte seriamente dedicarte a esto? 
+
+    En esta charla intentaré arrojar un poco de luz sobre el desconocimiento general que rodea este tipo de perfiles.
   speaker:
-    - name: "Alba Ferri"
-      bio: "Ingeniero técnico de telecomunicaciones, ahora trabajando en ciberseguridad de contenedores, Kubernetes y la nube. Mi carrera profesional es un tanto ecléctica, desde operación a marketing...Soy una apasionada del software libre, por lo que no es raro verme en eventos de tecnología, tanto de ponente, como de oyente."
-      photo: /images/speakers/alba_ferri_400x400.jpg
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
       links:
-        - https://www.linkedin.com/in/alba-ferri-fitó
+        - 
+
+- startTime: "17:30"
+  endTime: "18:15"
+  room: Factoría
+  title: "Cambios paralelos en producción para 1600 tiendas"
+  description: |-
+    Cómo afrontar un refactor en el core de tu aplicación con cambios paralelos y sin (casi) morir en el intento, sin downtime en un sistema que da servicio a todos los supermercados de Mercadona.
+  speaker:
+    - name: ""
+      bio: ""
+      photo: /images/speakers/
+      links:
+        - 
