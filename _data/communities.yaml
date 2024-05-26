@@ -2,7 +2,7 @@
 - name: Devscola
   image: devscola_logo.jpeg
   links:
-    - https://twitter.com/devscola
+    - https://x.com/devscola
     - https://www.meetup.com/Aprende-a-programar-en-Valencia/
     - https://youtube.com/devscolavlc
     - http://devscola.org/
@@ -10,13 +10,13 @@
 - name: Drupal Valencia
   image: drupalvlc_logo.png
   links:
-    - https://twitter.com/drupalval
+    - https://x.com/drupalval
     - https://www.meetup.com/Drupalval/
 
 - name: GDG Valencia
   image: GDG_valencia.png
   links:
-    - https://twitter.com/gdgvalencia
+    - https://x.com/gdgvalencia
     - https://www.facebook.com/gdgvalencia
     - https://www.meetup.com/GDGValencia/
     - https://github.com/gdgvalencia
@@ -25,7 +25,7 @@
 - name: Geoinquietos Valencia
   image: geoinquietosvlc_logo.svg
   links:
-    - https://twitter.com/geoinquietosvlc
+    - https://x.com/geoinquietosvlc
     - http://www.meetup.com/es-ES/Geoinquietos-Valencia
     - https://telegram.me/geoinquietosvlc
     - https://geoinquietos.org/grupos/valencia/
@@ -33,7 +33,7 @@
 - name: Hackerspace Valencia
   image: hackerspace_logo.jpeg
   links:
-    - https://twitter.com/HackVlc
+    - https://x.com/HackVlc
     - https://www.meetup.com/Hackerspace-Valencia/
     - http://hackvlc.es
 
@@ -41,7 +41,7 @@
 - name: Python Valencia
   image: pythonValencia.jpeg
   links:
-    - https://twitter.com/python_vlc
+    - https://x.com/python_vlc
     - https://www.meetup.com/Python-Valencia-Meetup/
     - https://telegram.me/python_vlc
     - https://www.youtube.com/channel/UCyqYMlhpsYgIu-pRjkuycqg
@@ -52,7 +52,7 @@
     - https://x.com/VlcSwCraft/
     - https://www.meetup.com/es-ES/Valencia-Software-Craftsmanship/
 
-- name: DeVops Valencia
+- name: DevOps Valencia
   image: vlcDevOps.png
   links:
     - https://x.com/valenciadevops/
