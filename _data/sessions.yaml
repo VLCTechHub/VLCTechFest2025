@@ -95,21 +95,20 @@
 - startTime: "11:00"
   endTime: "11:45"
   room: Factoría
-  title: "Se vienen cositas: adiós a las contraseñas, hola a las passkeys!"
+  title: "Estrategias de Ciberseguridad para Analistas de Calidad Software"
   description: |-
-    Imagina que vives en un mundo donde no tienes que usar contraseñas. Seamos sinceras, las contraseñas son lo peor y tener que implementar sistemas de autenticación que manejan contraseñas, son seguros y resistentes al phishing es complicado.  
+    Es una realidad que los ciberataques están aumentando enormemente en la actualidad. Por tanto, ¿cómo podemos contribuir los analistas de calidad software en este entorno de ciberseguridad? ¿Es posible prevenir determinadas situaciones cruciales sin ser especialistas en ciberseguridad?
 
-    Hoy en día puedes implementar tu propio sistema de autenticación totalmente passwordless, pero si quieres llevarlo un paso más allá, vengo a hablarte de las passkeys, también llamadas ""las sucesoras de las contraseñas"" 
+    En esta sesión se analizaran las principales situaciones que pueden poner en peligro nuestro software. Para ello, será fundamental comprender los principales riesgos y vulnerabilidades a los que estarán expuestos nuestros productos a lo largo de su vida útil. Es en este punto dónde, como analistas de calidad, tenemos algo que aportar.
 
-    Aprende conmigo que son las passkeys, como funcionan y como deshacerte de las contraseñas de una vez por todas!
+    Con toda esa información a mano, junto con la ayuda de nuestra experiencia como equipo de pruebas, se desarrollarán algunas mitigaciones para fomentar el uso de análisis de código estático para identificar vulnerabilidades, localizar ciertos conjuntos de datos para obligar a casos de uso críticos, etc. . . Dicho de otra manera, encabezar la estrategia y la cultura de ciberseguridad dentro de nuestro equipo de desarrollo software.
   speaker:
-    - name: "Carla Urrea Stabile "
-      bio: "Carla es Ingeniera de Software y actualmente trabaja como Sr. Developer Advocate en Auth0 by Okta. Carla tiene más de 10 años de experiencia y se especializa en desarrollo backend y diseño de sistemas, su lenguaje preferido es Ruby aunque se considera una programadora agnóstica al lenguaje. "
-      photo: /images/speakers/carlaUrrea.jpeg
+    - name: "Sara Martínez Giner"
+      bio: "Soy Sara y desde hace 10 años me dedico al análisis y pruebas de calidad. Gracias ello, he estado involucrada en proyectos de Telecomunicaciones, Geolocalización, Big Data y Electrónica de Potencia. Actualmente trabajo para la unidad de Ciberseguridad de Telefónica Tech, dónde esa calidad está enfocada tanto a los productos como a la seguridad informática de los mismos."
+      photo: /images/speakers/saraMartinez.jpeg
       links:
-        - https://twitter.com/carlastabile
-        - https://carlastabile.tech/
-        - https://www.linkedin.com/in/carlastabile
+        - https://www.linkedin.com/in/saramartinezginer/
+        - https://twitter.com/_TicTacS
 
 - startTime: "12:00"
   endTime: "12:30"
@@ -258,20 +257,21 @@
 - startTime: "16:30"
   endTime: "17:15"
   room: Factoría
-  title: "Estrategias de Ciberseguridad para Analistas de Calidad Software"
+  title: "Se vienen cositas: adiós a las contraseñas, hola a las passkeys!"
   description: |-
-    Es una realidad que los ciberataques están aumentando enormemente en la actualidad. Por tanto, ¿cómo podemos contribuir los analistas de calidad software en este entorno de ciberseguridad? ¿Es posible prevenir determinadas situaciones cruciales sin ser especialistas en ciberseguridad?
+    Imagina que vives en un mundo donde no tienes que usar contraseñas. Seamos sinceras, las contraseñas son lo peor y tener que implementar sistemas de autenticación que manejan contraseñas, son seguros y resistentes al phishing es complicado.  
 
-    En esta sesión se analizaran las principales situaciones que pueden poner en peligro nuestro software. Para ello, será fundamental comprender los principales riesgos y vulnerabilidades a los que estarán expuestos nuestros productos a lo largo de su vida útil. Es en este punto dónde, como analistas de calidad, tenemos algo que aportar.
+    Hoy en día puedes implementar tu propio sistema de autenticación totalmente passwordless, pero si quieres llevarlo un paso más allá, vengo a hablarte de las passkeys, también llamadas ""las sucesoras de las contraseñas"" 
 
-    Con toda esa información a mano, junto con la ayuda de nuestra experiencia como equipo de pruebas, se desarrollarán algunas mitigaciones para fomentar el uso de análisis de código estático para identificar vulnerabilidades, localizar ciertos conjuntos de datos para obligar a casos de uso críticos, etc. . . Dicho de otra manera, encabezar la estrategia y la cultura de ciberseguridad dentro de nuestro equipo de desarrollo software.
+    Aprende conmigo que son las passkeys, como funcionan y como deshacerte de las contraseñas de una vez por todas!
   speaker:
-    - name: "Sara Martínez Giner"
-      bio: "Soy Sara y desde hace 10 años me dedico al análisis y pruebas de calidad. Gracias ello, he estado involucrada en proyectos de Telecomunicaciones, Geolocalización, Big Data y Electrónica de Potencia. Actualmente trabajo para la unidad de Ciberseguridad de Telefónica Tech, dónde esa calidad está enfocada tanto a los productos como a la seguridad informática de los mismos."
-      photo: /images/speakers/saraMartinez.jpeg
+    - name: "Carla Urrea Stabile "
+      bio: "Carla es Ingeniera de Software y actualmente trabaja como Sr. Developer Advocate en Auth0 by Okta. Carla tiene más de 10 años de experiencia y se especializa en desarrollo backend y diseño de sistemas, su lenguaje preferido es Ruby aunque se considera una programadora agnóstica al lenguaje. "
+      photo: /images/speakers/carlaUrrea.jpeg
       links:
-        - https://www.linkedin.com/in/saramartinezginer/
-        - https://twitter.com/_TicTacS
+        - https://twitter.com/carlastabile
+        - https://carlastabile.tech/
+        - https://www.linkedin.com/in/carlastabile
 
 - startTime: "17:30"
   endTime: "18:15"
