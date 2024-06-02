@@ -20,6 +20,9 @@ es:
   - question: ¿Se van a grabar las sesiones?
     answer: Haremos lo posible para que se graben, pero depende de varios factores y no podemos asegurar que todas las sesiones vayan a estar disponibles para su visionado posterior. Si no quieres perderte las charlas, el mejor consejo es que acudas al evento ;)
 
+  - question: ¿Cómo se seleccionan las charlas?
+    answer: El proceso se describe en la página <a href="criteria">Criterio de Selección</a>
+
 en:
   - question: Who is this event for?
     answer: This conference is aimed to professional and technology students.
@@ -42,6 +45,9 @@ en:
   - question: Are the sessions going to be recorded?
     answer: We will do our best to have them recorded, but it depends on several factors and we cannot guarantee that all the sessions will be available for later viewing. If you do not want to miss the talks, the best advice is to go to the event ;)
 
+  - question: How are talks selected?
+    answer: The description of the process is in the <a href="criteria">Selection Criteria</a> page
+
 ca:
   - question: A qui va dirigit aquest esdeveniment?
     answer: Aquesta conferència va dirigida a professionals i estudiants de tecnologia.
@@ -63,3 +69,6 @@ ca:
 
   - question: Es gravaran les sessions?
     answer: Farem el possible perquè es graven, però depén de diversos factors i no podem assegurar que totes les sessions vagen a estar disponibles per al seu visionat posterior. Si no vols perdre't les xarrades el millor consell és que acudisques a l'esdeveniment ;)
+
+  - question: Com se seleccionen les xarrades?
+    answer: El procés es descriu en la pàgina <a href="criteria">Criteri de Selecció</a>
