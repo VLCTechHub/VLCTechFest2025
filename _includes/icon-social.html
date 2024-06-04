@@ -7,8 +7,10 @@
 {% when 'www.linkedin.com' %} {% assign service = "linkedin" %} {% assign name = parts[4] %}
 {% when 'www.meetup.com' %} {% assign service = "meetup" %} {% assign name = parts[3] %}
 {% when 'telegram.me' %} {% assign service = "telegram" %} {% assign name = parts[3] %}
+{% when 't.me' %} {% assign service = "telegram" %} {% assign name = parts[3] %}
 {% when 'twitter.com' %} {% assign service = "twitter" %} {% assign name = "@" | append: parts[3] %}
 {% when 'youtube.com' %} {% assign service = "youtube" %} {% assign name = parts[3] %}
+{% when 'x.com' %} {% assign service = "twitter" %} {% assign name = parts[3] %}
 {% else %}
   {% if link contains ".tumblr.com" %}
     {% assign service = "tumblr" %} {% assign name = parts[2] | remove_first: ".tumblr.com" }} %}

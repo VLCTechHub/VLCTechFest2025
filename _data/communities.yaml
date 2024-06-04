@@ -63,6 +63,26 @@
   image: valenciajug_logo.jpg
   links:
     - https://www.meetup.com/es-ES/ValenciaJUG/
+    
+- name: Asociación GNU/Linux València
+  image: gnulinuxvlc.svg
+  links:
+    - https://gnulinuxvalencia.org
+    - https://floss.social/@gnulinuxvalencia
+    - https://t.me/gnulinuxvalencia
+    
+- name: HackValencia%27
+  image: hackvlc27%.svg
+  links:
+    - https://x.com/Hackvlc27
+    - https://t.me/HackValencia
+    
+- name: Wordpress Valencia
+  image: wordpress_valencia.jpg
+  links:
+    - https://valencia.wordcamp.org
+    - https://www.meetup.com/es-ES/wordpress-valencia-meetup/
+    - https://x.com/_wpvalencia
 
 # - name: Valencia JS
 #   image: valenciajs_logo.jpeg
