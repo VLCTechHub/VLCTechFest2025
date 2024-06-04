@@ -1,4 +1,11 @@
 
+- name: Asociación GNU/Linux València
+  image: gnulinuxvlc.svg
+  links:
+    - https://gnulinuxvalencia.org
+    - https://floss.social/@gnulinuxvalencia
+    - https://t.me/gnulinuxvalencia
+
 - name: Devscola
   image: devscola_logo.jpeg
   links:
@@ -37,6 +44,11 @@
     - https://www.meetup.com/Hackerspace-Valencia/
     - http://hackvlc.es
 
+- name: HackValencia%27
+  image: hackvlc27.svg
+  links:
+    - https://x.com/Hackvlc27
+    - https://t.me/HackValencia
 
 - name: Python Valencia
   image: pythonValencia.jpeg
@@ -63,19 +75,6 @@
   image: valenciajug_logo.jpg
   links:
     - https://www.meetup.com/es-ES/ValenciaJUG/
-    
-- name: Asociación GNU/Linux València
-  image: gnulinuxvlc.svg
-  links:
-    - https://gnulinuxvalencia.org
-    - https://floss.social/@gnulinuxvalencia
-    - https://t.me/gnulinuxvalencia
-    
-- name: HackValencia%27
-  image: hackvlc27.svg
-  links:
-    - https://x.com/Hackvlc27
-    - https://t.me/HackValencia
     
 - name: Wordpress Valencia
   image: wordpress_valencia.jpg
