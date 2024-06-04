@@ -70,6 +70,12 @@
     - https://x.com/valenciadevops/
     - https://www.meetup.com/es-ES/Valencia-DevOps/
     - https://valenciadevops.github.io/
+
+- name: Valencia JS
+  image: valenciajs_logo.jpeg
+  links:
+    - https://twitter.com/VlcJS
+    - https://www.meetup.com/ValenciaJS/
     
 - name: Valencia Jug
   image: valenciajug_logo.jpg
@@ -82,13 +88,6 @@
     - https://valencia.wordcamp.org
     - https://www.meetup.com/es-ES/wordpress-valencia-meetup/
     - https://x.com/_wpvalencia
-
-# - name: Valencia JS
-#   image: valenciajs_logo.jpeg
-#   links:
-#     - https://twitter.com/VlcJS
-#     - https://www.meetup.com/ValenciaJS/
-
 
 # - name: Valencia.rb
 #   image: valenciarb_logo.png
