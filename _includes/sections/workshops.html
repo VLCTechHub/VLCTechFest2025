@@ -1,0 +1,42 @@
+{%- assign workshops = site.data.t[page.lang].workshops -%}
+<section id="workshops">
+  <div class="container">
+    <h1>{{ workshops.title }}</h1>
+    <ul class="sessions">
+      {% assign time = "" %}
+      {%- for session in site.data.workshops -%}
+        {% if time != session.startTime %}
+          {% if time != "" %}</ul></li>{%- endif -%}
+          <li>
+            <p>
+              <span class="start">{{session.startTime}}</span>
+              <span class="end">{{session.endTime}}</span>
+            </p>
+            <ul>
+          {% assign time = session.startTime %}
+        {%- endif -%}
+
+        <li class="workshops">
+          <p class="title">{{session.title}}</p>
+          <ul>
+            {%- for speaker in session.speaker -%}
+              <li>{{speaker.name}}</li>
+            {%- endfor -%}
+          </ul>
+          <p class="room">Sala: <span>{{session.room}}</span></p>
+          <div class="description">{{session.description | markdownify }}</div>
+        </li>
+      {%- endfor -%}
+      </ul></li>
+    </ul>
+  </div>
+</section>
+
+<script>
+  var nodes = document.querySelectorAll('ul.workshops>li>ul>li');
+  function toggleOpen(){
+    this.classList.toggle('open');
+    window.scrollTo({top:this.offsetTop});
+  };
+  nodes.forEach((node) => node.addEventListener('click', toggleOpen));
+</script>

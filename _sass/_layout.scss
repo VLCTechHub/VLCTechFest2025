@@ -284,6 +284,10 @@ footer a:hover {
   @extend .section-white;
 }
 
+#workshops {
+  @extend .section-white
+}
+
 #speakers {
   @extend .section-purple;
 }
@@ -714,6 +718,17 @@ ul.sessions {
             color: white;
           }
         }
+        &.workshops {
+          background-color: var(--pink);
+          color: white;
+          .title {
+            color: white;
+          }
+
+          a {
+            color: #ADD8E6
+          }
+        }
         .title {
           grid-area: title;
           color: var(--primaryTextColor);
@@ -840,6 +855,8 @@ ul.sessions {
     }
   }
 }
+
+
 
 #upfront {
   .description {
