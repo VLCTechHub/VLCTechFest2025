@@ -1,0 +1,27 @@
+- startTime: "11:00"
+  endTime: "12:00"
+  room: Patio
+  title: "Taller de iniciación a la soldadura SMD"
+  description: |-
+    Estás interesado en la electronica pero siempre te ha dado miedo tocar los componentes de una placa. Pues está es tu oportunidad de perder el miedo. Trabajaremos técnicas sencillas de montaje y desmontaje. Veremos que herramientas son recomendables, como sustituir componentes dañados, etc...
+
+    Plazas limitadas, reserva tu plaza en [este enlace](https://www.meetup.com/hackerspace-valencia/events/301415344/?recId=32ea591a-3ea6-4a00-a547-702735121671&recSource=keyword_search&searchId=b2395dac-febe-4df9-9d2c-ac262b5acbf4).
+  speaker:
+    - name: Hackerspace Valencia
+      links:
+        - https://hackvlc.es/
+
+- startTime: "12:30"
+  endTime: "14:00"
+  room: Patio
+  title: "Nerdy Derby: construye tu mini bólido y lánzalo por nuestra rampa"
+  description: |-
+    El Hackerspace Valencia nos trae una pista donde podremos construir nuestros propios vehículos y comparar resultados en la pista con otros vehículos.
+
+    Para niñ@s de todas las edades acompañados por un adulto.
+
+    Plazas limitadas, reserva tu plaza en [este enlace](https://www.meetup.com/hackerspace-valencia/events/301458684/?recId=32ea591a-3ea6-4a00-a547-702735121671&recSource=keyword_search&searchId=b2395dac-febe-4df9-9d2c-ac262b5acbf4).
+  speaker:
+    - name: Hackerspace Valencia
+      links:
+        - https://hackvlc.es/

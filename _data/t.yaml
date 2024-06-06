@@ -22,6 +22,9 @@ es:
     kids:
       link: "#kids"
       label: Track familiar
+    workshops:
+      link: "#workshops"
+      label: Talleres
     diversity:
       link: "#diversity"
       label: Diversidad
@@ -72,6 +75,8 @@ es:
       button: Anima a otra persona
   sessions:
     title: Agenda
+  workshops:
+    title: Talleres
   restoration:
     title: Locales de restauración próximos
   kids:
@@ -115,6 +120,9 @@ en:
     kids:
       link: "#kids"
       label: Kids sessions
+    workshops:
+      link: "#workshops"
+      label: Workshops
     diversity:
       link: "#diversity"
       label: Diversity
@@ -165,6 +173,8 @@ en:
       button: Encourage another person
   sessions:
     title: Schedule
+  workshops:
+    title: Workshops
   restoration:
     title: Nearby restaurants
   kids:
@@ -258,6 +268,8 @@ ca:
       button: Anima a altra persona
   sessions:
     title: Agenda
+  workshops:
+    title: Tallers
   restoration:
     title: Locals de restauració pròxims
   kids:
