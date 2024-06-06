@@ -218,6 +218,9 @@ ca:
     kids:
       link: "#kids"
       label: Track familiar
+    workshops:
+      link: "#workshops"
+      label: Tallers
     diversity:
       link: "#diversity"
       label: Diversitat
