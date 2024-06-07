@@ -330,9 +330,19 @@
       photo: /images/speakers/albertoRausell.jpeg
       links:
         - https://www.linkedin.com/in/alberto-rausell-manch%C3%B3n-75838115a/
-    
+
 - startTime: "18:30"
   endTime: "18:45"
   room: Sala Polivalente
   title: "Cierre del evento y despedida"
   description: "Breve despedida del evento por parte de los organizadores."
+
+
+- startTime: "22:00"
+  endTime: "???"
+  room: El Clandestí (Benimaclet)
+  title: Fiesta Post-Evento
+  description: |-
+    Nos encontraremos después de cenar en el bar El Clandestí, para tomarnos algo y hacer networking.
+
+    [Calle Poeta Asins n° 9, Benimaclet](https://maps.app.goo.gl/niFnUoDVp2tTots18)
