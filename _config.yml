@@ -45,7 +45,7 @@ navigation:
   - coc
   - faq
   - location
-  # - sponsors
+  - sponsors
 locale:
   es: es_ES
   en: en_US
