@@ -1,6 +1,6 @@
-# VLCTechFest2024
+# VLCTechFest2025
 
-Website for the VLCTechFest2024 event.
+Website for the VLCTechFest2025 event.
 Created with ❤ by volunteers.
 
 ## How to use
@@ -18,8 +18,8 @@ If you rather use Docker, you can start a functional working environment by issu
 
 ```
 $ docker run -it -v $(pwd):/srv -p 4000:4000 -w /srv ruby:2.7.3 bash
-# bundle install
-# bundle exec jekyll serve --host 0.0.0.0 --watch
+$ bundle install
+$ bundle exec jekyll serve --host 0.0.0.0 --watch
 ```
 
 ## Multilingual Jekyll

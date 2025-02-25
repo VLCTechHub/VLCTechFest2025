@@ -1,7 +1,7 @@
 es:
   head:
-    description: 8 de junio // Las Naves // Evento gratuito // Acceso libre
-    description_1: 8 de junio // 09:30 - 19:30 // Las Naves
+    description: 14 de junio // Las Naves // Evento gratuito // Acceso libre
+    description_1: 14 de junio // 09:30 - 19:30 // Las Naves
     description_2: Un evento gratuito y de acceso libre
   navigation:
     index:
@@ -54,7 +54,7 @@ es:
       label: Localización
   main:
     subtitle: Un evento gratuito y de acceso libre
-    date: 8 Junio 2024
+    date: 14 Junio 2025
     place: Las Naves
   communities:
     title: Comunidades
@@ -152,7 +152,7 @@ en:
       label: Location
   main:
     subtitle: Free event and free access
-    date: 8 June 2024
+    date: 14 June 2025
     place: Las Naves
   communities:
     title: Communities
@@ -250,7 +250,7 @@ ca:
       label: Localització
   main:
     subtitle: Un esdeveniment gratuït i d'accés lliure
-    date: 8 Juny 2024
+    date: 14 Juny 2025
     place: Las Naves
   communities:
     title: Comunitats
