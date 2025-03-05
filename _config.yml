@@ -19,10 +19,8 @@ share_image:
   en: vlctechfest2024_en.png
   ca: vlctechfest2024_ca.png
 fest:
-  twitter_username: vlctechfest
   youtube_url: https://www.youtube.com/channel/UCS7z_DqAOTqwANFvmKmM5ig
 hub:
-  twitter_username: vlctechhub
   github_username: vlctechhub
   web_url: https://vlctechhub.org/
   web_title: vlctechhub.org
