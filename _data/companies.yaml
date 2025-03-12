@@ -10,10 +10,10 @@ collaborators:
     link: https://www.lasnaves.com
     size: 100%
 
-  - name: Slimbook
-    image: SLIMBOOK.png
-    link: https://slimbook.com/
-    size: 100%
+#  - name: Slimbook
+#    image: SLIMBOOK.png
+#    link: https://slimbook.com/
+#    size: 100%
 
 sponsors:
 #    - name: New Work
@@ -26,25 +26,25 @@ sponsors:
 #    link: https://www.realizon.eu/
 #    size: 100%
 
-  - name: Auth0 by Okta
-    image: Auth0byOkta.png
-    link: https://a0.to/okta-vlc
-    size: 100%
+#  - name: Auth0 by Okta
+#    image: Auth0byOkta.png
+#    link: https://a0.to/okta-vlc
+#    size: 100%
 
-  - name: Flywire
-    image: flywire_logo.svg
-    link: https://www.flywire.com/
-    size: 100%
+#  - name: Flywire
+#    image: flywire_logo.svg
+#    link: https://www.flywire.com/
+#    size: 100%
 
-  - name: Qatium
-    image: qatium.png
-    link: https://nofuturewithoutwater.com/
-    size: 100%
+#  - name: Qatium
+#    image: qatium.png
+#    link: https://nofuturewithoutwater.com/
+#    size: 100%
 
-  - name: Voxel
-    image: voxel.png
-    link: https://www.voxelgroup.net/
-    size: 100%
+#  - name: Voxel
+#    image: voxel.png
+#    link: https://www.voxelgroup.net/
+#    size: 100%
 
 #  - name: Idecrea
 #    image: idecrea.png
@@ -65,3 +65,18 @@ sponsors:
 #    link: https://www.gft.com/es/es
 #    image: gft.jpeg
 #    size: 100%
+
+  - name: A company
+    link: https://www.example.com
+    image: https://placehold.co/200x100/orange/white?text=Company%20A&font=poppins
+    size: 100%
+
+  - name: Another company
+    link: https://www.example.com
+    image: https://placehold.co/200x100/green/white?text=Company%20B&font=raleway
+    size: 100%
+
+  - name: Just another company
+    link: https://www.example.com
+    image: https://placehold.co/200x100/red/white?text=Company%20C&font=playfair-display
+    size: 100%

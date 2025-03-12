@@ -65,6 +65,17 @@ es:
       organizers: "Organiza:"
       collaborators: "Colabora:"
       sponsors: "Patrocinadores"
+      whysponsor: |-
+        El VLCTechFest es un evento gratuito y de acceso libre organizado por voluntarios. Como tal, no manejamos un presupuesto astronómico, pero sí que agradecemos que empresas y organizaciones colaboren en la financiación del evento. Si quieres colaborar, aquí tienes algunas razones por las que patrocinar el VLCTechFest.
+
+        - **Visibilidad**: El VLCTechFest es un evento de referencia en la ciudad de Valencia. Patrocinando el evento, tu empresa aparecerá en todos los materiales promocionales y en la web del evento.
+        - **Reclutamiento**: El VLCTechFest es un evento que atrae a profesionales de la tecnología de toda la Comunidad Valenciana. Si estás buscando talento, el VLCTechFest es el lugar perfecto para encontrarlo.
+        - **Responsabilidad social corporativa**: Patrocinar el VLCTechFest es una forma de devolver a la comunidad parte de lo que la comunidad te da a ti. Además, el evento es gratuito y de acceso libre, lo que permite que cualquier persona pueda asistir.
+        - **Networking**: El VLCTechFest es un evento en el que se reúnen profesionales de la tecnología de toda la Comunidad Valenciana. Patrocinando el evento, tu empresa podrá establecer contactos con otros profesionales del sector.
+        - **Agradecimiento**: El VLCTechFest es un evento organizado por voluntarios. Patrocinando el evento, tu empresa estará contribuyendo a que el evento siga siendo gratuito y de acceso libre.
+
+        Si quieres patrocinar el VLCTechFest, ¡no dudes en escribirnos!
+
       claim: "Quiero patrocinar"
   news:
     cfp_open:
@@ -163,6 +174,7 @@ en:
       organizers: "Organized by:"
       collaborators: "Supported by:"
       sponsors: "Sponsors"
+      whysponsor: Why sponsor?
       claim: "I want to sponsor"
   news:
     cfp_open:
@@ -261,6 +273,7 @@ ca:
       organizers: "Organitza:"
       collaborators: "Col·labora:"
       sponsors: "Sponsors"
+      whysponsor: Per què patrocinar?
       claim: "Vull patrocinar"
   news:
     cfp_open:
