@@ -1,27 +1,27 @@
 es:
-  - question: ¿A quién va dirigido este evento?
-    answer: Esta conferencia va dirigida a profesionales y estudiantes de tecnología.
+  - question: ¿A quién va dirigido VLCTechFest?
+    answer:  El evento está pensado para profesionales y estudiantes del sector tecnológico.
 
-  - question: ¿Es necesario pertenecer a una comunidad técnica de la Comunidad Valenciana para presentar una charla o acudir al evento?
-    answer: No es necesario. Aprovecha ese día para conocer a las comunidades técnicas existentes.
+  - question: ¿Es necesario pertenecer a una comunidad técnica de la Comunidad Valenciana para participar?
+    answer: No, no es necesario. VLCTechFest es una oportunidad perfecta para descubrir y conectar con las comunidades técnicas existentes.
 
   - question: ¿Cuánto cuesta la entrada?
-    answer: El evento es **completamente gratuito** y de **entrada libre** hasta completar aforo.
+    answer: El evento es **totalmente gratuito** y de **acceso libre** hasta completar aforo.
 
   - question: ¿Hay que registrarse?
-    answer: No, **no hay registro**. Basta con acudir a _Las Naves_ el dia 14 de junio, ya sea la jornada completa o únicamente a ciertas sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
+    answer: No, **no es necesario registrarse**. Solo tienes que acudir a _Las Naves_ el **8 de junio**, ya sea para la jornada completa o para sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
 
-  - question: ¿Cómo llego hasta allí?
-    answer: "Puedes llegar a _Las Naves_ en bici o en alguno de los siguientes autobuses: 4, 19, 30, 92. Si vas en coche no deberías tener problema en aparcar por la zona."
+  - question: ¿Cómo puedo llegar?
+    answer: Puedes llegar a _Las Naves_ en bici o en alguno de los siguientes autobuses 4, 19, 30, 92. Si vienes en coche no deberías tener problema en aparcar por la zona.
 
 #  - question: ¿Hay comida/bebida incluida?
 #    answer: Si. Entre las sesiones de mañana y de tarde hay un descanso en el que podremos reponer fuerza con unas paellas (opción vegana incluida). Queremos que sea un momento más de diversión y conversación. Por supuesto, también puedes llevarte tu propia comida o acudir a algún bar/restaurante de la zona (o a casa si vives cerca). También hay un centro comercial cerca y el propio Centro de innovación _Las Naves_ dispone de una cafetería. En las salas habrá dispensadores de agua, por lo que si tienes alguna cantimplora puedes traerla para reducir el derroche de plástico.
 
-  - question: ¿Se van a grabar las sesiones?
-    answer: Haremos lo posible para que se graben, pero depende de varios factores y no podemos asegurar que todas las sesiones vayan a estar disponibles para su visionado posterior. Si no quieres perderte las charlas, el mejor consejo es que acudas al evento ;)
+  - question: ¿Se grabarán las sesiones?
+    answer: Haremos todo lo posible para grabarlas, pero depende de varios factores y no podemos garantizar que todas estén disponibles posteriormente. Si no quieres perderte ninguna charla, ¡lo mejor es asistir en persona!
 
   - question: ¿Cómo se seleccionan las charlas?
-    answer: El proceso se describe en la página <a href="criteria">Criterio de Selección</a>
+    answer: El proceso de selección se detalla en la página <a href="criteria">Criterio de Selección</a>
 
 en:
   - question: Who is this event for?
