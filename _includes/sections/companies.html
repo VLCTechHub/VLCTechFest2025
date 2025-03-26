@@ -6,7 +6,7 @@
       <li class="{{ company.name | downcase | replace: ' ', '' |  }}">
         <a href="{{ company.link }}" target="_blank">
           <img
-            src="{{ site.path.company_images }}{{ company.image }}"
+            src="{{ unless company.image.starts_with?('http') site.path.company_images }}{{ company.image }}"
             alt="{{ company.name }}"
             title="{{ site.data.t[page.lang].communities.logo_from }} {{
               company.name
@@ -17,6 +17,7 @@
       </li>
       {%- endfor -%}
     </ul>
+    <p>{{ site.data.t[page.lang].company.type.whysponsor | markdownify }}</p>
     <a href="mailto:vlctechfest@gmail.com?subject=Patrocinio%20VLCTechFest">{{ site.data.t[page.lang].company.type.claim }}</a>
   </div>
 </section>
