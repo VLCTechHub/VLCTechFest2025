@@ -1,18 +1,21 @@
 es:
   title: ¿Qué es VLCTechFest?
+  subtitle: VLCTechFest 2025 - Descubre, conecta y comparte
+
   content: |-
-    Es un día de charlas por y para las comunidades tecnológicas de la Comunidad Valenciana. Es un día para descubrir, conectar y compartir.
+    VLCTechFest es un día de charlas por y para las comunidades tecnológicas de la Comunidad Valenciana. Un evento para aprender, inspirarse y hacer networking en un ambiente abierto y colaborativo.
 
-    Un formato de conferencia con varios tracks simultáneos con charlas para todos los gustos, con tiempo para preguntas y espacio para el networking.
+    Siguiendo el formato de conferencias con múltiples tracks simultáneos, ofrecemos charlas para todos los gustos, con espacio para preguntas y momentos dedicados a la interacción entre asistentes.
 
-    Un festival donde el foco está en la participación, por lo que es un evento gratuito y de acceso libre sin entrada hasta completar aforo. La primera edición 2018 fue todo un éxito y más de 120 asistentes pasaron por VLCTechFest.
+    Es un festival donde la participación es clave. Por eso, es un evento gratuito y de acceso libre hasta completar aforo. Desde su primera edición en 2018, donde más de 120 asistentes nos acompañaron, VLCTechFest ha crecido y evolucionado con cada edición.
 
-    Durante los años 2020 y 2021, debido a la pandemia global por coronavirus, nos vimos obligados a suspender el evento. La última edición fue la del 2024 y ahora volvemos con energias renovadas dispuestos a retomarlo donde lo dejamos!
+    Tras la pausa obligada en 2020 y 2021, regresamos con fuerza en 2024 y ahora en 2025 volvemos con más energía que nunca para seguir compartiendo conocimiento y conectando a la comunidad.
 
-    ¡Te esperamos!
+    ¡Te esperamos en VLCTechFest 2025!
 
 en:
   title: What is VLCTechFest?
+  subtitle: VlCTechFest 2025
   content: |-
     It is a day of talks for, and by, the technological communities of the Valencian Community. It is a day to discover, connect and share.
 
@@ -26,6 +29,7 @@ en:
 
 ca:
   title: Què és VLCTechFest?
+  subtitle: VLCTechFest 2025
   content: |-
     És un dia de xarrades per a les comunitats tecnològiques de la Comunitat Valenciana. És un dia per a descobrir, connectar i compartir.
 
