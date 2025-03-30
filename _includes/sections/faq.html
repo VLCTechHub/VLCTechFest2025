@@ -1,11 +1,13 @@
 <section id="faq" class="faq">
   <div class="wrapper col-2">
     <h1>FAQ</h1>
-    {%- for faq in site.data.faq[page.lang] -%}
+    <div>
+      {%- for faq in site.data.faq[page.lang] -%}
       <article>
         <h2>{{ faq.question }}</h2>
         {{ faq.answer | markdownify }}
       </article>
-    {%- endfor -%}
+      {%- endfor -%}
+    </div>
   </div>
 </section>

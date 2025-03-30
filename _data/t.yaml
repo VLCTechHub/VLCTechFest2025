@@ -94,7 +94,7 @@ Reserva tu entrada escribiendo un mail a <a href='mailto:hola@vlctechfest.org'>h
   speakers:
     title: Ponentes
   footer:
-    vlctechhub_description: VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda de eventos</a>, <a target="_blank" href="https://vlctechhub.org/job/board">un tablón de ofertas de trabajo</a>, y <a target="_blank" href="https://slack.vlctechhub.org">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>
+    vlctechhub_description: VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con <a target="_blank" href="https://slack.vlctechhub.org">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>
 
 en:
   head:
@@ -192,12 +192,12 @@ See you there!"
   speakers:
     title: Speakers
   footer:
-     vlctechhub_description: VLCTechHub promotes and encourages the different technological communities of Valencia. For this, it has an <a target="_blank" href="https://vlctechhub.org/events/upcoming"> events calendar</a>, <a target="_blank" href="https://vlctechhub.org/job/board">a job board</a>, and <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organises events like <strong>VLCTechFest</strong>.
+     vlctechhub_description: VLCTechHub promotes and encourages the different technological communities of Valencia. For this, it has <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organises events like <strong>VLCTechFest</strong>.
 
 ca:
   head:
-    description: 8 de Juny // Las Naves // Esdeveniment gratuït // Accés lliure
-    description_1: 8 de Juny // 09:30 - 19:30 // Las Naves
+    description: 14 de Juny // Las Naves // Esdeveniment gratuït // Accés lliure
+    description_1: 14 de Juny // 09:30 - 19:30 // Las Naves
     description_2: Un esdeveniment gratuït i d'accés lliure
   navigation:
     index:
@@ -290,4 +290,4 @@ Ens veiem allí!"
   speakers:
     title: Ponents
   footer:
-    vlctechhub_description: VlcTechHub promou i fomenta les diferents comunitats tecnològiques de València. Per a això compta amb una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda d'esdeveniments</a>, <a target="_blank" href="https://vlctechhub.org/job/board">un tauló d'ofertes de treball</a>, y <a target="_blank" href="https://slack.vlctechhub.org/" >un xat</a> on la comunitat pot compartir. També organitza esdeveniments com aquest <strong>VLCTechFest</strong>.
+    vlctechhub_description: VlcTechHub promou i fomenta les diferents comunitats tecnològiques de València. Per a això compta amb <a target="_blank" href="https://slack.vlctechhub.org/" >un xat</a> on la comunitat pot compartir. També organitza esdeveniments com aquest <strong>VLCTechFest</strong>.
