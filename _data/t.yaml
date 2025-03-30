@@ -10,9 +10,9 @@ es:
     about:
       link: "#about"
       label: Qué es
-    # cfp:
-    #   link: "#cfp"
-    #   label: Propuestas
+    cfp:
+      link: "#cfp"
+      label: Propuestas
     agenda:
       link: "#sessions"
       label: Agenda
@@ -70,7 +70,7 @@ es:
     cfp_open:
       text: Call for papers abierto
       button: Envía tu propuesta
-      url: https://forms.gle/xYMbyuZQt3MHu5c27
+      url: https://docs.google.com/forms/d/e/1FAIpQLSeuRDBXoVkkJy4seOsIC72ia3P7jBWUKLZIqwuY6VLC_7QKww/viewform
     c4b_open:
       button: Anima a otra persona
   sessions:
@@ -108,9 +108,9 @@ en:
     about:
       link: "#about"
       label: About
-    # cfp:
-    #   link: "#cfp"
-    #   label: Proposals
+    cfp:
+      link: "#cfp"
+      label: Proposals
     agenda:
       link: "#sessions"
       label: Schedule
@@ -168,7 +168,7 @@ en:
     cfp_open:
       text: Open call for papers
       button: Send us your proposal
-      url: https://forms.gle/xYMbyuZQt3MHu5c27
+      url: https://docs.google.com/forms/d/e/1FAIpQLSeuRDBXoVkkJy4seOsIC72ia3P7jBWUKLZIqwuY6VLC_7QKww/viewform
     c4b_open:
       button: Encourage another person
   sessions:
@@ -206,9 +206,9 @@ ca:
     about:
       link: "#about"
       label: Què és
-    # cfp:
-    #   link: "#cfp"
-    #   label: Propostes
+    cfp:
+      link: "#cfp"
+      label: Propostes
     agenda:
       link: "#sessions"
       label: Agenda
@@ -266,7 +266,7 @@ ca:
     cfp_open:
       text: Call for papers obert
       button: Envia la teua proposta
-      url: https://forms.gle/xYMbyuZQt3MHu5c27
+      url: https://docs.google.com/forms/d/e/1FAIpQLSeuRDBXoVkkJy4seOsIC72ia3P7jBWUKLZIqwuY6VLC_7QKww/viewform
     c4b_open:
       button: Anima a altra persona
   sessions:
