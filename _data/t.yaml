@@ -70,7 +70,7 @@ es:
     cfp_open:
       text: Call for papers abierto
       button: Envía tu propuesta
-      url: https://forms.gle/xYMbyuZQt3MHu5c27
+      url: https://docs.google.com/forms/d/e/1FAIpQLSeuRDBXoVkkJy4seOsIC72ia3P7jBWUKLZIqwuY6VLC_7QKww/viewform
     c4b_open:
       button: Anima a otra persona
   sessions:
@@ -168,7 +168,7 @@ en:
     cfp_open:
       text: Open call for papers
       button: Send us your proposal
-      url: https://forms.gle/xYMbyuZQt3MHu5c27
+      url: https://docs.google.com/forms/d/e/1FAIpQLSeuRDBXoVkkJy4seOsIC72ia3P7jBWUKLZIqwuY6VLC_7QKww/viewform
     c4b_open:
       button: Encourage another person
   sessions:
@@ -266,7 +266,7 @@ ca:
     cfp_open:
       text: Call for papers obert
       button: Envia la teua proposta
-      url: https://forms.gle/xYMbyuZQt3MHu5c27
+      url: https://docs.google.com/forms/d/e/1FAIpQLSeuRDBXoVkkJy4seOsIC72ia3P7jBWUKLZIqwuY6VLC_7QKww/viewform
     c4b_open:
       button: Anima a altra persona
   sessions:
