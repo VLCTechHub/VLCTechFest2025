@@ -2,17 +2,14 @@ es:
   - question: ¿A quién va dirigido VLCTechFest?
     answer:  El evento está pensado para profesionales y estudiantes del sector tecnológico.
 
-  - question: ¿Es necesario pertenecer a una comunidad técnica de la Comunidad Valenciana para participar?
-    answer: No, no es necesario. VLCTechFest es una oportunidad perfecta para descubrir y conectar con las comunidades técnicas existentes.
-
   - question: ¿Cuánto cuesta la entrada?
     answer: El evento es **totalmente gratuito** y de **acceso libre** hasta completar aforo.
 
+  - question: ¿Es necesario pertenecer a una comunidad técnica de la Comunidad Valenciana para participar?
+    answer: No, no es necesario. VLCTechFest es una oportunidad perfecta para descubrir y conectar con las comunidades técnicas existentes.
+
   - question: ¿Hay que registrarse?
     answer: No, **no es necesario registrarse**. Solo tienes que acudir a _Las Naves_ el **14 de junio**, ya sea para la jornada completa o para sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
-
-  - question: ¿Cómo puedo llegar?
-    answer: Puedes llegar a _Las Naves_ en bici o en alguno de los siguientes autobuses 4, 19, 30, 92. Si vienes en coche no deberías tener problema en aparcar por la zona.
 
 #  - question: ¿Hay comida/bebida incluida?
 #    answer: Si. Entre las sesiones de mañana y de tarde hay un descanso en el que podremos reponer fuerza con unas paellas (opción vegana incluida). Queremos que sea un momento más de diversión y conversación. Por supuesto, también puedes llevarte tu propia comida o acudir a algún bar/restaurante de la zona (o a casa si vives cerca). También hay un centro comercial cerca y el propio Centro de innovación _Las Naves_ dispone de una cafetería. En las salas habrá dispensadores de agua, por lo que si tienes alguna cantimplora puedes traerla para reducir el derroche de plástico.
@@ -23,21 +20,21 @@ es:
   - question: ¿Cómo se seleccionan las charlas?
     answer: El proceso de selección se detalla en la página <a href="criteria">Criterio de Selección</a>
 
+  - question: ¿Cómo puedo llegar?
+    answer: Puedes llegar a _Las Naves_ en bici o en alguno de los siguientes autobuses 4, 19, 30, 92. Si vienes en coche no deberías tener problema en aparcar por la zona.
+
 en:
   - question: Who is VLCTechFest for?
     answer: The event is aimed for professionals and students of the technology sector.
 
-  - question: Is it necessary to belong to a technical community of the Valencian Community to attend?
-    answer: No, you don't have to. VLCTechFest is a perfect opportunity to discover and connect with existing technical communities.
-
   - question: How much conference tickets cost?
     answer: The event is **completely free** and the **entry is free** until seating capacity is reached.
 
+  - question: Is it necessary to belong to a technical community of the Valencian Community to attend?
+    answer: No, you don't have to. VLCTechFest is a perfect opportunity to discover and connect with existing technical communities.
+
   - question: Do I have to register?
     answer: No, **registration is not required**. You just have to come to _Las Naves_ on **14 June**, either for the whole day or for specific sessions. Please note that the capacity of the venues is limited.
-
-  - question: How do I get there?
-    answer: You can reach to _Las Naves_ by bike or by one of the following buses 4, 19, 30, 92. If you come by car you shouldn't have parking problems in the area.
 
 #  - question: Is there food/drink included?
 #    answer: No. There is a break between the morning and afternoon sessions so the attendees can eat wherever they want. You can eat at home, take your own food or go to a bar/restaurant in the area. There is also a shopping center nearby and Las Naves innovation center has a coffe shop. There will be water dispensers in the conference rooms, so if you have a water bottle you can bring it to reduce the waste of plastic.
@@ -48,21 +45,21 @@ en:
   - question: How are talks selected?
     answer:  The selection process is described in detail on the <a href="criteria">Selection Criteria</a> page
 
+  - question: How do I get there?
+    answer: You can reach to _Las Naves_ by bike or by one of the following buses 4, 19, 30, 92. If you come by car you shouldn't have parking problems in the area.
+
 ca:
   - question: A qui va dirigit VLCTechFest?
     answer: Aquesta conferència va dirigida a professionals i estudiants del sector tecnològic
 
-  - question: És necessari pertànyer a una comunitat tècnica de la Comunitat Valenciana per a participar?
-    answer: No, no és necessari. VLCTechFest és una oportunitat perfecta per a descobrir i connectar amb les comunitats tècniques existents.
-
   - question: Quant costa l'entrada?
     answer: L'esdeveniment és **completament gratuït** i d'**entrada lliure** fins a completar aforament.
 
+  - question: És necessari pertànyer a una comunitat tècnica de la Comunitat Valenciana per a participar?
+    answer: No, no és necessari. VLCTechFest és una oportunitat perfecta per a descobrir i connectar amb les comunitats tècniques existents.
+
   - question: Cal registrar-se?
     answer: No, **no hi ha registre**. N'hi ha prou amb acudir a _Las Naves_ el dia **14 de juny**, ja siga la jornada completa o únicament a certes sessions concretes. Tingues en compte que l'aforament de les sales és limitat.
-
-  - question: Com arribe fins allí?
-    answer: Pots arribar _Las Naves_ amb bici o en algun dels següents autobusos 4, 19, 30, 92. Si vas amb cotxe no hauries de tindre problema a aparcar per la zona.
 
 #  - question: Hi ha menjar/beguda inclòs?
 #    answer: Sí. Entre les sessions de matí i de vesprada hi ha un descans en el qual podrem reposar forces amb unes paelles (opció vegana inclosa). Volem que siga un moment més de diversió i conversació. Per descomptat, també pots endur-te el teu propi menjar o acudir a algun bar/restaurant de la zona (o a casa si vius prop).  També hi ha un centre comercial a prop, i el mateix Centre d'innovació _Las Naves_ disposa d'una cafeteria. A les sales hi haurà dispensadors d'aigua, així que si tens una cantimplora pots dur-la per reduir el malbaratament de plàstic.
@@ -72,3 +69,6 @@ ca:
 
   - question: Com se seleccionen les xarrades?
     answer: El procés es descriu en la pàgina <a href="criteria">Criteri de Selecció</a>
+
+  - question: Com arribe fins allí?
+    answer: Pots arribar _Las Naves_ amb bici o en algun dels següents autobusos 4, 19, 30, 92. Si vas amb cotxe no hauries de tindre problema a aparcar per la zona.
