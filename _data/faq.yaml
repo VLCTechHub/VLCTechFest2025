@@ -9,7 +9,7 @@ es:
     answer: El evento es **totalmente gratuito** y de **acceso libre** hasta completar aforo.
 
   - question: ¿Hay que registrarse?
-    answer: No, **no es necesario registrarse**. Solo tienes que acudir a _Las Naves_ el **8 de junio**, ya sea para la jornada completa o para sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
+    answer: No, **no es necesario registrarse**. Solo tienes que acudir a _Las Naves_ el **14 de junio**, ya sea para la jornada completa o para sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
 
   - question: ¿Cómo puedo llegar?
     answer: Puedes llegar a _Las Naves_ en bici o en alguno de los siguientes autobuses 4, 19, 30, 92. Si vienes en coche no deberías tener problema en aparcar por la zona.
@@ -24,51 +24,51 @@ es:
     answer: El proceso de selección se detalla en la página <a href="criteria">Criterio de Selección</a>
 
 en:
-  - question: Who is this event for?
-    answer: This conference is aimed to professional and technology students.
+  - question: Who is VLCTechFest for?
+    answer: The event is aimed for professionals and students of the technology sector.
 
-  - question: Must I be a member of a technological community of the Valencian Community to submit a talk or attend the event?
-    answer: No, it's not a must. Use that day to meet the existing technological communities.
+  - question: Is it necessary to belong to a technical community of the Valencian Community to attend?
+    answer: No, you don't have to. VLCTechFest is a perfect opportunity to discover and connect with existing technical communities.
 
   - question: How much conference tickets cost?
     answer: The event is **completely free** and the **entry is free** until seating capacity is reached.
 
   - question: Do I have to register?
-    answer: No, **there is no registration**. It is enough to go to _Las Naves_ on June 14th, either the full day or specific sessions only. Keep in mind that seating capacity on the conference rooms is limited.
+    answer: No, **registration is not required**. You just have to come to _Las Naves_ on **14 June**, either for the whole day or for specific sessions. Please note that the capacity of the venues is limited.
 
   - question: How do I get there?
-    answer: "You can reach to _Las Naves_ by bike or by one of the following buses: 4, 19, 30, 92. If you come by car you shouldn't have parking problems in the area."
+    answer: You can reach to _Las Naves_ by bike or by one of the following buses 4, 19, 30, 92. If you come by car you shouldn't have parking problems in the area.
 
 #  - question: Is there food/drink included?
 #    answer: No. There is a break between the morning and afternoon sessions so the attendees can eat wherever they want. You can eat at home, take your own food or go to a bar/restaurant in the area. There is also a shopping center nearby and Las Naves innovation center has a coffe shop. There will be water dispensers in the conference rooms, so if you have a water bottle you can bring it to reduce the waste of plastic.
 
-  - question: Are the sessions going to be recorded?
-    answer: We will do our best to have them recorded, but it depends on several factors and we cannot guarantee that all the sessions will be available for later viewing. If you do not want to miss the talks, the best advice is to go to the event ;)
+  - question: Are the sessions to be recorded?
+    answer: We will do our best to record them, but it depends on several factors and we cannot guarantee that all of them will be available afterwards. If you don't want to miss any of the talks, it's best to attend in person!
 
   - question: How are talks selected?
-    answer: The description of the process is in the <a href="criteria">Selection Criteria</a> page
+    answer:  The selection process is described in detail on the <a href="criteria">Selection Criteria</a> page
 
 ca:
-  - question: A qui va dirigit aquest esdeveniment?
-    answer: Aquesta conferència va dirigida a professionals i estudiants de tecnologia.
+  - question: A qui va dirigit VLCTechFest?
+    answer: Aquesta conferència va dirigida a professionals i estudiants del sector tecnològic
 
-  - question: És necessari pertànyer a una comunitat tècnica de la Comunitat Valenciana per a presentar una xarrada o assistir a l'esdeveniment?
-    answer: No és necessari. Aprofita eixe dia per a conèixer a les comunitats tècniques existents.
+  - question: És necessari pertànyer a una comunitat tècnica de la Comunitat Valenciana per a participar?
+    answer: No, no és necessari. VLCTechFest és una oportunitat perfecta per a descobrir i connectar amb les comunitats tècniques existents.
 
   - question: Quant costa l'entrada?
     answer: L'esdeveniment és **completament gratuït** i d'**entrada lliure** fins a completar aforament.
 
   - question: Cal registrar-se?
-    answer: No, **no hi ha registre**. N'hi ha prou amb acudir a _Las Naves_ el dia 14 de juny, ja siga la jornada completa o únicament a certes sessions concretes. Tingues en compte que l'aforament de les sales és limitat.
+    answer: No, **no hi ha registre**. N'hi ha prou amb acudir a _Las Naves_ el dia **14 de juny**, ja siga la jornada completa o únicament a certes sessions concretes. Tingues en compte que l'aforament de les sales és limitat.
 
   - question: Com arribe fins allí?
-    answer: "Pots arribar _Las Naves_ amb bici o en algun dels següents autobusos: 4, 19, 30, 92. Si vas amb cotxe no hauries de tindre problema a aparcar per la zona."
+    answer: Pots arribar _Las Naves_ amb bici o en algun dels següents autobusos 4, 19, 30, 92. Si vas amb cotxe no hauries de tindre problema a aparcar per la zona.
 
 #  - question: Hi ha menjar/beguda inclòs?
 #    answer: Sí. Entre les sessions de matí i de vesprada hi ha un descans en el qual podrem reposar forces amb unes paelles (opció vegana inclosa). Volem que siga un moment més de diversió i conversació. Per descomptat, també pots endur-te el teu propi menjar o acudir a algun bar/restaurant de la zona (o a casa si vius prop).  També hi ha un centre comercial a prop, i el mateix Centre d'innovació _Las Naves_ disposa d'una cafeteria. A les sales hi haurà dispensadors d'aigua, així que si tens una cantimplora pots dur-la per reduir el malbaratament de plàstic.
 
   - question: Es gravaran les sessions?
-    answer: Farem el possible perquè es graven, però depén de diversos factors i no podem assegurar que totes les sessions vagen a estar disponibles per al seu visionat posterior. Si no vols perdre't les xarrades el millor consell és que acudisques a l'esdeveniment ;)
+    answer: Farem tot el possible per a gravar-les, però depén de diversos factors i no podem garantir que totes estiguen disponibles posteriorment. Si no vols perdre't cap xarrada, el millor és assistir en persona!
 
   - question: Com se seleccionen les xarrades?
     answer: El procés es descriu en la pàgina <a href="criteria">Criteri de Selecció</a>
