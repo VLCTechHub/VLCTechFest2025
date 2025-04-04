@@ -272,6 +272,10 @@ footer a:hover {
   @extend .section-white;
 }
 
+#principles {
+  @extend .section-white;
+}
+
 #sessions {
   @extend .section-pink;
 }
@@ -1192,3 +1196,41 @@ ul.speakers {
 //     background-color: inherit;
 //     border-bottom: 10px dashed;
 // }
+
+// Principles section
+
+$card-shadow: 0 6px 10px rgba(0, 0, 0, 0.125);
+
+.principles {
+  .wrapper {
+    .principlesGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+
+      @include media-query($on-laptop) {
+        grid-template-columns: 1fr;
+      }
+    }
+    article {
+      box-shadow: $card-shadow;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: #f8f8f8;
+
+      h2 {
+        margin: 0;
+        padding: 20px;
+        background-color: var(--purple);
+        color: var(--white);
+        font-weight: 700;
+        min-height: 60px;
+      }
+      p {
+        margin: 0;
+        padding: 20px;
+        line-height: 1.6;
+      }
+    }
+  }
+}
