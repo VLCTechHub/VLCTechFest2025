@@ -1,0 +1,35 @@
+es:
+  title: Valores del Tech Fest
+  values:
+    - title: Defensa de los valores del software libre
+      content: El Tech Fest promueve el uso y la filosofía del software libre como una forma de hacer la tecnología más accesible y colaborativa. Creemos en la transparencia y el aprendizaje colectivo, impulsando el uso de herramientas abiertas que fomenten la innovación y el empoderamiento de la comunidad. A través del software libre, buscamos eliminar barreras y garantizar que la tecnología esté al alcance de todos, sin restricciones.
+    - title: Inclusividad
+      content: Buscamos que todas las personas se sientan bienvenidas en el evento. Aplicamos un proceso de selección de charlas anónimo para reducir sesgos y dar oportunidades equitativas a todas las voces. Además, nos esforzamos en crear un ambiente seguro y respetuoso, donde la participación sea libre de cualquier tipo de discriminación y todas las personas puedan expresarse con confianza.
+    - title: Diversidad
+      content: Valoramos la pluralidad de ideas, experiencias y enfoques dentro de la comunidad tecnológica. Por ello, buscamos que las charlas aborden una amplia variedad de temas y niveles de experiencia, asegurando contenido interesante y accesible para todas las personas asistentes. También impulsamos la representación equitativa en las ponencias, apostando por la diversidad de perspectivas y conocimientos para enriquecer el ámbito tecnológico, lo que incluye una representación equilibrada en términos de género, para enriquecer el ámbito tecnológico.
+    - title: Fomento de las comunidades tecnológicas locales
+      content: El Tech Fest nace desde y para las comunidades tecnológicas de la Comunidad Valenciana. Apoyamos y damos voz a las comunidades locales, promoviendo el intercambio de conocimientos y el contacto cercano entre sus miembros, aquellas que forman parte de nuestra red. Valoramos la cercanía y el impacto directo que podemos generar dentro de nuestra comunidad, potenciando el crecimiento colectivo y creando espacios donde el conocimiento fluya de manera accesible y colaborativa.
+
+en:
+  title: Tech Fest Values
+  values:
+    - title: Defense of free software values
+      content: Tech Fest promotes the use and philosophy of free software as a way to make technology more accessible and collaborative. We believe in transparency and collective learning, driving the use of open tools that foster innovation and community empowerment. Through free software, we seek to eliminate barriers and ensure that technology is accessible to everyone, without restrictions.
+    - title: Inclusivity
+      content: We aim to make everyone feel welcome at the event. We apply an anonymous talk selection process to reduce bias and provide equal opportunities to all voices. Additionally, we strive to create a safe and respectful environment, where participation is free from any type of discrimination and everyone can express themselves with confidence.
+    - title: Diversity
+      content: We value the plurality of ideas, experiences, and approaches within the tech community. Therefore, we seek talks that address a wide variety of topics and experience levels, ensuring interesting and accessible content for all attendees. We also promote equitable representation in presentations, advocating for diversity of perspectives and knowledge to enrich the technological field, including balanced gender representation, to enrich the technological field.
+    - title: Promotion of local tech communities
+      content: Tech Fest is born from and for the tech communities of the Valencian Community. We support and give voice to local communities, promoting knowledge exchange and close contact between their members, those that are part of our network. We value the proximity and direct impact we can generate within our community, enhancing collective growth and creating spaces where knowledge flows in an accessible and collaborative manner.
+
+ca:
+  title: Valors del Tech Fest
+  values:
+    - title: Defensa dels valors del programari lliure
+      content: El Tech Fest promou l'ús i la filosofia del programari lliure com una forma de fer la tecnologia més accessible i col·laborativa. Creiem en la transparència i l'aprenentatge col·lectiu, impulsant l'ús d'eines obertes que fomentin la innovació i l'apoderament de la comunitat. A través del programari lliure, busquem eliminar barreres i garantir que la tecnologia estigui a l'abast de tothom, sense restriccions.
+    - title: Inclusivitat
+      content: Busquem que totes les persones se sentin benvingudes a l'esdeveniment. Apliquem un procés de selecció de xerrades anònim per reduir biaixos i donar oportunitats equitatives a totes les veus. A més, ens esforcem en crear un ambient segur i respectuós, on la participació sigui lliure de qualsevol tipus de discriminació i totes les persones puguin expressar-se amb confiança.
+    - title: Diversitat
+      content: Valorem la pluralitat d'idees, experiències i enfocaments dins de la comunitat tecnològica. Per això, busquem que les xerrades abordin una àmplia varietat de temes i nivells d'experiència, assegurant contingut interessant i accessible per a totes les persones assistents. També impulsem la representació equitativa en les ponències, apostant per la diversitat de perspectives i coneixements per enriquir l'àmbit tecnològic, el que inclou una representació equilibrada en termes de gènere, per enriquir l'àmbit tecnològic.
+    - title: Foment de les comunitats tecnològiques locals
+      content: El Tech Fest neix des de i per a les comunitats tecnològiques de la Comunitat Valenciana. Donem suport i donem veu a les comunitats locals, promovent l'intercanvi de coneixements i el contacte proper entre els seus membres, aquelles que formen part de la nostra xarxa. Valorem la proximitat i l'impacte directe que podem generar dins de la nostra comunitat, potenciant el creixement col·lectiu i creant espais on el coneixement flueixi de manera accessible i col·laborativa.

@@ -1,0 +1,15 @@
+{%- assign principles = site.data.principles[page.lang] -%}
+<section id="principles" class="principles">
+  <div class="wrapper">
+      <h1>{{ principles.title }}</h1>
+      <div class="principlesGrid">
+      {%- for principle in principles.values -%}
+      <article>
+        <h2>{{principle.title}}</h2>
+        <p>{{principle.content}}</p>
+      </article>
+      {%- endfor -%}
+      </div>
+    </article>
+  </div>
+</section>
