@@ -16,6 +16,9 @@ es:
     agenda:
       link: "#sessions"
       label: Agenda
+    principles:
+      link: "#principles"
+      label: Valores
     speakers:
       link: "#speakers"
       label: Ponentes
@@ -114,6 +117,9 @@ en:
     agenda:
       link: "#sessions"
       label: Schedule
+    principles:
+      link: "#principles"
+      label: Principles
     speakers:
       link: "#speakers"
       label: Speakers
@@ -212,6 +218,9 @@ ca:
     agenda:
       link: "#sessions"
       label: Agenda
+    principles:
+      link: "#principles"
+      label: Valors
     speakers:
       link: "#speakers"
       label: Ponents
