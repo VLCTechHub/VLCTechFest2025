@@ -574,6 +574,10 @@ body {
   --secondaryColor: var(--blue);
   --secondaryTextColor: var(--white);
 }
+.section-pink a:not(.button) {
+  color: var(--white);
+  font-weight: 400;
+}
 
 .section-main {
   padding-top: 0;
