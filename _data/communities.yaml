@@ -1,11 +1,3 @@
-
-- name: Asociación GNU/Linux València
-  image: gnulinuxvlc.svg
-  links:
-    - https://gnulinuxvalencia.org
-    - https://floss.social/@gnulinuxvalencia
-    - https://t.me/gnulinuxvalencia
-
 - name: Devscola
   image: devscola_logo.jpeg
   links:
@@ -20,22 +12,6 @@
     - https://x.com/drupalval
     - https://www.meetup.com/Drupalval/
 
-- name: GDG Valencia
-  image: GDG_valencia.png
-  links:
-    - https://x.com/gdgvalencia
-    - https://www.facebook.com/gdgvalencia
-    - https://www.meetup.com/GDGValencia/
-    - https://github.com/gdgvalencia
-    - http://gdgvalencia.es/
-
-- name: Geoinquietos Valencia
-  image: geoinquietosvlc_logo.svg
-  links:
-    - https://x.com/geoinquietosvlc
-    - http://www.meetup.com/es-ES/Geoinquietos-Valencia
-    - https://telegram.me/geoinquietosvlc
-    - https://geoinquietos.org/grupos/valencia/
 
 - name: Hackerspace Valencia
   image: hackerspace_logo.jpeg
@@ -44,11 +20,6 @@
     - https://www.meetup.com/Hackerspace-Valencia/
     - http://hackvlc.es
 
-- name: HackValencia%27
-  image: hackvlc27.svg
-  links:
-    - https://x.com/Hackvlc27
-    - https://t.me/HackValencia
 
 - name: Python Valencia
   image: pythonValencia.jpeg
@@ -71,30 +42,61 @@
     - https://www.meetup.com/es-ES/Valencia-DevOps/
     - https://valenciadevops.github.io/
 
-- name: Valencia JS
-  image: valenciajs_logo.jpeg
-  links:
-    - https://twitter.com/VlcJS
-    - https://www.meetup.com/ValenciaJS/
     
 - name: Valencia Jug
   image: valenciajug_logo.jpg
   links:
     - https://www.meetup.com/es-ES/ValenciaJUG/
     
-- name: Wordpress Valencia
-  image: wordpress_valencia.jpg
-  links:
-    - https://valencia.wordcamp.org
-    - https://www.meetup.com/es-ES/wordpress-valencia-meetup/
-    - https://x.com/_wpvalencia
 
-# - name: Valencia.rb
-#   image: valenciarb_logo.png
+- name: Valencia.rb
+  image: valenciarb_logo.png
+  links:
+    - https://twitter.com/valenciarb
+    - https://github.com/valenciarb
+    - http://valenciarb.org/
+
+- name: HackNight
+  image: hackNight.png
+  links:
+    - https://x.com/hacknightvlc
+    - https://www.meetup.com/de-DE/hacknight-valencia/
+
+- name: AWS User Group
+  image: AWSUserGroup.svg
+  links:
+    - https://www.meetup.com/es-ES/aws-valencia/
+    - https://unicrons.cloud/es/awsug_vlc/
+
+- name: Cloud Native Valencia
+  image: cloudNativeValencia.jpeg
+  links:
+    - https://x.com/cloudnativefdn
+    - https://www.meetup.com/es-ES/cloud-native-valencia/
+    - https://community.cncf.io/cloud-native-valencia/
+    - https://github.com/cncf
+
+- name: Valencia Codes
+  image: valenciaCodes.jpeg
+  links:
+    - https://x.com/i/flow/login?redirect_after_login=%2Fvalenciacodes
+    - https://www.linkedin.com/company/valencia-codes/?originalSubdomain=es
+    - https://www.meetup.com/es-ES/valencia-codes/
+
+# non-participating communities
+
+# - name: HackValencia%27
+#   image: hackvlc27.svg
 #   links:
-#     - https://twitter.com/valenciarb
-#     - https://github.com/valenciarb
-#     - http://valenciarb.org/
+#     - https://x.com/Hackvlc27
+#     - https://t.me/HackValencia
+
+# - name: Wordpress Valencia
+#   image: wordpress_valencia.jpg
+#   links:
+#     - https://valencia.wordcamp.org
+#     - https://www.meetup.com/es-ES/wordpress-valencia-meetup/
+#     - https://x.com/_wpvalencia
 
 # - name: Agile Levante
 #   image: agilelevante_logo.png
@@ -119,3 +121,17 @@
 #     - https://twitter.com/phpvalencia
 #     - https://www.meetup.com/PHP-Valencia/
 #     - https://www.meetup.com/es-ES/AWS-Valencia/
+
+# - name: Valencia JS
+#   image: valenciajs_logo.jpeg
+#   links:
+#     - https://twitter.com/VlcJS
+#     - https://www.meetup.com/ValenciaJS/
+
+# - name: Geoinquietos Valencia
+#   image: geoinquietosvlc_logo.svg
+#   links:
+#     - https://x.com/geoinquietosvlc
+#     - http://www.meetup.com/es-ES/Geoinquietos-Valencia
+#     - https://telegram.me/geoinquietosvlc
+#     - https://geoinquietos.org/grupos/valencia/

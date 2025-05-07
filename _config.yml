@@ -45,6 +45,7 @@ navigation:
   - faq
   - location
   # - sponsors
+  - communities
 locale:
   es: es_ES
   en: en_US
