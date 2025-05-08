@@ -36,7 +36,7 @@ path:
   community_images: /images/communities/
 navigation:
   - about
-  - cfp
+  # - cfp
   # - agenda
   # - workshops
   # - speakers
