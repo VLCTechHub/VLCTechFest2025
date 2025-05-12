@@ -27,7 +27,7 @@
     - https://x.com/python_vlc
     - https://www.meetup.com/Python-Valencia-Meetup/
     - https://telegram.me/python_vlc
-    - https://www.youtube.com/channel/UCyqYMlhpsYgIu-pRjkuycqg
+    - https://www.linkedin.com/company/python-valencia
 
 - name: Valencia Software Crafters
   image: vlcSoftCrafters.png
@@ -42,12 +42,10 @@
     - https://www.meetup.com/es-ES/Valencia-DevOps/
     - https://valenciadevops.github.io/
 
-    
 - name: Valencia Jug
   image: valenciajug_logo.jpg
   links:
     - https://www.meetup.com/es-ES/ValenciaJUG/
-    
 
 - name: Valencia.rb
   image: valenciarb_logo.png
@@ -82,6 +80,29 @@
     - https://x.com/i/flow/login?redirect_after_login=%2Fvalenciacodes
     - https://www.linkedin.com/company/valencia-codes/?originalSubdomain=es
     - https://www.meetup.com/es-ES/valencia-codes/
+
+- name: Geoinquietos Valencia
+  image: geoinquietosvlc_logo.svg
+  links:
+    - https://x.com/geoinquietosvlc
+    - http://www.meetup.com/es-ES/Geoinquietos-Valencia
+    - https://telegram.me/geoinquietosvlc
+    - https://geoinquietos.org/grupos/valencia/
+
+- name: Wordpress Valencia
+  image: wordpress_valencia.jpg
+  links:
+    - https://x.com/_wpvalencia
+    - https://www.meetup.com/es-ES/wordpress-valencia-meetup/
+    - https://t.me/+E4hteYvfpUlNRsDU
+    - https://www.instagram.com/wordpressvalencia/
+
+- name: GDG Valencia
+  image: gdg_valencia.jpg
+  links:
+    - https://gdg.community.dev/gdg-valencia/
+    - https://www.meetup.com/GDGValencia/
+    - https://www.linkedin.com/company/gdg-valencia
 
 # non-participating communities
 
@@ -127,11 +148,3 @@
 #   links:
 #     - https://twitter.com/VlcJS
 #     - https://www.meetup.com/ValenciaJS/
-
-# - name: Geoinquietos Valencia
-#   image: geoinquietosvlc_logo.svg
-#   links:
-#     - https://x.com/geoinquietosvlc
-#     - http://www.meetup.com/es-ES/Geoinquietos-Valencia
-#     - https://telegram.me/geoinquietosvlc
-#     - https://geoinquietos.org/grupos/valencia/
