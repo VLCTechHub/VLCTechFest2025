@@ -48,7 +48,7 @@
     - https://www.meetup.com/es-ES/ValenciaJUG/
 
 - name: Valencia.rb
-  image: valenciarb_logo.png
+  image: valencia_rb.webp
   links:
     - https://twitter.com/valenciarb
     - https://github.com/valenciarb
@@ -104,6 +104,29 @@
     - https://www.meetup.com/GDGValencia/
     - https://www.linkedin.com/company/gdg-valencia
 
+- name: PyLadies Valencia
+  image: pyladies_valencia.jpg
+  links:
+    - https://www.meetup.com/pyladies-valencia/
+    - https://t.me/+WLxcBoMpA6xhN2M0
+
+- name: Valencia JS
+  image: valenciajs_logo.jpeg
+  links:
+    - https://twitter.com/VlcJS
+    - https://www.meetup.com/ValenciaJS/
+
+- name: Ministry of Testing
+  image: mot_valencia.jpg
+  links:
+      - https://www.meetup.com/mot-valencia
+
+- name: PHP Valencia
+  image: phpvalencia_logo.png
+  links:
+    - https://twitter.com/phpvalencia
+    - https://www.meetup.com/es-ES/AWS-Valencia/
+
 # non-participating communities
 
 # - name: HackValencia%27
@@ -136,15 +159,3 @@
 #     - https://twitter.com/muledev
 #     - https://meetups.mulesoft.com/valencia/
 
-# - name: PHP Valencia
-#   image: phpvalencia_logo.png
-#   links:
-#     - https://twitter.com/phpvalencia
-#     - https://www.meetup.com/PHP-Valencia/
-#     - https://www.meetup.com/es-ES/AWS-Valencia/
-
-# - name: Valencia JS
-#   image: valenciajs_logo.jpeg
-#   links:
-#     - https://twitter.com/VlcJS
-#     - https://www.meetup.com/ValenciaJS/
