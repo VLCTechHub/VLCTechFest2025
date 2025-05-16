@@ -43,8 +43,8 @@ navigation:
   - coc
   - principles
   - faq
+  - sponsors
   - location
-  # - sponsors
 locale:
   es: es_ES
   en: en_US

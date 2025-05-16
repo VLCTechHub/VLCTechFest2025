@@ -34,16 +34,21 @@ sponsors:
   - name: Flywire
     image: flywire_logo.svg
     link: https://www.flywire.com/
-    size: 100%
+    size: 90%
 
   - name: Secture
-    image: 
+    image: secture_logo.png
     link: https://www.secture.com/
     size: 100%
 
   - name: Digital Tack
     image: digitaltack.png
     link: https://www.digitaltack.com/
+    size: 100%
+
+  - name: Excentia
+    image: excentia_logo.png
+    link: https://www.excentia.es/
     size: 100%
 
 #  - name: Qatium
