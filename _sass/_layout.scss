@@ -707,9 +707,19 @@ section {
 ul.sessions {
   > li {
     > p {
+      background-color: var(--pink);
+      color: var(--white);
       font-family: var(--slabFont);
       font-size: 1.8em;
       line-height: 1.2em;
+      margin-top: 2em;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      &.workshop-time {
+        background-color: var(--white);
+        color: var(--pink);
+      }
     }
     > ul {
       > li {
