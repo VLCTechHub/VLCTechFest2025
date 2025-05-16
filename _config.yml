@@ -39,10 +39,10 @@ navigation:
   # - cfp
   - agenda
   - workshops
-  # - speakers
-  - coc
-  - principles
+  - speakers
   - faq
+  #- coc
+  #- principles
   - communities
   - location
   # - sponsors
