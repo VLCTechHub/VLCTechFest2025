@@ -40,8 +40,8 @@ navigation:
   - agenda
   - workshops
   # - speakers
-  - principles
   - coc
+  - principles
   - faq
   - communities
   - location
