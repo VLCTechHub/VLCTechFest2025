@@ -16,13 +16,21 @@
 - startTime: "9:30"
   endTime: "11:30"
   room: Patio
-  title: "Taller de soldadura: ¡Suelda tu propia Badge!"
+  title: "Taller de soldadura Junior: ¡Suelda tu propia Badge!"
   description: |-
-    Pretendemos tumbar la barrera inicial que puede cohibir el aprendizaje al encontrarse con una interfaz de usuario desconocida y un proceso de trabajo meticuloso y específico.
+    Vive una experiencia única combinando tecnología, creatividad y aprendizaje práctico. El taller está diseñado para todos los niveles y es completamente gratuito para todos los participantes. Os guiaremos paso a paso en el mundo de la electrónica a través del montaje de una badge personalizada.
 
-    Con este taller se pretende suavizar la curva de aprendizaje de la herramienta para nuevos usuarios de esta, ya que la interfaz de usuario y los procesos a seguir requieren de cierto conocimiento técnico básico.
+    ¿Qué haremos?
+    * -- De forma dinámica y cercana, explicaremos cómo funciona la badge, qué componentes contiene y para qué sirve cada uno.
+    * -- Te enseñaremos qué es una estación de soldadura, qué materiales necesitas y cómo usar el soldador con seguridad y precisión.
+    * -- ¡Manos a la obra! Cada participante soldará su propia badge con atención y supervisión individual.
 
-    La idea es enseñar a realizar piezas básicas, a partir de medidas reales, y motivar al usuario a diseñar piezas con el objetivo de introducirlo al modelado 3D, abriendo la puerta a la impresion 3d, fabricación sustractiva, etc.
+    Os animamos a que vengáis con los peques para que disfrutéis de esta actividad en familia. ¡Es una gran oportunidad para que se inicien en el mundo de la tecnología!
+
+    Por favor, apúntate a este evento para reservar tu plaza. Cada reserva de plaza contará tanto para ti (como adulto) como para tu peque.
+    Si al final no puedes venir, indícanoslo para liberar la plaza para otra persona.
+   
+    No dudéis en preguntar cualquier duda que os surja.
 
     <a href="https://www.meetup.com/es-ES/vlctechhub/events/307862057/">¡Inscríbete!</a>
   speaker:
@@ -62,11 +70,11 @@
   room: Patio
   title: "Taller de soldadura"
   description: |-
-    Aprende a soldar montando una placa funcional.
+         De la mano del Hackerspace, os proponemos de nuevo ponernos manos a la obra: Aprende a soldar montando una placa funcional y... ¡al terminar podrás llevártela!
 
-    Al terminar podrás llevártela!
+         Esta actividad es completamente gratuita para todos los participantes pero por favor, apúntate a este evento para reservar tu plaza. Si al final no puedes venir, indícanoslo para liberar la plaza para otra persona.
 
-    <a href="https://www.meetup.com/es-ES/vlctechhub/events/307862702/">¡Apúntate!</a>
+         <a href="https://www.meetup.com/es-ES/vlctechhub/events/307862702/">¡Apúntate!</a>
   speaker:
     - name: "Hackerspace Valencia"
       links:

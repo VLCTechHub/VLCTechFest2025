@@ -11,11 +11,9 @@
   language: "es"
   title: "Autogenerar o no autogenerar, esa es la cuestión"
   description: |-
-    Trabajando con código autogenerado haciendo una gema en ruby para OpenFGA.
+    En esta charla, compartiré mi experiencia trabajando con código autogenerado haciendo una gema en ruby para OpenFGA. Aprenderemos comparando código escrito por mi y código auto-generado y exploraremos si compensa tener mas automatización a costa de la legibilidad.
 
-    En esta charla, compartiré mi experiencia comparando código escrito por mi y código auto-generado, exploraremos si compensa tener mas automatización a costa de la redibilidad.
-
-    Discutiremos como el código auto-generado podría impactar la experiencia de developers, como afecta la mantenibilidad, debugging, y la sustenibilidad a largo plazo.
+    Discutiremos como el código auto-generado podría impactar la experiencia de developers, como afecta la mantenibilidad, debugging, y la sostenibilidad a largo plazo.
   speaker:
     - name: "Carla Urrea Stabile"
       bio: "Carla es ingeniera de software y developer advocate en Auth0. Carla se considera una desarrolladora agnóstica al lenguaje, aunque disfruta trabajando con Ruby y Python. En su tiempo libre, la puedes encontrar paseando con su perra, haciendo senderismo o montando en bicicleta."
@@ -27,7 +25,7 @@
 
 - startTime: "9:30"
   endTime: "10:30"
-  room: Factoría
+  room: Sala Factoría
   language: "es"
   title: "Figma no muerde: Dev Mode, el puente entre diseño y desarrollo"
   description: |-
@@ -45,7 +43,7 @@
 - startTime: "9:30"
   endTime: "10:30"
   room: Gradas
-  language: "en"
+  language: "Talk in English 🇬🇧"
   title: "Inside the First Git Commit: Powerful Ideas Behind a Minimal Start"
   description: |-
     In this talk, we will dissect the first Git commit by Linus Torvalds and uncover the powerful software design principles embedded in its earliest code. We will explore how Git’s choice of data structures (like immutable content-addressed blobs and trees) laid the foundation for reliability, correctness, and performance.
@@ -78,7 +76,7 @@
 
 - startTime: "10:30"
   endTime: "11:30"
-  room: Factoría
+  room: Sala Factoría
   language: "es"
   title: "Érase una vez una evaluación de accesibilidad"
   description: |-
@@ -152,7 +150,7 @@
 
 - startTime: "12:00"
   endTime: "13:00"
-  room: Factoría
+  room: Sala Factoría
   language: "es"
   title: "CLIs con brilli-brilli / Mejorando la UX de TUIs applicaciones de terminal"
   description: |-
@@ -160,7 +158,7 @@
 
     Vamos a ver cómo, con la ayuda de la arquitectura ELM (Model-Update-View), podemos crear aplicaciones modulares y reactivas que no solo funcionen bien, sino que también sean un placer para usar. Además,  mostraré algun ejemplos práctico para que se pueda ver cómo transformar esas CLIs aburridas en algo mucho más eficiente y divertido para el día a día del desarrollador, haciendo hincapié en el UX.
   speaker:
-    - name: "Javier Martín"
+    - name: "Javier Martí"
       bio: |-
         Actualmente, trabajo como SRE en Flywire, formando parte del equipo de Platform Engineering y Developer Experience. Mi principal responsabilidad es gestionar y optimizar la plataforma de CI/CD, asegurando que los desarrolladores puedan hacer deploys de manera eficiente y sin fricciones.
 
@@ -210,7 +208,7 @@
 
 - startTime: "13:00"
   endTime: "14:00"
-  room: Factoría
+  room: Sala Factoría
   language: "es"
   title: "De Postgres a DuckDB: nuestra transición hacia análisis escalables"
   description: |-
@@ -260,7 +258,7 @@
 - startTime: "16:00"
   endTime: "17:00"
   room: Sala polivalente
-  language: "en"
+  language: "Talk in English 🇬🇧"
   title: "Smarter Load Tests: How AI is Transforming Performance Engineering"
   description: |-
     Performance testing is evolving rapidly, and AI is becoming an invaluable tool in this transformation. In this session, we'll explore practical applications of AI in performance engineering, including automated anomaly detection, test scenario optimization, and predictive load modeling.
@@ -276,7 +274,7 @@
 
 - startTime: "16:00"
   endTime: "17:00"
-  room: Factoría
+  room: Sala Factoría
   language: "es"
   title: "Web performance: from zero to hero"
   description: |-
@@ -337,7 +335,7 @@
 
 - startTime: "17:00"
   endTime: "18:00"
-  room: Factoría
+  room: Sala Factoría
   language: "es"
   title: "No entiendes tu proyecto… y yo tampoco"
   description: |-
