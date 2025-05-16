@@ -1,27 +1,95 @@
-- startTime: "11:00"
-  endTime: "12:00"
-  room: Patio
-  title: "Taller de iniciación a la soldadura SMD"
+- startTime: "9:30"
+  endTime: "11:30"
+  room: Visual
+  title: "Introducción al modelado 3D con FreeCAD"
   description: |-
-    Estás interesado en la electronica pero siempre te ha dado miedo tocar los componentes de una placa. Pues está es tu oportunidad de perder el miedo. Trabajaremos técnicas sencillas de montaje y desmontaje. Veremos que herramientas son recomendables, como sustituir componentes dañados, etc...
+    Pretendemos tumbar la barrera inicial que puede cohibir el aprendizaje al encontrarse con una interfaz de usuario desconocida y un proceso de trabajo meticuloso y específico.
 
-    Plazas limitadas, reserva tu plaza en [este enlace](https://www.meetup.com/hackerspace-valencia/events/301415344/?recId=32ea591a-3ea6-4a00-a547-702735121671&recSource=keyword_search&searchId=b2395dac-febe-4df9-9d2c-ac262b5acbf4).
+    Con este taller se pretende suavizar la curva de aprendizaje de la herramienta para nuevos usuarios de esta, ya que la interfaz de usuario y los procesos a seguir requieren de cierto conocimiento técnico básico.
+
+    La idea es enseñar a realizar piezas básicas, a partir de medidas reales, y motivar al usuario a diseñar piezas con el objetivo de introducirlo al modelado 3D, abriendo la puerta a la impresión 3d, fabricación sustractiva, etc.
   speaker:
-    - name: Hackerspace Valencia
+    - name: "Restarters"
       links:
-        - https://hackvlc.es/
+        - https://restartersvlc.wordpress.com/
 
-- startTime: "12:30"
+- startTime: "9:30"
+  endTime: "11:30"
+  room: Patio
+  title: "Taller de soldadura Junior: ¡Suelda tu propia Badge!"
+  description: |-
+    Vive una experiencia única combinando tecnología, creatividad y aprendizaje práctico. El taller está diseñado para todos los niveles y es completamente gratuito para todos los participantes. Os guiaremos paso a paso en el mundo de la electrónica a través del montaje de una badge personalizada.
+
+    ¿Qué haremos?
+    * -- De forma dinámica y cercana, explicaremos cómo funciona la badge, qué componentes contiene y para qué sirve cada uno.
+    * -- Te enseñaremos qué es una estación de soldadura, qué materiales necesitas y cómo usar el soldador con seguridad y precisión.
+    * -- ¡Manos a la obra! Cada participante soldará su propia badge con atención y supervisión individual.
+
+    Os animamos a que vengáis con los peques para que disfrutéis de esta actividad en familia. ¡Es una gran oportunidad para que se inicien en el mundo de la tecnología!
+
+    Por favor, apúntate a este evento para reservar tu plaza. Cada reserva de plaza contará tanto para ti (como adulto) como para tu peque.
+    Si al final no puedes venir, indícanoslo para liberar la plaza para otra persona.
+   
+    No dudéis en preguntar cualquier duda que os surja.
+
+    <a href="https://www.meetup.com/vlctechhub/events/307868179/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">¡Inscríbete!</a>
+  speaker:
+    - name: "Sara Martínez y Pablo Trujillo"
+
+- startTime: "12:00"
+  endTime: "14:00"
+  room: Visual
+  title: "Taller de evaluación de accesibilidad - Explorando herramientas y pruebas para garantizar la inclusión / David"
+  description: |-
+    La accesibilidad no es solo un requerimiento legal o técnico, sino una oportunidad para crear experiencias digitales más inclusivas y usables para todas las personas. En esta charla-taller abordaremos de forma práctica y accesible los fundamentos de la evaluación de accesibilidad digital.
+
+    Exploraremos el uso de herramientas como Microsoft Accessibility Insights, VisBUG o los lectores de pantalla en sí mismo para conocer técnicas de testing y visualizar fallos que no saltan con herramientas automatizadas. También abordaremos ejemplos de barreras de accesibilidad comunes y realizaremos al menos un caso práctico de detección en vivo, donde aplicaremos lo aprendido para reconocer fallos y proponer soluciones.
+  speaker:
+    - name: "David Fernández"
+      bio: |-
+        Me llamo David Fernandez y soy Auditor de Accesibilidad Digital con experiencia tanto en Desktop como en Mobile.
+
+        Técnico de Sonido reconvertido en Trusted Tester para el Departamento de Seguridad Nacional de EE. UU. (DHS - A11y):
+
+        Comencé mi carrera en el mundo digital en 2014, realizando pruebas como tester freelance para Lionbridge, centrado en revisiones de calidad (QA) de páginas web en entornos como Google. En 2017, amplié mi experiencia testeando en sitios web y aplicaciones móviles, lo que me llevó a especializarme en auditoría de accesibilidad digital. En 2022 obtuve la certificación como Auditor A11y y, desde entonces, he trabajado de forma independiente como consultor en accesibilidad digital, colaborando con diversos proyectos hasta la actualidad.
+
+        Presente:
+
+        - Relator en la academia de accesibilidad weAAAre, facilitador de talleres sobre accesibilidad y creador del curso 'Lectores de pantalla para móvil'
+        - Colaborador en QA Makers como moderador del curso de accesibilidad y las charlas mensuales de testing
+        - Auditor en la empresa deo.dev trabajando para clientes como AMADEUS
+        - Socio de ASEPAU - asociación española de profesionales de la accesibilidad universal
+        - Miembro de la IAAP, certificado con el CPACC
+      links:
+        - https://www.linkedin.com/in/david-f-110741127/
+
+- startTime: "12:00"
   endTime: "14:00"
   room: Patio
-  title: "Nerdy Derby: construye tu mini bólido y lánzalo por nuestra rampa"
+  title: "Taller de soldadura"
   description: |-
-    El Hackerspace Valencia nos trae una pista donde podremos construir nuestros propios vehículos y comparar resultados en la pista con otros vehículos.
+         De la mano del Hackerspace, os proponemos de nuevo ponernos manos a la obra: Aprende a soldar montando una placa funcional y... ¡al terminar podrás llevártela!
 
-    Para niñ@s de todas las edades acompañados por un adulto.
+         Esta actividad es completamente gratuita para todos los participantes pero por favor, apúntate a este evento para reservar tu plaza. Si al final no puedes venir, indícanoslo para liberar la plaza para otra persona.
 
-    Plazas limitadas, reserva tu plaza en [este enlace](https://www.meetup.com/hackerspace-valencia/events/301458684/?recId=32ea591a-3ea6-4a00-a547-702735121671&recSource=keyword_search&searchId=b2395dac-febe-4df9-9d2c-ac262b5acbf4).
+         <a href="https://www.meetup.com/vlctechhub/events/307862702/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">¡Apúntate!</a>
   speaker:
-    - name: Hackerspace Valencia
+    - name: "Hackerspace Valencia"
       links:
         - https://hackvlc.es/
+
+- startTime: "16:00"
+  endTime: "18:00"
+  room: Visual
+  title: "JavaScript for the Rest of Us"
+  description: |-
+    Aprender JavaScript puede parecer abrumador, pero la base sigue siendo simple y poderosa.
+
+    Este workshop es para quienes quieren entrar en el mundo tech construyendo fundamentos sólidos: variables, funciones, estructuras de control y buenas prácticas reales, sin perderse en frameworks o modas. Una hora práctica para poner el primer pie en la programación web con criterio y confianza.
+  speaker:
+    - name: "Juan Andrés Núñez Charro"
+      bio: "Soy Senior Frontend Engineer, especialista en Vue.js y educador profesional con más de 10 años de experiencia formando y acompañando a desarrolladores. Combino el dominio técnico con una visión humana del aprendizaje, ayudando a otros a crecer y avanzar en su carrera, especialmente ahora, en la era de la IA."
+      links:
+        - https://wmedia.es
+        - https://github.com/juanwmedia
+        - https://www.linkedin.com/in/juanwmedia/

@@ -78,6 +78,7 @@ es:
       button: Anima a otra persona
   sessions:
     title: Agenda
+    link: "#sessions"
   workshops:
     title: Talleres
   restoration:

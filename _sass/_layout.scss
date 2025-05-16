@@ -707,9 +707,19 @@ section {
 ul.sessions {
   > li {
     > p {
+      background-color: var(--pink);
+      color: var(--white);
       font-family: var(--slabFont);
       font-size: 1.8em;
       line-height: 1.2em;
+      margin-top: 2em;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      &.workshop-time {
+        background-color: var(--white);
+        color: var(--pink);
+      }
     }
     > ul {
       > li {
@@ -729,11 +739,13 @@ ul.sessions {
           background-color: var(--pink);
           color: white;
           .title {
-            color: white;
+            color: var(--white);
           }
 
           a {
-            color: #ADD8E6
+            color: var(--white);
+            font-weight: bold;
+            text-decoration: underline;
           }
         }
         .title {
@@ -746,8 +758,8 @@ ul.sessions {
         .description {
           grid-area: description;
           margin: 0;
-          font-family: var(--slabFont);
           padding-top: 1em;
+          font-size: 0.9em;
         }
         .room {
           grid-area: room;

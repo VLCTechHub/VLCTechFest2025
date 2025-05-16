@@ -9,7 +9,7 @@
           {% if time != "" %}</ul></li>{%- endif -%}
           <li>
             <p>
-              <span class="start">{{session.startTime}}</span>
+              <span class="start">{{session.startTime}}</span> -
               <span class="end">{{session.endTime}}</span>
             </p>
             <ul>
@@ -23,7 +23,10 @@
               <li>{{speaker.name}}</li>
             {%- endfor -%}
           </ul>
-          <p class="room">Sala: <span>{{session.room}}</span></p>
+          <p class="room"><span>{{session.room}}</span><br/>
+            {% if session.language != "es" %}
+          <span>{{session.language}}</span>
+        {%- endif -%}</p>
           <div class="description">{{session.description | markdownify }}</div>
         </li>
       {%- endfor -%}

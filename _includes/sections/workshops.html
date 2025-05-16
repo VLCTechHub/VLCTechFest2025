@@ -8,8 +8,8 @@
         {% if time != session.startTime %}
           {% if time != "" %}</ul></li>{%- endif -%}
           <li>
-            <p>
-              <span class="start">{{session.startTime}}</span>
+            <p class="workshop-time">
+              <span class="start">{{session.startTime}}</span> - 
               <span class="end">{{session.endTime}}</span>
             </p>
             <ul>

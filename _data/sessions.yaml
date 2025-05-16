@@ -1,348 +1,375 @@
 
-- startTime: "9:30"
-  endTime: "9:55"
+- startTime: "9:00"
+  endTime: "9:30"
   room: Sala Polivalente
   title: "Apertura del evento y bienvenida"
   description: "Breve introducción al evento por parte de los organizadores."
 
-- startTime: "10:00"
-  endTime: "10:45"
+- startTime: "9:30"
+  endTime: "10:30"
   room: Sala Polivalente
-  title: "¡Cookiegeddon! Bye a las cookies de terceros y cómo afectará a tu software"
+  language: "es"
+  title: "Autogenerar o no autogenerar, esa es la cuestión"
   description: |-
-    Google Chrome ya ha empezado a bloquear las 3rd Party Cookies. A partir del Q1 de 2024, el 1% de todos los Chromes del mundo empezarán a bloquear cookies de terceros, y progresivamente se extenderá a toda la fucking internet.
+    En esta charla, compartiré mi experiencia trabajando con código autogenerado haciendo una gema en ruby para OpenFGA. Aprenderemos comparando código escrito por mi y código auto-generado y exploraremos si compensa tener mas automatización a costa de la legibilidad.
 
-    “¡Ya era hora de que bloquearan eso!” “¡Eso eso! Que les den a todos los que trackean tu actividad!”
-
-    Pero queridos, las cookies de terceros no solo se usan para el mal. Hay muchísimas aplicaciones, desde SSO, CDN load balancing, headless CMS, 3rd party API calls, chats embebidos, que las utilizan. Si tu aplicación tiene un iframe embebido, casi 100% que esto va te va a afectar. Si tienes una aproximación de microfrontends, oh amigo, si que te va a afectar de verdad. De hecho, hay incluso protocolos de interoperabilidad que funcionan con 3rd party cookies (CMS, LMS, etc.).
-
-    El impacto es potencialmente grande. En esta charla hablaremos de qué son exactamente las 3rd party cookies, y por qué quieren cargárselas. Y por supuesto, veremos qué alternativas tenemos.
+    Discutiremos como el código auto-generado podría impactar la experiencia de developers, como afecta la mantenibilidad, debugging, y la sostenibilidad a largo plazo.
   speaker:
-    - name: "Francisco Javier Barrena"
-      bio: "Software architect and developer specialized in scalable systems based on decoupled architectures, microservices and cloud environments."
-      photo: /images/speakers/javierBarrena.jpg
-      links:
-        - https://github.com/fjbarrena
-        - https://twitter.com/DogDeveloper
-        - https://www.linkedin.com/in/fjbarrena/
-        - https://fjbarrena.dev
-- startTime: "10:00"
-  endTime: "10:45"
-  room: Visual Room
-  title: "Desarrollo determinista con Outside-in TDD"
-  description: |-
-    En el mundo del TDD (Test Driven Development) existen dos escuelas, Outside-In e Inside-Out. En esta charla vamos a ver la diferencia entre ambas y cómo podemos usarlas para conseguir un código de mayor calidad, más robusto y otro montón de beneficios. Además aquello de “me funcionó a la primera!” se convertirá en la norma.
-  speaker:
-    - name: "Daniel Ramos Acosta"
-      bio: "Hola! Soy Daniel, desarrollador principalmente enfocado en backend con Javascript. En los últimos años me he centrado en ampliar conocimiento en DDD, testing, y todo lo que le rodea. Y como ya es normal en mí cuando aprendo algo, me encantará compartirlo con todos ustedes :-)"
-      photo: /images/speakers/danielRamos.jpeg
-      links:
-        - https://www.danielramos.me/
-        - https://twitter.com/DanielRamosAcos
-        - https://github.com/DanielRamosAcosta
-        - https://www.linkedin.com/in/danielramosacosta/
-- startTime: "10:00"
-  endTime: "10:45"
-  room: Factoría
-  title: "Descubriendo talento tecnológico: Una perspectiva de reclutamiento"
-  description: |-
-    Es una charla que ofrece una visión detallada del mundo del reclutamiento en el sector Tech. Compartiré mi experiencia y conocimientos sobre cómo afrontar los procesos de selección en este campo tan competitivo.
-
-    Hablaré sobre las tendencias actuales en reclutamiento, proporcionando una visión actualizada del panorama de contratación en tecnología. Además, se ofrecerán consejos prácticos y mejoras para optimizar los procesos de selección desde el lado de los candidatos/as que buscan su primer contacto laboral en este sector o un nuevo proyecto dentro del mismo. 
-
-    La charla también abordará los desafíos que presenta el sector tecnológico, un campo en constante cambio y evolución, y cómo superarlos.
-  speaker:
-    - name: "Paola Peiró Soriano"
-      bio: "Apasionada por la búsqueda de talento en el entorno digital, actualmente formo parte del Grupo Aitana (Consultora tecnológica Partner de Microsoft y de SAGE) seleccionando perfiles IT. Fascinada por el mundo digital y la arquitectura del software, estudiando actualmente DAM y comprometida con mi desarrollo profesional y personal."
-      photo: /images/speakers/paola.png
-      links:
-        - https://github.com/Pao9629
-        - https://www.linkedin.com/in/paola-p-753b271b1/
-
-- startTime: "11:00"
-  endTime: "11:45"
-  room: Sala Polivalente
-  title: "Mundo unicornio 🦄 testing + accesibilidad"
-  description: |-
-    Cada año WebAim estudia el estado global de la accesibilidad analizando el top 1 millón de homepages (https://webaim.org/projects/million/). En el análisis del último año (Febrero 2024) se detectaron cerca de 50 millones de errores diferentes con una media de 50 errores por site. Lo mas curioso es que el 96% de los errores se pueden agrupar en 6 categorías y éstas han sido las mismas durante 6 años.
-
-    En este charla vamos a unir dos grandes unicornios de nuestra industria: los tests y la accesibilidad y veremos cuáles son y que podemos hacer para evitar repetir siempre los mismos errores en nuestras aplicaciones, protegiéndonos con el uso de unit test con react-testing-library. Como base, usaremos una aplicación hecha en React para ver tambien las herramientas que nos ofrece el navegador para detectar estos fallos.
-  speaker:
-    - name: "Jordi Turull"
-      bio: "Con casi 15 años de experiencia en el sector desempeñando el rol de Frontend. En la actualidad, es Frontend Lead, al mismo tiempo que administra su proyecto personal, Happergy.es. Sus pasiones son el diseño, la fotografía y el deporte y desde hace 3 años: el mundo de la accesibilidad web. Desde entonces, se ha dedicado a ser un Defensor de la Accesibilidad, difundiendo y concienciando sobre este tema tan importante, dentro y fuera de la empresa."
-      photo: /images/speakers/jordiTurull.jpeg
-      links:
-        - https://twitter.com/iXorx
-        - https://github.com/iXorx
-        - https://www.linkedin.com/in/jorditurull/
-- startTime: "11:00"
-  endTime: "11:45"
-  room: Visual Room
-  title: "Acelerando algoritmos en Raspberry Pi"
-  description: |-
-    Son tiempos de inteligencia artificial (AI), en los que utilizamos grandes conjuntos de procesadores para entrenar las redes neuronales. Por otra parte, en el mercado, los ordenadores de tarjeta única (SBC) están cada vez más de moda. Estos, debido a su bajo coste tienen capacidades limitadas, entonces, ¿Dónde se unen los SBC con la AI?, en las FPGA.
-    
-    En esta charla se presenta una solución de SBC + FPGA de bajo coste con la que es posible ejecutar algoritmos recursivos como el cálculo de hash de manera eficiente. El SBC es la Raspberry Pi 5, que gracias a su interfaz PCIe x1 nos permite conectar una tarjeta aceleradora con una FPGA de AMD.
-    
-    La charla se estructura en diferentes bloques donde explica la necesidad de utilizar estos dispositivos, las posibles opciones que tenemos, como encajan las FPGA, y se presenta la solución Raspberry PI + FPGA.
-  speaker:
-    - name: "Pablo Trujillo"
-      bio: "Diseñador de FPGA especializado en procesado digital de señal y control. Además autor del blog controlpaths.com donde se desarrollan proyectos sobre FPGA, SOC, procesado digital de señal y aceleración hardware. He sido ponente en conferencias como DSP Online Conference o ViCon."
-      photo: /images/speakers/pabloTrujillo.jpeg
-      links: 
-        - https://twitter.com/controlpaths
-        - https://www.controlpaths.com/
-- startTime: "11:00"
-  endTime: "11:45"
-  room: Factoría
-  title: "Estrategias de Ciberseguridad para Analistas de Calidad Software"
-  description: |-
-    Es una realidad que los ciberataques están aumentando enormemente en la actualidad. Por tanto, ¿cómo podemos contribuir los analistas de calidad software en este entorno de ciberseguridad? ¿Es posible prevenir determinadas situaciones cruciales sin ser especialistas en ciberseguridad?
-
-    En esta sesión se analizaran las principales situaciones que pueden poner en peligro nuestro software. Para ello, será fundamental comprender los principales riesgos y vulnerabilidades a los que estarán expuestos nuestros productos a lo largo de su vida útil. Es en este punto dónde, como analistas de calidad, tenemos algo que aportar.
-
-    Con toda esa información a mano, junto con la ayuda de nuestra experiencia como equipo de pruebas, se desarrollarán algunas mitigaciones para fomentar el uso de análisis de código estático para identificar vulnerabilidades, localizar ciertos conjuntos de datos para obligar a casos de uso críticos, etc. . . Dicho de otra manera, encabezar la estrategia y la cultura de ciberseguridad dentro de nuestro equipo de desarrollo software.
-  speaker:
-    - name: "Sara Martínez Giner"
-      bio: "Soy Sara y desde hace 10 años me dedico al análisis y pruebas de calidad. Gracias ello, he estado involucrada en proyectos de Telecomunicaciones, Geolocalización, Big Data y Electrónica de Potencia. Actualmente trabajo para la unidad de Ciberseguridad de Telefónica Tech, dónde esa calidad está enfocada tanto a los productos como a la seguridad informática de los mismos."
-      photo: /images/speakers/saraMartinez.jpeg
-      links:
-        - https://www.linkedin.com/in/saramartinezginer/
-        - https://twitter.com/_TicTacS
-
-- startTime: "12:00"
-  endTime: "12:30"
-  room: Patio
-  title: "Descanso y networking"
-  description: "Para reponer fuerzas y conocernos"
-
-- startTime: "12:30"
-  endTime: "13:15"
-  room: Sala Polivalente
-  title: "Cultivando el talento y la diversidad en equipos de ingeniería"
-  description: |-
-    En esta charla presentamos una iniciativa diseñada para mejorar la capacidad y diversidad de los equipos de ingeniería, fomentando el talento y la inclusión. La realidad es que contratar ingenieros e ingenieras con experiencia profesional es un reto, y cuando se encuentran la mayoría cuentan con un historial similar, con lo que cada nuevo miembro potencialmente reduce la diversidad del equipo.
-
-    Desde el equipo de ingeniería de Qatium se puso en marcha una iniciativa con el objetivo de abordar este problema y ofrecer oportunidades a personas con un background único, pero poca experiencia programando. Un programa de capacitación e inmersión en las prácticas del equipo que promueve el aprendizaje de las habilidades básicas para contribuir al equipo.
-
-    Compartiremos las lecciones aprendidas desde el punto de vista de la organización y también de los participantes. Esto puede servir como ejemplo para que otras organizaciones puedan incrementar la diversidad de habilidades, personas e incentivar el talento y  la innovación. La charla será la mitad en castellano y la mitad en inglés.
-  speaker:
-    - name: "Natalie Grefenstette"
-      bio: "Data scientist at Qatium working on bringing innovative solutions to the product by leveraging machine learning techniques. As a trained chemist, Natalie recently transitioned from scientific research into tech, where she is striving to make an impact in the climate tech space."
-      photo: /images/speakers/natalieGref.jpeg
-      links:
-        - https://www.linkedin.com/in/nataliegref/
-
-    - name: "Miguel Angel Fernandez"
-      bio: "Miembro del equipo de Qatium, como parte de la organización plana mezcla roles de ingeniería y gestión. Involucrado en reclutamiento, coaching y crecimiento sano del equipo, y además como programador senior ayudando en la definición de la visión técnica y en el desarrollo diariamente."
-      photo: /images/speakers/avatar.png
-      links:
-        - https://www.linkedin.com/in/miguelangelfernandezpaco/
-- startTime: "12:30"
-  endTime: "13:15"
-  room: Visual Room
-  title: "El arte de diseñar APIs"
-  description: |-
-    Hoy en día el diseño de API es un arte fundamental en el desarrollo de software. 
-
-    En esta charla, exploraremos los principios básicos que todo desarrollador debe dominar para construir APIs eficientes y escalables. Desde la comprensión de RESTful hasta la aplicación de patrones de diseño y prácticas recomendadas.
-
-    Con 20 años de experiencia como Programador y Project Manager en IT, mostraré algunos insights y ejemplos con Python y FastAPI maravilloso framework con documentación automática.
-    
-    ¡Esta charla es para elevar tu habilidad en el diseño de APIs!
-  speaker:
-    - name: "Francisco Araujo Ruiz"
-      bio: "Líder con más de 20 años de experiencia en tecnologías web. 
-      Disfruto los proyectos con metodología ágil, el trato con los clientes, construir productos escalables, robustos y de calidad. Mi pasión por la docencia me facilita transmitir conocimientos y experiencia laboral, logrando que mis equipos generen valor en un clima agradable, comprometidos y motivados, junto al desafío de crecer y ser creativos."
-      photo: /images/speakers/francisco.jpeg
-      links:
-        - http://www.linkedin.com/in/francisco-araujo-ruiz
-- startTime: "12:30"
-  endTime: "13:15"
-  room: Factoría
-  title: "Bye Monitoring, Hello Observability"
-  description: |-
-    3 de la mañana, suena el oncall. La plataforma de pagos no funciona. Entras en los dashboards y está todo en verde: no tienes ni la menor idea del fallo, mucho menos de la causa del mismo. El monitoring tradicional nos falló en esa situación. Tal vez haya una manera mejor de hacer las cosas…
-    
-    En esta charla exploraremos la alternativa al monitoring tradicional en sistemas complejos: la Observabilidad. Entenderemos cómo podemos usar OpenTelemetry para encontrar problemas que “no sabemos que no sabemos” gracias a la alta cardinalidad y dimensionalidad de los datos de telemetría. Al tratarse de un estándar de la CNCF, existen SDKs en la gran mayoría de lenguajes, no obstante, se usará ruby para demostrar con un caso el uso práctico de la Observabilidad.
-  speaker:
-    - name: "Eduardo Simon Picon"
-      bio: "Mi nombre es Eduardo Simon, actualmente soy un Software Engineer en Flywire. La pasión por los videojuegos me llevó a profundizar en el campo del gamedev, la cual, poco después, evolucionó hacia el campo del desarrollo web. Me considero un desarrollador full-stack, apasionado del backend, frontend e infra. Además de la tecnología, me encanta hacer deporte y cocinar. "
-      photo: /images/speakers/eduardoSimo.jpeg
-      links:
-        - https://www.linkedin.com/in/eduardo-simon/
-        - https://github.com/EduardoSimon
-
-- startTime: "13:30"
-  endTime: "14:15"
-  room: Sala Polivalente
-  title: "Web Accessibility Wonderland: Dive into the Why and How!"
-  description: |-
-    In today's digital age, web accessibility isn't just a nice-to-have feature; it's a necessity for inclusivity. As the internet becomes increasingly integral to everyday life, barriers to access can leave millions of individuals behind.
-    
-    Let's discuss the importance of accessibility on the web, why you need to be updated with the latest trends and how you can apply it in your projects.
-  speaker:
-    - name: "Diana Rodriguez"
-      bio: "Software engineer currently working in the QA world. Thrilled with projects related to Data Science and SRE. Currently discovering, learning and hopefully teaching about accessibility in the web."
-      photo: /images/speakers/dianaRodriguez.jpeg
-      links:
-        - https://twitter.com/dcolli94
-        - https://www.linkedin.com/in/diana-rodriguez-615781132/
-- startTime: "13:30"
-  endTime: "14:15"
-  room: Visual Room
-  title: "Pros y Cons del trío de producto"
-  description: |-
-    En esta charla, exploraremos la importancia de una comunicación efectiva entre los equipos de diseño, producto y desarrollo en el contexto de la creación de productos digitales. Desde mi experiencia en la industria, identificaré los desafíos comunes que enfrentan estos equipos y compartiré estrategias prácticas para superarlos y construir relaciones más sólidas y colaborativas. Aprenderemos cómo fomentar la transparencia, la comprensión mutua y la confianza, lo que conducirá a una mayor eficiencia, calidad y satisfacción del equipo en el desarrollo de productos digitales exitosos.
-  speaker:
-    - name: "Irene Beitia"
-      bio: "Diseñadora de productos digitales y responsable de operaciones de diseño en @MediaMarktSaturn. Con experiencia en diversos sectores, destaca en el diseño centrado en el ser humano y la optimización de procesos que prosperan en equipos de mentalidad abierta e impulsados por las ideas."
-      photo: /images/speakers/ireneBeitia.jpeg
-      links:
-        - https://www.linkedin.com/in/irenebeitia/
-- startTime: "13:30"
-  endTime: "14:15"
-  room: Factoría
-  title: "From monolith to serverless: Navigating a — not always smooth — journey at Eventbrite"
-  description: |-
-    En esta presentación, hablaremos de una nueva funcionalidad específica en la página del evento (una de las páginas más visitadas de todo el sitio), pasando de desarrollar un MVP dentro del monolito para evaluar rápidamente el valor para los usuarios, a extraer esta funcionalidad en un nuevo microservicio alojado en una cuenta propia de AWS que mantiene el propio equipo.
-  speaker:
-    - name: "Jorge Maroto"
-      bio: "Me incorporé a Ticketea unos años antes de que fuera adquirida por Eventbrite, donde actualmente trabajo como ingeniero de producto. Como miembro del equipo de Listing, soy el responsable de la página del evento y de varios de los servicios relacionados. Uno de estos servicios es el de Urgency Signals, que es del que hablaremos en la charla. Antes de trabajar en Ticketea, fundé una empresa con otros compañeros de trabajo, especializada en desarrollo móvil, donde descubrí el resto de habilidades necesarias para dirigir un negocio."
-      photo: /images/speakers/jorgeMaroto.jpeg
-      links:  
-        - https://twitter.com/patoroco
-    - name: "Sergi Chisvert"
-      bio: "Como Ingeniero de Software Senior en Eventbrite y ex Eng. Manager/Backend engineer en Mercadona Tech y Cecotec, colaboro con el desarrollo de la página del evento en Eventbrite. Mi trabajo se centra en extraer la lógica de la arquitectura monolítica de Eventbrite y, como Individual Contributor, me encanta explorar nuevas metodologías, especialmente en el ámbito de DevOps."
-      photo: /images/speakers/sergiChis.jpeg
-      links:
-        - https://twitter.com/SergiChis
-  
-
-- startTime: "14:30"
-  endTime: "16:30"
-  room: Patio
-  title: "Pausa"
-  description: "Descanso para reponer fuerzas."
-
-- startTime: "16:30"
-  endTime: "17:15"
-  room: Sala Polivalente
-  title: "El impacto del web scraping en la era digital"
-  description: |-
-    Qué es el web scraping, el mundo de los datos ofuscados y qué impacto tiene todo esto en la sociedad. Cómo el web scraping a escala nos está impactando en nuestro día a día más de lo que somos conscientes.
-    
-    Datos, datos y más datos, todo cambiando a un ritmo vertiginoso, cada vez más presión por proteger datos de negocio, tener que registrarte en todas las páginas. ¿Cómo compiten las empresas del siglo XXI? ¿Cuál es la importancia de esos datos? Y, como sociedad, su impacto. 
-    
-    Ética de web scraping y técnicas por ambos lados (negocio y scraper) para ofuscar y aclarar  
-  speaker:
-    - name: "Pepe Fabra Valverde"
-      bio: "Líder y Arquitecto Frontend en Capgemini. Curioso, persistente y apasionado del desarrollo del software en todas sus facetas, y busco hacer soluciones fáciles de comprender y de mantener basándome en los principios de código limpio y arquitectura limpia."
-      photo: /images/speakers/pepe.jpeg
-      links:
-        - https://www.linkedin.com/in/jofaval/
-        - https://github.com/jofaval
-- startTime: "16:30"
-  endTime: "17:15"
-  room: Visual Room
-  title: "Por qué las webs japonesas son tan diferentes?"
-  description: |-
-    En esta charla exploraremos el diseño detrás de las páginas web japonesas. Descubriremos cómo la rica cultura japonesa influye en cada aspecto del diseño web, desde la elección de colores y fuentes hasta la disposición de los elementos interactivos.
-  speaker:
-    - name: "Patricia Vazquez"
-      bio: "Valenciana de corazón, he estado trabajando durante 6 años como software and product engineer en diferentes startups, haciendo lo que me gusta, que es crear productos que impacten en la vida de las personas."
-      photo: /images/speakers/patriciaVazquez.jpg
-      links:
-        - https://twitter.com/pavazmor
-- startTime: "16:30"
-  endTime: "17:15"
-  room: Factoría
-  title: "Se vienen cositas: adiós a las contraseñas, hola a las passkeys!"
-  description: |-
-    Imagina que vives en un mundo donde no tienes que usar contraseñas. Seamos sinceras, las contraseñas son lo peor y tener que implementar sistemas de autenticación que manejan contraseñas, son seguros y resistentes al phishing es complicado.  
-
-    Hoy en día puedes implementar tu propio sistema de autenticación totalmente passwordless, pero si quieres llevarlo un paso más allá, vengo a hablarte de las passkeys, también llamadas ""las sucesoras de las contraseñas"" 
-
-    Aprende conmigo que son las passkeys, como funcionan y como deshacerte de las contraseñas de una vez por todas!
-  speaker:
-    - name: "Carla Urrea Stabile "
-      bio: "Carla es Ingeniera de Software y actualmente trabaja como Sr. Developer Advocate en Auth0 by Okta. Carla tiene más de 10 años de experiencia y se especializa en desarrollo backend y diseño de sistemas, su lenguaje preferido es Ruby aunque se considera una programadora agnóstica al lenguaje. "
+    - name: "Carla Urrea Stabile"
+      bio: "Carla es ingeniera de software y developer advocate en Auth0. Carla se considera una desarrolladora agnóstica al lenguaje, aunque disfruta trabajando con Ruby y Python. En su tiempo libre, la puedes encontrar paseando con su perra, haciendo senderismo o montando en bicicleta."
       photo: /images/speakers/carlaUrrea.jpeg
       links:
-        - https://twitter.com/carlastabile
-        - https://carlastabile.tech/
-        - https://www.linkedin.com/in/carlastabile
+        - https://carlastabile.tech
+        - https://github.com/carlastabile
+        - https://linkedin.com/in/carlastabile
 
-- startTime: "17:30"
-  endTime: "18:15"
+- startTime: "9:30"
+  endTime: "10:30"
+  room: Sala Factoría
+  language: "es"
+  title: "Figma no muerde: Dev Mode, el puente entre diseño y desarrollo"
+  description: |-
+    Figma no es solo para diseñadores.
+
+    Si eres developer y a veces te pierdes entre frames, capas y componentes, esta charla es para ti. Veremos cómo Dev Mode puede ser tu mejor aliado para entender el diseño sin complicaciones, sacar código limpio y trabajar codo a codo con otros equipos sin dramas.
+  speaker:
+    - name: "Águeda Machado"
+      bio: "Diseñadora de producto amante del trabajo en equipo, los nuevos retos y el aprendizaje constante. Siempre explorando cómo hacer productos más intuitivos y funcionales."
+      # photo: /images/speakers/aguedaMachado.jpg
+
+#
+# TODO: CHARLA POR CONFIRMAR
+#
+- startTime: "9:30"
+  endTime: "10:30"
+  room: Gradas
+  language: "Talk in English 🇬🇧"
+  title: "Inside the First Git Commit: Powerful Ideas Behind a Minimal Start"
+  description: |-
+    In this talk, we will dissect the first Git commit by Linus Torvalds and uncover the powerful software design principles embedded in its earliest code. We will explore how Git’s choice of data structures (like immutable content-addressed blobs and trees) laid the foundation for reliability, correctness, and performance.
+
+    We will also highlight how Git is a brilliant embodiment of Unix philosophy: small, composable tools; reliance on the filesystem; text-based formats; and simplicity in interface with power in composition. Even in its minimal form, Git introduced key operations such as SHA-1 hashing, snapshot storage, and a filesystem-based object database that collectively reflect deep design clarity.
+  speaker:
+    - name: "Valentin Rusev"
+      bio: "Valentin is a Software Developer with a solid background in e-commerce, cloud infrastructure, and dev tools. He works across the stack (whether it’s backend, frontend, or DevOps) always aiming to keep things simple, reliable, and user-centered. Valentin believes in using technology as a lever for the mind, drawing inspiration from the Unix philosophy and a deep care for developer experience. He’s also an active member of the PHP community in Valencia."
+      links:
+        - https://github.com/valentinboyanov
+        - https://www.linkedin.com/in/valentin-boyanov-rusev-670a30103/
+      # photo: /images/speakers/valentinRusev.jpg
+
+- startTime: "10:30"
+  endTime: "11:30"
   room: Sala Polivalente
-  title: "¡No me hagas pensar! - Las bases de la usabilidad"
+  language: "es"
+  title: "Generación de Escenarios Virtuales a través de IA para la educación en personas con TEA"
   description: |-
-    En esta charla exploraremos los 10 fundamentos esenciales de la usabilidad, diseño de interacción y experiencia de usuario  para entender como se hacen  productos digitales  intuitivos y eficientes!
+    El Trastorno del Espectro Autista (TEA) implica desafíos significativos en la comunicación social, la conducta y la adaptación al entorno. Las intervenciones tradicionales, aunque eficaces, suelen ser intensivas en recursos humanos y económicos. En este contexto, la Realidad Virtual (VR) ha emergido como una herramienta eficaz para crear entornos seguros, controlados y personalizados donde las personas con TEA pueden practicar habilidades sociales, cognitivas y emocionales. Estas experiencias inmersivas fomentan la motivación y el aprendizaje mediante simulaciones realistas y la interacción con avatares. Sin embargo, muchas de las aplicaciones actuales son demasiado rígidas y no se ajustan a las necesidades individuales del espectro autista.
 
-    ¿Qué podemos hacer para garantizar que una persona no tenga que esforzarse demasiado al navegar por una aplicación o página web?Acompáñanos mientras desentrañamos los secretos detrás de una experiencia del usuario excepcional y descubre cómo puedes aplicar estos conocimientos en proyectos técnicos. ¡No importa tu área de especialización, esta charla es para ti!   
-     
-    Para aquellos sin experiencia, será una introducción invaluable a la usabilidad, y para aquellos con experiencia, ¡será un recordatorio refrescante de los principios esenciales! No te pierdas esta oportunidad de mejorar tus habilidades y llevar tus proyectos al siguiente nivel. ¡descubre cómo crear productos digitales que cautiven a tus usuarios!
+    La incorporación de la Inteligencia Artificial (IA) permite superar estas limitaciones, ofreciendo entornos adaptativos que responden en tiempo real a las emociones y comportamientos del usuario. La IA puede ajustar la complejidad de los escenarios, actuar como tutor virtual y mejorar sistemas de comunicación aumentativa, especialmente en personas no verbales. También facilita el diagnóstico temprano y el seguimiento del progreso terapéutico mediante el análisis de datos biométricos y de comportamiento. La combinación de IA y VR representa una sinergia poderosa que puede transformar las terapias del TEA, haciéndolas más accesibles, eficaces y personalizadas, incluso en contextos remotos o con pocos recursos. Aunque aún se requiere más validación científica, los avances actuales abren un futuro esperanzador en el apoyo a personas con autismo.
   speaker:
-    - name: "Marcela Luz de Brito "
-      bio: "Marcela Luz es UX/UI Head  en GFT, lleva más de 15 años creando estrategias digitales para grandes empresas del sector de Banca y Seguros"
-      photo: /images/speakers/marcela.jpeg
+    - name: "Aitana Francés Falip"
+      bio: "Aitana Francés es Project Manager del Instituto Tecnológico de Producto Infantil y Ocio, especializada en el desarrollo de soluciones tecnológicas para la salud y el bienestar (E-Health). La Realidad Virtual o Aumentada, la Inteligencia Artificial o el Blockchain, son algunas de las herramientas más dominadas por la ingeniera para llevar a cabo proyectos que busquen mejorar la manera en la que los humanos viven y conviven. "
+      # photo: /images/speakers/aitanaFrances.jpg
       links:
-        -https://www.linkedin.com/in/marcela-luz-64228223/
-    - name: "José Gonzalez Gonzalez"
-      bio: "José Miguel es UX Lead en Grupo GFT especialista en design Thinking, service design e investigación con usuarios."
-      photo: /images/speakers/josemiguel.jpeg
+        - https://www.aiju.es/
+        - https://www.linkedin.com/in/aitana-francés-293a88208
+
+- startTime: "10:30"
+  endTime: "11:30"
+  room: Sala Factoría
+  language: "es"
+  title: "Érase una vez una evaluación de accesibilidad"
+  description: |-
+    Todos sabemos que la accesibilidad es importante. Bueno, en realidad parece que algunos todavía no lo saben. En cualquier caso, ¿cómo se consigue la accesibilidad de un producto digital? Por ejemplo, un sitio web. ¿Cómo se determina que un sitio web es o no accesible?
+
+    No es una cuestión de preferencia o capricho personal. Existen unos criterios específicos que se tienen que comprobar y una metodología para ello.
+
+    Durante esta charla os contaré la historia de Simona, jefa de un equipo de desarrolladores que recibe el encargo de crear un sitio web accesible. Es una historia ficticia pero basada en hechos reales ocurridos durante mi experiencia como profesional de la accesibilidad en Springer Nature e Ilunion.
+  speaker:
+    - name: "Carlos Muncharaz"
+      bio: "Especialista en accesibilidad digital en Springer Nature, con experiencia previa como desarrollador web y diseñador gráfico. Activista por los derechos de las personas con discapacidad desde hace casi veinte años."
+      # photo: /images/speakers/carlosMuncharaz.jpg
       links:
-        - https://www.linkedin.com/in/josemiguelglez/
-- startTime: "17:30"
+        - https://www.muncharaz.eu/
+        - https://github.com/cmuncharaz
+        - https://www.linkedin.com/in/cmuncharaz/
+
+- startTime: "10:30"
+  endTime: "11:30"
+  room: Gradas
+  language: "es"
+  title: "Progreso y percepción: Cómo diseñar con tiempos de espera"
+  description: |-
+    Todas las aplicaciones y servicios online gestionan tiempos de carga y momentos de espera para los usuarios, pero muy pocos lo hacen de forma efectiva.
+
+    En esta charla vamos a explorar los distintos escenarios, estrategias y conceptos clave para que podamos diseñarlos para conseguir nuestro objetivo: que el usuario espere y no abandone.
+  speaker:
+    - name: "Ismael Canal"
+      bio: "Builder con frontend & product design skills. In the last 16 years i’ve worked inside design teams from small to big sized organizations, in sectors like news media, consulting, social networks, R&D, e-grocery, fintech and mobility."
+      # photo: /images/speakers/ismaelCanal.jpg
+      links:
+        - https://ismael.fyi
+        - https://github.com/basiclines
+        - https://www.linkedin.com/in/ismaelcanal/
+
+- startTime: "11:30"
+  endTime: "12:00"
+  room: Patio
+  title: "Descanso y networking"
+  description: "Para reponer fuerzas y empezar a conocernos"
+
+- startTime: "12:00"
+  endTime: "13:00"
+  room: Sala polivalente
+  language: "es"
+  title: "De estudiantes a developers en el mundo start-up/ Salimos del grado y en una startup nos hemos colado"
+  description: |-
+    ¿Alguna vez te has preguntado cómo estudiante cómo sería adentrarte en el mundillo startup? Y cómo startup ¿cómo sería contratar a estudiantes en un modelo de negocio frenético y novedoso?
+
+    Nosotros te lo contamos, somos 3 programadores que eran patitos recién salidos del cascarón que aterrizaron en una startup y un papá pato que decidió mentorizar a estos 3 pequeñuelos.
+
+    Te contaremos como se vivió todo este proceso desde dos enfoques:
+
+    El de la empresa: entrevistas, onboarding, objetivos, beneficios para la empresa, etc.
+
+    El de los estudiantes: entrevistas, onboarding, aprendizajes, etc.
+  speaker:
+    - name: "Fuensanta Sansano, Zero, Jorge Borja, Iván Bernál"
+      bio: |-
+        Desarrolladores de diferentes orígenes y distintas partes de España que comenzaron en el ciclo formativo y aterrizaron en la misma startup.
+
+        Iván: Toledo, antes estudiante, es un cocinitas.
+        Zero: Valencia, antes desarrollador y ahora, pero también granjero de caracoles.
+        Jorge: Toledo, antes estudiante, amantes de los teclados y de comer tomates a bocados.
+        Fuen: Murcia, antes enfermera, sufre de síndrome de radio."
+      links:
+        - https://www.linkedin.com/in/jorge-borja-valdivia-249651bb/
+        - https://www.linkedin.com/in/fuensanta-sansano/
+        - https://www.linkedin.com/in/zerolive/
+        - https://www.linkedin.com/in/iv%C3%A1n-bernal-lara-a143171b9/
+
+- startTime: "12:00"
+  endTime: "13:00"
+  room: Sala Factoría
+  language: "es"
+  title: "CLIs con brilli-brilli / Mejorando la UX de TUIs aplicaciones de terminal"
+  description: |-
+    En la charla quiero presentar cómo mejorar la apariencia y la experiencia de usuario de tus herramientas de línea de comandos (CLI) usando Bubble Tea en Golang. Hablaremos de Text User Interfaces (TUIs), que son básicamente interfaces interactivas que hacen que tu CLI sea mucho más atractiva y fácil de usar.
+
+    Vamos a ver cómo, con la ayuda de la arquitectura ELM (Model-Update-View), podemos crear aplicaciones modulares y reactivas que no solo funcionen bien, sino que también sean un placer para usar. Además,  mostraré algún ejemplos práctico para que se pueda ver cómo transformar esas CLIs aburridas en algo mucho más eficiente y divertido para el día a día del desarrollador, haciendo hincapié en el UX.
+  speaker:
+    - name: "Javier Martí"
+      bio: |-
+        Actualmente, trabajo como SRE en Flywire, formando parte del equipo de Platform Engineering y Developer Experience. Mi principal responsabilidad es gestionar y optimizar la plataforma de CI/CD, asegurando que los desarrolladores puedan hacer deploys de manera eficiente y sin fricciones.
+
+        También me encargo de mejorar la experiencia de los desarrolladores con herramientas internas y de asegurar que nuestra infraestructura sea confiable, flexible y capaz de escalar con las necesidades del negocio.
+      # photo: /images/speakers/javierMartin.jpg
+      links:
+        - https://github.com/xabim
+        - https://www.linkedin.com/in/javier-marti-monforte/
+
+- startTime: "12:00"
+  endTime: "13:00"
+  room: Gradas
+  language: "es"
+  title: "Cómo transformar la deuda técnica en valor de mercado"
+  description: |-
+    La deuda técnica es una realidad inevitable en el desarrollo de software, especialmente en sistemas legacy que han evolucionado a lo largo del tiempo. Tradicionalmente es vista como un lastre, pero la deuda técnica puede transformarse en una oportunidad para generar valor estratégico si se aborda de manera proactiva y estratégica.
+
+    En esta charla, exploraremos cómo identificar, priorizar y gestionar la deuda técnica de forma efectiva, no solo como una tarea de mantenimiento, sino como una inversión para mejorar la agilidad, la innovación y la sostenibilidad a largo plazo.
+
+    Discutiremos técnicas para refactorización incremental, estrategias para modernizar sistemas legacy sin interrumpir las operaciones, y cómo comunicar el valor de la reducción de la deuda técnica a stakeholders no técnicos.
+
+    Esta charla es relevante para líderes técnicos, arquitectos y desarrolladores que trabajan con sistemas legacy y buscan transformar el mantenimiento en una fuente de valor y ventaja competitiva.
+  speaker:
+    - name: "Emilio Carrión "
+      bio: "Vendedor de lechugas en Mercadona Tech. Doctorando en la Universidad Politécnica de Valencia sobre métodos de producción de software orientado a la industria 5.0."
+      # photo: /images/speakers/emilioCarrion.jpg
+      links:
+        - https://www.productcrafter.com/
+        - https://www.linkedin.com/in/emcarrio/
+
+- startTime: "13:00"
+  endTime: "14:00"
+  room: Sala polivalente
+  language: "es"
+  title: "¿Y si tu siguiente salto no depende de lo técnico?"
+  description: |-
+        En esta charla comparte su recorrido profesional, desde sus primeros años como consultora técnica hasta convertirse en ejecutiva de alto impacto.
+
+        El foco no está solo en los logros, sino en cómo habilidades como la empatía, la comunicación y la inteligencia emocional fueron claves para dar ese salto, sin abandonar su esencia técnica.
+  speaker:
+    - name: "Florencia Cattelani"
+      bio: |-
+        Florencia Cattelani es ingeniera en informática y COO de Cloudgaia. Con más de 15 años de experiencia en tecnología, lideró la creación de la práctica de MuleSoft en la compañía y hoy impulsa su crecimiento global. Apasionada por el liderazgo, combina visión estratégica y foco en las personas para transformar equipos y organizaciones.
+      # photo: /images/speakers/florenciaCattelani.jpg
+      links:
+        - https://www.linkedin.com/in/florenciacattelani/
+
+- startTime: "13:00"
+  endTime: "14:00"
+  room: Sala Factoría
+  language: "es"
+  title: "De Postgres a DuckDB: nuestra transición hacia análisis escalables"
+  description: |-
+    Cuando nuestras consultas analíticas empezaron a sufrir con cientos de millones de registros en Postgres, supimos que era momento de repensar nuestra arquitectura de datos.
+
+    En esta charla compartiré cómo migramos la capa analítica de nuestro software a DuckDB, y qué aprendimos en el camino.
+  speaker:
+    - name: "Jesús Jiménez Ballano"
+      bio: "Actualmente trabajo como líder técnico en Latency, una startup valenciana enfocada a inversores donde trabajamos con gran cantidad de datos."
+      # photo: /images/speakers/jesusJimenez.jpg
+      links:
+        - https://github.com/jjballano
+        - https://es.linkedin.com/in/jjballano
+
+- startTime: "13:00"
+  endTime: "14:00"
+  room: Gradas
+  language: "es"
+  title: "¡DAST como nunca te lo habían contado! Integrando ZAProxy en pruebas web."
+  description: |-
+    Una de las etapas más desafiantes dentro del Ciclo de Desarrollo Seguro de Software (SSDLC) es la implementación de pruebas dinámicas de seguridad de aplicaciones (DAST). En esta charla, proponemos una nueva visión para abordar esta fase crítica, transformándola en un proceso más eficiente y accesible al integrarlo directamente con las pruebas web desarrolladas por los equipos de Calidad Software.
+
+    Habitualmente, el proceso de configuración de herramientas de análisis dinámico requiere un análisis previo de URLs a atacar y la configuración de los procesos de autenticación, entre otros. Incluso ZAProxy recomienda el uso de su "Spider" para detectar las URLs a analizar.
+
+    Sin embargo, en esta charla, proponemos un enfoque diferente:
+
+    ¿Tenemos pruebas web que cubren la funcionalidad de la aplicación? Sí.
+    ¿Contamos con un entorno de ejecución adecuado? Sí.
+    Entonces, ¿sería necesario realizar toda la configuración inicial tradicional? No.
+
+    Con este sinergia, se compararán los resultados obtenidos utilizando el enfoque tradicional (escaneo spider de URLs con la herramienta) frente a los resultados derivados de ejecutar las pruebas web con Selenium y ZAProxy, tanto en un análisis pasivo como activo. El objetivo es consolidar todos los conceptos propuestos y demostrar que un planteamiento alternativo en las pruebas dinámicas de seguridad no solo es viable, sino también más eficiente y práctico.
+  speaker:
+    - name: "Sara Martínez Giner"
+      bio: "Sara Martínez se dedica desde hace más de 10 años al análisis y pruebas de calidad. Gracias ello, ha estado involucrada en proyectos de Telecomunicaciones, Geolocalización, Big Data y Electrónica de Potencia. Desde 2019 lleva participando en proyectos de software dedicados a la Ciberseguridad, dónde la calidad está enfocada tanto a los productos como a la seguridad informática de los mismos."
+      photo: /images/speakers/saraMartinez.jpeg
+      links:
+        - www.testingsoul.com
+        - https://github.com/testingsoul/
+        - https://www.linkedin.com/in/saramartinezginer/
+
+- startTime: "14:00"
+  endTime: "16:00"
+  room: Patio
+  title: "Pausa"
+  description: "Pausa para comer y descansar."
+
+- startTime: "16:00"
+  endTime: "17:00"
+  room: Sala polivalente
+  language: "Talk in English 🇬🇧"
+  title: "Smarter Load Tests: How AI is Transforming Performance Engineering"
+  description: |-
+    Performance testing is evolving rapidly, and AI is becoming an invaluable tool in this transformation. In this session, we'll explore practical applications of AI in performance engineering, including automated anomaly detection, test scenario optimization, and predictive load modeling.
+
+    Attendees will gain insights into accessible AI tools and techniques that can be integrated into existing workflows without requiring deep machine learning expertise. Real-world examples will illustrate how AI can complement human expertise, leading to more efficient and effective performance testing.
+  speaker:
+    - name: "Raisa Lipatova"
+      bio: "Raisa Lipatova is a Team Lead in Performance Engineering with over 15 years of experience in QA, automation, and performance testing. She has led cross-functional projects, developed QA strategies from the ground up, and mentors engineers on career growth. Raisa is passionate about demystifying complex technical topics and empowering QA professionals to stay ahead in the ever-evolving tech landscape."
+      # photo: /images/speakers/raisaLipatova.jpg
+      links:
+        - https://qauniverse.ru/
+        - https://www.linkedin.com/in/raisa-lipatova/
+
+- startTime: "16:00"
+  endTime: "17:00"
+  room: Sala Factoría
+  language: "es"
+  title: "Web performance: from zero to hero"
+  description: |-
+    La performance web es crucial porque define la primera impresión y la experiencia continua que los usuarios tienen con tu web. Un sitio web lento genera frustración, aumenta la tasa de rebote, disminuye la conversión y daña la reputación de la marca. En el mundo actual, donde la atención del usuario es limitada, optimizar el rendimiento web es vital para retener visitantes, fomentar la interacción y lograr los objetivos de negocio. Desde el comercio electrónico hasta la información, una web rápida y receptiva es la base para una experiencia positiva que impacta directamente los resultados.
+
+    En esta charla vamos a ver cómo podemos medir la performance de nuestra web (React SPA), qué herramientas podemos utilizar y qué técnicas debemos aplicar a nuestro ciclo de desarrollo para conseguir que sea lo más rápida posible.
+  speaker:
+    - name: "Javier Casal Ruiz"
+      bio: "Ingeniero de Software Senior en Flywire. Full stack, interesado en frontend, CI/CD y todo lo que ocurre por en medio."
+      # photo: /images/speakers/aitanaFrances.jpg
+      links:
+        - https://bsky.app/profile/javiercasal.bsky.social
+        - https://github.com/jacarui
+        - https://www.linkedin.com/in/jacarui/
+
+- startTime: "16:00"
+  endTime: "17:00"
+  room: Gradas
+  language: "es"
+  title: "Seguridad y buenas prácticas en el desarrollo Frontend"
+  description: |-
+    En un mundo donde las aplicaciones frontend gestionan cada vez más lógica, tokens y datos sensibles, la seguridad ya no es solo una cuestión del backend.
+ 
+    Esta charla ofrece un recorrido práctico y actualizado por los riesgos más comunes que acechan en el desarrollo frontend: ataques XSS y CSRF, almacenamiento inseguro de tokens, mala configuración de CORS, dependencias vulnerables o Content Security Policy mal implementadas. Mostraremos ejemplos reales complicando lo mínimo el desarrollo.
+
+    Si alguna vez has guardado un JWT en localStorage, has desactivado un botón de enviar creyendo que con eso basta, o has importado una librería sin auditarla… esta charla es para ti.
+  speaker:
+    - name: "Javier Motos, Mangel Sánchez"
+      bio: "Somos desarrolladores con más de 12 años de experiencia construyendo todo tipo de aplicaciones, rompiendo cosas (a veces a propósito) y aprendiendo en el proceso. Interesados (y preocupados) por la seguridad y las buenas prácticas, creemos que el software bien hecho no solo es posible, sino necesario. Alguna vez nos enseñaron a programar, y hoy compartimos lo que hemos aprendido para que otros puedan ir más lejos, más rápido, y con menos errores."
+      links:
+        - https://secture.com/author/javi/
+        - https://medium.com/all-you-need-is-clean-code
+        - https://www.linkedin.com/in/javiermotosgonzalez/
+        - https://www.linkedin.com/in/mangelsnc/
+
+- startTime: "17:00"
+  endTime: "18:00"
+  room: Sala polivalente
+  language: "es"
+  title: "Algoritmos, visas y talento: El viaje del migrante tech"
+  description: |-
+    El sector tecnológico se alimenta de talento global, pero el camino del profesional migrante está lleno de desafíos que van más allá del código: burocracia, sesgos, redes que no se tienen, idiomas que no se dominan… y visas que se vencen.
+
+    Este panel visibiliza las historias reales de quienes cruzan fronteras —geográficas y sociales— para integrarse al ecosistema tech europeo. También explora cómo las empresas y políticas pueden adaptarse a este flujo creciente de talento, y qué implica migrar siendo parte de colectivos subrepresentados.
+
+    🎯 Temas clave
+    ¿Qué pierde y qué gana el ecosistema tech cuando el talento migrante es invisibilizado?
+    - La migración como aceleradora de soft skills y adaptabilidad.
+    - Tech visas, trabas legales y el privilegio del pasaporte correcto.
+    - Contratación sin sesgos: ¿realidad o buzzword?
+    - Interseccionalidad: ser migrante y además mujer, racializade o LGTBIQ+.
+  speaker:
+    - name: "Julieta Zalduendo"
+      bio: "Fundadora de My Tech Plan, una consultora especializada en eventos, formación y contenido estratégico para empresas del sector tecnológico. Creadora del Gen AI Summit EU en Valencia y líder de GDG Valencia y Women Techmakers."
+      # photo: /images/speakers/juliezaZalduendo.jpg
+      links:
+        - https://www.linkedin.com/in/julietazalduendo/
+
+- startTime: "17:00"
+  endTime: "18:00"
+  room: Sala Factoría
+  language: "es"
+  title: "No entiendes tu proyecto… y yo tampoco"
+  description: |-
+    La pérdida de conocimiento está a la orden del día, y con ella las rotaciones… o ¿tal vez a raíz de?. Si queremos proyectos estables que no nos hagan tirarnos de los pelos… o de más arriba… tenemos que establecer procesos y repositorios de conocimiento.
+
+    Entrar a proyectos y que solo los veteranos sepan funcionar ¡¡no es buena señal!!. Y de eso precisamente va la charla, de democratizar el conocimiento crítico y hacerlo accesible. Quiero que salgas con herramientas para enfrentarte a estas situaciones sin importar la experiencia o conocimientos
+  speaker:
+    - name: "Pepe Fabra Valverde"
+      bio: "Developer Advocate y Software Solutions Architect en Capgemini, parte de la Solution Delivery Office de C&CA (Cloud and Custom Applications) con casi 20 charlas, 5 años de experiencia en distintos sectores y tecnologías, he liderado equipos, iniciativas y caídas de producción."
+      # photo: /images/speakers/pepeFabra.jpg
+      links:
+        - https://github.com/jofaval/
+        - https://www.linkedin.com/in/jofaval/
+
+- startTime: "17:00"
+  endTime: "18:00"
+  room: Gradas
+  language: "es"
+  title: "Ciberseguridad post-cuántica basada en dispositivos reconfigurables."
+  description: |-
+    El anuncio de Majorana 1 ha hecho que muchos desarrolladores y empresas se den cuenta de que los ciberataques con algoritmos cuánticos son una amenaza más o menos cercana para muchos de nuestros sistemas.
+
+    Tanto que organismos como NIST liberaron en 2014 el primer conjunto de algoritmos de cifrado post-cuánticos, ¿pero qué podemos hacer con los millones de dispositivos que hay desplegados por todo el mundo? ¿Necesitamos actualizarlos todos?
+  speaker:
+    - name: "Pablo Trujillo"
+      bio: "Desarrollador de FPGA para aplicaciones de control y procesado digital de señal. Desarrolla proyectos de aceleración HW, procesado de señal en el borde y ciberseguridad. Autor del blog controlpaths.com donde publica articulos y proyectos sobre FPGA y SOC."
+      photo: /images/speakers/pabloTrujillo.jpeg
+      links:
+        - https://controlpaths.com/
+        - https://github.com/controlpaths
+        - https://es.linkedin.com/in/pablo-trujillo-juan
+
+- startTime: "18:00"
   endTime: "18:15"
-  room: Visual Room
-  title: "Sysadmin, DevOps, SRE y cien nombres más : qué narices hacemos la gente de infra"
-  description: |-
-    En los últimos diez años, los perfiles de infraestructura han evolucionado de una forma espectacular. Hemos pasado de tener Sysadmins (y saber más o menos lo que estaban haciendo) a tener SREs, DevOps, Platform Engineers y un largo etc.
-
-    Cómo han cambiado estos perfiles? Qué buscan las empresas ahora? Qué hemos ganado como profesionales en esta evolución? Por qué deberías plantearte seriamente dedicarte a esto? 
-
-    En esta charla intentaré arrojar un poco de luz sobre el desconocimiento general que rodea este tipo de perfiles.
-  speaker:
-    - name: "Anastasia Kondratieva"
-      bio: "SRE, AWS Community Builder y User Group Sevilla Leader. Profesora. Ponente y mentora. Defensora del software libre y del conocimiento libre. Trabajo en Crocs."
-      photo: /images/speakers/anastasia.jpeg
-      links:
-        - http://www.anastasiakondratieva.com
-        - https://www.linkedin.com/in/anastasiakondratieva/
-        - https://twitter.com/AnastasiaKnt
-- startTime: "17:30"
-  endTime: "18:15"
-  room: Factoría
-  title: "Cambios paralelos en producción para 1600 tiendas"
-  description: |-
-    Cómo afrontar un refactor en el core de tu aplicación con cambios paralelos y sin (casi) morir en el intento, sin downtime en un sistema que da servicio a todos los supermercados de Mercadona.
-  speaker:
-    - name: "Felipe Álvarez Martín"
-      bio: "Backend Enginer en Mercadona Tech. Amante del software, clean code, patrones de diseño y buenas prácticas."
-      photo: /images/speakers/felipe.jpeg
-      links:
-        - https://www.linkedin.com/in/felipe%C3%A1lvarez/?originalSubdomain=es
-        - https://medium.com/@falvarezm97
-    - name: "Alberto Rausell Manchón"
-      bio: "Backend Enginer en Mercadona Tech. Amante del software, clean code, patrones de diseño y buenas prácticas."
-      photo: /images/speakers/albertoRausell.jpeg
-      links:
-        - https://www.linkedin.com/in/alberto-rausell-manch%C3%B3n-75838115a/
-
-- startTime: "18:30"
-  endTime: "18:45"
   room: Sala Polivalente
   title: "Cierre del evento y despedida"
   description: "Breve despedida del evento por parte de los organizadores."
-
-
-- startTime: "22:00"
-  endTime: "???"
-  room: El Clandestí (Benimaclet)
-  title: Fiesta Post-Evento
-  description: |-
-    Nos encontraremos después de cenar en el bar El Clandestí, para tomarnos algo y hacer networking.
-
-    [Calle Poeta Asins n° 9, Benimaclet](https://maps.app.goo.gl/niFnUoDVp2tTots18)

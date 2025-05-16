@@ -15,9 +15,9 @@ description:
   en: June 14th, 2025. Free and open event for everyone to bring together the technical communities of Valencian Community.
   ca: 14 de juny de 2025. Esdeveniment gratuït i obert a tothom que reuneix les comunitats tecnològiques de la Comunitat Valenciana.
 share_image:
-  es: vlctechfest2025_es_cfp.png
-  en: vlctechfest2025_en_cfp.png
-  ca: vlctechfest2025_ca_cfp.png
+  es: vlctechfest2025_es.png
+  en: vlctechfest2025_en.png
+  ca: vlctechfest2025_ca.png
 fest:
   youtube_url: https://www.youtube.com/channel/UCS7z_DqAOTqwANFvmKmM5ig
 hub:
@@ -36,14 +36,15 @@ path:
   community_images: /images/communities/
 navigation:
   - about
-  - cfp
-  # - agenda
-  # - workshops
-  # - speakers
-  - coc
-  - principles
+  # - cfp
+  - agenda
+  - workshops
+  - speakers
   - faq
+  - communities
   - sponsors
+  #- coc
+  #- principles
   - location
 locale:
   es: es_ES
