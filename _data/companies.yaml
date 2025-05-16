@@ -5,15 +5,15 @@ organizers:
     size: 80%
 
 collaborators:
-  - name: Las Naves
+  - name: València Innovation Capital
     image: lasnaves.png
-    link: https://www.lasnaves.com
+    link: https://valenciainnovationcapital.com
     size: 100%
 
-  - name: Slimbook
-    image: SLIMBOOK.png
-    link: https://slimbook.com/
-    size: 100%
+#  - name: Slimbook
+#    image: SLIMBOOK.png
+#    link: https://slimbook.com/
+#    size: 100%
 
 sponsors:
 #    - name: New Work
@@ -26,25 +26,40 @@ sponsors:
 #    link: https://www.realizon.eu/
 #    size: 100%
 
-  - name: Auth0 by Okta
-    image: Auth0byOkta.png
-    link: https://a0.to/okta-vlc
-    size: 100%
+#  - name: Auth0 by Okta
+#    image: Auth0byOkta.png
+#    link: https://a0.to/okta-vlc
+#    size: 100%
 
   - name: Flywire
     image: flywire_logo.svg
     link: https://www.flywire.com/
+    size: 90%
+
+  - name: Secture
+    image: secture_logo.png
+    link: https://www.secture.com/
     size: 100%
 
-  - name: Qatium
-    image: qatium.png
-    link: https://nofuturewithoutwater.com/
+  - name: Digital Tack
+    image: digitaltack.png
+    link: https://www.digitaltack.com/
     size: 100%
 
-  - name: Voxel
-    image: voxel.png
-    link: https://www.voxelgroup.net/
+  - name: Excentia
+    image: excentia_logo.png
+    link: https://www.excentia.es/
     size: 100%
+
+#  - name: Qatium
+#    image: qatium.png
+#    link: https://nofuturewithoutwater.com/
+#    size: 100%
+
+#  - name: Voxel
+#    image: voxel.png
+#    link: https://www.voxelgroup.net/
+#    size: 100%
 
 #  - name: Idecrea
 #    image: idecrea.png

@@ -41,11 +41,11 @@ navigation:
   - workshops
   - speakers
   - faq
+  - communities
+  - sponsors
   #- coc
   #- principles
-  - communities
   - location
-  # - sponsors
 locale:
   es: es_ES
   en: en_US

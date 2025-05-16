@@ -23,8 +23,8 @@
 <section id="companies" class="companies">
   <div class="wrapper">
     <ul>
-      {%- assign types = "organizers,collaborators" | split: "," -%} {%- for
-      type in types -%}
+      {%- assign types = "organizers,collaborators" | split: "," -%}
+      {%- for type in types -%}
       <li class="type">
         <span>{{ site.data.t[page.lang].company.type[type] }}</span>
         <ul>
