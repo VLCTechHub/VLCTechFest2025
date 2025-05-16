@@ -152,11 +152,11 @@
   endTime: "13:00"
   room: Sala Factoría
   language: "es"
-  title: "CLIs con brilli-brilli / Mejorando la UX de TUIs applicaciones de terminal"
+  title: "CLIs con brilli-brilli / Mejorando la UX de TUIs aplicaciones de terminal"
   description: |-
     En la charla quiero presentar cómo mejorar la apariencia y la experiencia de usuario de tus herramientas de línea de comandos (CLI) usando Bubble Tea en Golang. Hablaremos de Text User Interfaces (TUIs), que son básicamente interfaces interactivas que hacen que tu CLI sea mucho más atractiva y fácil de usar.
 
-    Vamos a ver cómo, con la ayuda de la arquitectura ELM (Model-Update-View), podemos crear aplicaciones modulares y reactivas que no solo funcionen bien, sino que también sean un placer para usar. Además,  mostraré algun ejemplos práctico para que se pueda ver cómo transformar esas CLIs aburridas en algo mucho más eficiente y divertido para el día a día del desarrollador, haciendo hincapié en el UX.
+    Vamos a ver cómo, con la ayuda de la arquitectura ELM (Model-Update-View), podemos crear aplicaciones modulares y reactivas que no solo funcionen bien, sino que también sean un placer para usar. Además,  mostraré algún ejemplos práctico para que se pueda ver cómo transformar esas CLIs aburridas en algo mucho más eficiente y divertido para el día a día del desarrollador, haciendo hincapié en el UX.
   speaker:
     - name: "Javier Martí"
       bio: |-
@@ -298,7 +298,7 @@
   description: |-
     En un mundo donde las aplicaciones frontend gestionan cada vez más lógica, tokens y datos sensibles, la seguridad ya no es solo una cuestión del backend.
  
-    Esta charla ofrece un recorrido práctico y actualizado por los riesgos más comunes que acechan en el desarrollo frontend: ataques XSS y CSRF, almacenamiento inseguro de tokens, mala configuración de CORS, dependencias vulnerables o Content Security Policy mal implementadas. Mostraremos ejemplos reales complicandoo lo mínimo el desarrollo.
+    Esta charla ofrece un recorrido práctico y actualizado por los riesgos más comunes que acechan en el desarrollo frontend: ataques XSS y CSRF, almacenamiento inseguro de tokens, mala configuración de CORS, dependencias vulnerables o Content Security Policy mal implementadas. Mostraremos ejemplos reales complicando lo mínimo el desarrollo.
 
     Si alguna vez has guardado un JWT en localStorage, has desactivado un botón de enviar creyendo que con eso basta, o has importado una librería sin auditarla… esta charla es para ti.
   speaker:
