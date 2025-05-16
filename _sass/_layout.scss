@@ -746,8 +746,8 @@ ul.sessions {
         .description {
           grid-area: description;
           margin: 0;
-          font-family: var(--slabFont);
           padding-top: 1em;
+          font-size: 0.9em;
         }
         .room {
           grid-area: room;
