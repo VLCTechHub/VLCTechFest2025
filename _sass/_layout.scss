@@ -739,11 +739,13 @@ ul.sessions {
           background-color: var(--pink);
           color: white;
           .title {
-            color: white;
+            color: var(--white);
           }
 
           a {
-            color: #ADD8E6
+            color: var(--white);
+            font-weight: bold;
+            text-decoration: underline;
           }
         }
         .title {
