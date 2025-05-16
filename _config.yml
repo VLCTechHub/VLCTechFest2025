@@ -37,15 +37,15 @@ path:
 navigation:
   - about
   # - cfp
-  # - agenda
-  # - workshops
-  # - speakers
-  - coc
-  - principles
+  - agenda
+  - workshops
+  - speakers
   - faq
+  #- coc
+  #- principles
+  - communities
   - location
   # - sponsors
-  - communities
 locale:
   es: es_ES
   en: en_US
