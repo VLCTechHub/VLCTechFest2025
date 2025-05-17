@@ -55,7 +55,7 @@
       links:
         - https://github.com/valentinboyanov
         - https://www.linkedin.com/in/valentin-boyanov-rusev-670a30103/
-      # photo: /images/speakers/valentinRusev.jpg
+      photo: /images/speakers/valentinRusev.jpeg
 
 - startTime: "10:30"
   endTime: "11:30"
@@ -69,7 +69,7 @@
   speaker:
     - name: "Aitana Francés Falip"
       bio: "Aitana Francés es Project Manager del Instituto Tecnológico de Producto Infantil y Ocio, especializada en el desarrollo de soluciones tecnológicas para la salud y el bienestar (E-Health). La Realidad Virtual o Aumentada, la Inteligencia Artificial o el Blockchain, son algunas de las herramientas más dominadas por la ingeniera para llevar a cabo proyectos que busquen mejorar la manera en la que los humanos viven y conviven. "
-      # photo: /images/speakers/aitanaFrances.jpg
+      photo: /images/speakers/aitanaFrances.jpeg
       links:
         - https://www.aiju.es/
         - https://www.linkedin.com/in/aitana-francés-293a88208
@@ -88,7 +88,7 @@
   speaker:
     - name: "Carlos Muncharaz"
       bio: "Especialista en accesibilidad digital en Springer Nature, con experiencia previa como desarrollador web y diseñador gráfico. Activista por los derechos de las personas con discapacidad desde hace casi veinte años."
-      # photo: /images/speakers/carlosMuncharaz.jpg
+      photo: /images/speakers/carlosMuncharaz.jpeg
       links:
         - https://www.muncharaz.eu/
         - https://github.com/cmuncharaz
@@ -106,7 +106,7 @@
   speaker:
     - name: "Ismael Canal"
       bio: "Builder con frontend & product design skills. In the last 16 years i’ve worked inside design teams from small to big sized organizations, in sectors like news media, consulting, social networks, R&D, e-grocery, fintech and mobility."
-      # photo: /images/speakers/ismaelCanal.jpg
+      photo: /images/speakers/ismaelCanal.jpeg
       links:
         - https://ismael.fyi
         - https://github.com/basiclines
@@ -142,6 +142,7 @@
         Zero: Valencia, antes desarrollador y ahora, pero también granjero de caracoles.
         Jorge: Toledo, antes estudiante, amantes de los teclados y de comer tomates a bocados.
         Fuen: Murcia, antes enfermera, sufre de síndrome de radio."
+      photo: /images/speakers/zeroycia.jpeg
       links:
         - https://www.linkedin.com/in/jorge-borja-valdivia-249651bb/
         - https://www.linkedin.com/in/fuensanta-sansano/
@@ -163,7 +164,7 @@
         Actualmente, trabajo como SRE en Flywire, formando parte del equipo de Platform Engineering y Developer Experience. Mi principal responsabilidad es gestionar y optimizar la plataforma de CI/CD, asegurando que los desarrolladores puedan hacer deploys de manera eficiente y sin fricciones.
 
         También me encargo de mejorar la experiencia de los desarrolladores con herramientas internas y de asegurar que nuestra infraestructura sea confiable, flexible y capaz de escalar con las necesidades del negocio.
-      # photo: /images/speakers/javierMartin.jpg
+      photo: /images/speakers/javierMarti.jpeg
       links:
         - https://github.com/xabim
         - https://www.linkedin.com/in/javier-marti-monforte/
@@ -184,7 +185,7 @@
   speaker:
     - name: "Emilio Carrión "
       bio: "Vendedor de lechugas en Mercadona Tech. Doctorando en la Universidad Politécnica de Valencia sobre métodos de producción de software orientado a la industria 5.0."
-      # photo: /images/speakers/emilioCarrion.jpg
+      photo: /images/speakers/emilioCarrion.jpeg
       links:
         - https://www.productcrafter.com/
         - https://www.linkedin.com/in/emcarrio/
@@ -218,7 +219,7 @@
   speaker:
     - name: "Jesús Jiménez Ballano"
       bio: "Actualmente trabajo como líder técnico en Latency, una startup valenciana enfocada a inversores donde trabajamos con gran cantidad de datos."
-      # photo: /images/speakers/jesusJimenez.jpg
+      photo: /images/speakers/jesusJimenez.jpeg
       links:
         - https://github.com/jjballano
         - https://es.linkedin.com/in/jjballano
@@ -267,7 +268,7 @@
   speaker:
     - name: "Raisa Lipatova"
       bio: "Raisa Lipatova is a Team Lead in Performance Engineering with over 15 years of experience in QA, automation, and performance testing. She has led cross-functional projects, developed QA strategies from the ground up, and mentors engineers on career growth. Raisa is passionate about demystifying complex technical topics and empowering QA professionals to stay ahead in the ever-evolving tech landscape."
-      # photo: /images/speakers/raisaLipatova.jpg
+      photo: /images/speakers/raisaLipatova.jpeg
       links:
         - https://qauniverse.ru/
         - https://www.linkedin.com/in/raisa-lipatova/
@@ -284,7 +285,7 @@
   speaker:
     - name: "Javier Casal Ruiz"
       bio: "Ingeniero de Software Senior en Flywire. Full stack, interesado en frontend, CI/CD y todo lo que ocurre por en medio."
-      # photo: /images/speakers/aitanaFrances.jpg
+      photo: /images/speakers/javierCasal.jpeg
       links:
         - https://bsky.app/profile/javiercasal.bsky.social
         - https://github.com/jacarui
@@ -297,13 +298,14 @@
   title: "Seguridad y buenas prácticas en el desarrollo Frontend"
   description: |-
     En un mundo donde las aplicaciones frontend gestionan cada vez más lógica, tokens y datos sensibles, la seguridad ya no es solo una cuestión del backend.
- 
+
     Esta charla ofrece un recorrido práctico y actualizado por los riesgos más comunes que acechan en el desarrollo frontend: ataques XSS y CSRF, almacenamiento inseguro de tokens, mala configuración de CORS, dependencias vulnerables o Content Security Policy mal implementadas. Mostraremos ejemplos reales complicando lo mínimo el desarrollo.
 
     Si alguna vez has guardado un JWT en localStorage, has desactivado un botón de enviar creyendo que con eso basta, o has importado una librería sin auditarla… esta charla es para ti.
   speaker:
     - name: "Javier Motos, Mangel Sánchez"
       bio: "Somos desarrolladores con más de 12 años de experiencia construyendo todo tipo de aplicaciones, rompiendo cosas (a veces a propósito) y aprendiendo en el proceso. Interesados (y preocupados) por la seguridad y las buenas prácticas, creemos que el software bien hecho no solo es posible, sino necesario. Alguna vez nos enseñaron a programar, y hoy compartimos lo que hemos aprendido para que otros puedan ir más lejos, más rápido, y con menos errores."
+      photo: /images/speakers/mangelycia.jpeg
       links:
         - https://secture.com/author/javi/
         - https://medium.com/all-you-need-is-clean-code
@@ -329,7 +331,7 @@
   speaker:
     - name: "Julieta Zalduendo"
       bio: "Fundadora de My Tech Plan, una consultora especializada en eventos, formación y contenido estratégico para empresas del sector tecnológico. Creadora del Gen AI Summit EU en Valencia y líder de GDG Valencia y Women Techmakers."
-      # photo: /images/speakers/juliezaZalduendo.jpg
+      photo: /images/speakers/julietaZalduendo.jpeg
       links:
         - https://www.linkedin.com/in/julietazalduendo/
 
@@ -345,7 +347,7 @@
   speaker:
     - name: "Pepe Fabra Valverde"
       bio: "Developer Advocate y Software Solutions Architect en Capgemini, parte de la Solution Delivery Office de C&CA (Cloud and Custom Applications) con casi 20 charlas, 5 años de experiencia en distintos sectores y tecnologías, he liderado equipos, iniciativas y caídas de producción."
-      # photo: /images/speakers/pepeFabra.jpg
+      photo: /images/speakers/pepeFabra.jpeg
       links:
         - https://github.com/jofaval/
         - https://www.linkedin.com/in/jofaval/
