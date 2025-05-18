@@ -31,13 +31,13 @@
 
     Por favor, apúntate a este evento para reservar tu plaza. Cada reserva de plaza contará tanto para ti (como adulto) como para tu peque.
     Si al final no puedes venir, indícanoslo para liberar la plaza para otra persona.
-   
+
     No dudéis en preguntar cualquier duda que os surja.
 
     <a href="https://www.meetup.com/vlctechhub/events/307868179/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">¡Inscríbete!</a>
   speaker:
     - name: "Sara Martínez y Pablo Trujillo"
-      
+
 - startTime: "12:00"
   endTime: "14:00"
   room: Visual
@@ -49,19 +49,7 @@
   speaker:
     - name: "David Fernández"
       bio: |-
-        Me llamo David Fernandez y soy Auditor de Accesibilidad Digital con experiencia tanto en Desktop como en Mobile.
-
-        Técnico de Sonido reconvertido en Trusted Tester para el Departamento de Seguridad Nacional de EE. UU. (DHS - A11y):
-
-        Comencé mi carrera en el mundo digital en 2014, realizando pruebas como tester freelance para Lionbridge, centrado en revisiones de calidad (QA) de páginas web en entornos como Google. En 2017, amplié mi experiencia testeando en sitios web y aplicaciones móviles, lo que me llevó a especializarme en auditoría de accesibilidad digital. En 2022 obtuve la certificación como Auditor A11y y, desde entonces, he trabajado de forma independiente como consultor en accesibilidad digital, colaborando con diversos proyectos hasta la actualidad.
-
-        Presente:
-
-        - Relator en la academia de accesibilidad weAAAre, facilitador de talleres sobre accesibilidad y creador del curso 'Lectores de pantalla para móvil'
-        - Colaborador en QA Makers como moderador del curso de accesibilidad y las charlas mensuales de testing
-        - Auditor en la empresa deo.dev trabajando para clientes como AMADEUS
-        - Socio de ASEPAU - asociación española de profesionales de la accesibilidad universal
-        - Miembro de la IAAP, certificado con el CPACC
+        Me llamo David Fernandez y soy Auditor de Accesibilidad Digital con experiencia tanto en Desktop como en Mobile. Técnico de Sonido reconvertido en Trusted Tester para el Departamento de Seguridad Nacional de EE. UU. (DHS - A11y):
       photo: /images/speakers/davidFernandez.jpeg
       links:
         - https://www.linkedin.com/in/david-f-110741127/
