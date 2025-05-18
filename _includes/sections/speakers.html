@@ -26,6 +26,28 @@
           </li>
         {%- endfor -%}
       {%- endfor -%}
+
+      {%- assign workshops = site.data.workshops -%}
+      {%- for workshop in workshops -%}
+        {%- for speaker in workshop.speaker -%}
+          <li>
+            {% if speaker.photo %}
+              <img src="{{speaker.photo}}" alt="">
+            {% else %}
+              {%- include icon-megaphone.svg -%}
+            {% endif %}
+            <p class="title"><span>{{speaker.name}}</span></p>
+            <p>
+              {{speaker.bio}}
+              <ul class="social">
+                {%- for link in speaker.links -%}
+                  <li>{% include icon-social.html url=link %}</li>
+                {%- endfor -%}
+              </ul>
+            </p>
+          </li>
+        {%- endfor -%}
+      {%- endfor -%}
     </ul>
   </div>
 </section>

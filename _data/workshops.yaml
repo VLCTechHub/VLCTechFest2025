@@ -10,6 +10,8 @@
     La idea es enseñar a realizar piezas básicas, a partir de medidas reales, y motivar al usuario a diseñar piezas con el objetivo de introducirlo al modelado 3D, abriendo la puerta a la impresión 3d, fabricación sustractiva, etc.
   speaker:
     - name: "Restarters"
+      bio: "Somos un colectivo que cree que reparar y alargar la vida de los bienes materiales por nuestros propios medios forma parte del camino para conseguir la autonomía como personas y la sostenibilidad como sociedad. Apostamos por el derecho y la responsabilidad de cuidar y conocer aquello que poseemos. En una sociedad de consumo reparar es un acto revolucionario"
+      photo: /images/communities/restartersvlc.png
       links:
         - https://restartersvlc.wordpress.com/
 
@@ -35,7 +37,7 @@
     <a href="https://www.meetup.com/vlctechhub/events/307868179/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">¡Inscríbete!</a>
   speaker:
     - name: "Sara Martínez y Pablo Trujillo"
-
+      
 - startTime: "12:00"
   endTime: "14:00"
   room: Visual
@@ -60,6 +62,7 @@
         - Auditor en la empresa deo.dev trabajando para clientes como AMADEUS
         - Socio de ASEPAU - asociación española de profesionales de la accesibilidad universal
         - Miembro de la IAAP, certificado con el CPACC
+      photo: /images/speakers/davidFernandez.jpeg
       links:
         - https://www.linkedin.com/in/david-f-110741127/
 
@@ -75,6 +78,8 @@
          <a href="https://www.meetup.com/vlctechhub/events/307862702/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">¡Apúntate!</a>
   speaker:
     - name: "Hackerspace Valencia"
+      bio: "Compartimos conocimiento, experiencia y pasión por la tecnología. Aquí todos enseñamos y todos aprendemos. Creemos en el software y hardware libre. Compartir es nuestra forma de innovar."
+      photo: /images/communities/hackerspace_logo.jpeg
       links:
         - https://hackvlc.es/
 
@@ -89,6 +94,7 @@
   speaker:
     - name: "Juan Andrés Núñez Charro"
       bio: "Soy Senior Frontend Engineer, especialista en Vue.js y educador profesional con más de 10 años de experiencia formando y acompañando a desarrolladores. Combino el dominio técnico con una visión humana del aprendizaje, ayudando a otros a crecer y avanzar en su carrera, especialmente ahora, en la era de la IA."
+      photo: /images/speakers/juanNunez.jpeg
       links:
         - https://wmedia.es
         - https://github.com/juanwmedia
