@@ -8,12 +8,19 @@
     Con este taller se pretende suavizar la curva de aprendizaje de la herramienta para nuevos usuarios de esta, ya que la interfaz de usuario y los procesos a seguir requieren de cierto conocimiento técnico básico.
 
     La idea es enseñar a realizar piezas básicas, a partir de medidas reales, y motivar al usuario a diseñar piezas con el objetivo de introducirlo al modelado 3D, abriendo la puerta a la impresión 3d, fabricación sustractiva, etc.
+
+    ⚠️ Nota: Es recomendable que los asistentes al taller acudan con FreeCAD ya instalado en sus portátiles. 💻
   # speaker:
   #   - name: "Restarters"
   #     bio: "Somos un colectivo que cree que reparar y alargar la vida de los bienes materiales por nuestros propios medios forma parte del camino para conseguir la autonomía como personas y la sostenibilidad como sociedad. Apostamos por el derecho y la responsabilidad de cuidar y conocer aquello que poseemos. En una sociedad de consumo reparar es un acto revolucionario"
   #     photo: /images/communities/restartersvlc.png
   #     links:
   #       - https://restartersvlc.wordpress.com/
+
+  speaker:
+    - name: "Restarters"
+      links:
+        - https://restartersvlc.wordpress.com/
 
 - startTime: "9:30"
   endTime: "11:30"
