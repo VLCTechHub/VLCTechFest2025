@@ -127,6 +127,21 @@
     - https://twitter.com/phpvalencia
     - https://www.meetup.com/es-ES/AWS-Valencia/
 
+- name: GNU/Linux Valencia
+  image: gnuvalencia_logo.png
+  links:
+    - https://gnulinuxvalencia.org/
+    - https://floss.social/@gnulinuxvalencia
+    - https://bsky.app/profile/gnulinuxvalencia.org
+    - https://t.me/gnulinuxvalencia
+    - https://www.meetup.com/gnulinuxvalencia
+    - https://www.instagram.com/gnulinuxvalencia/
+    - https://www.linkedin.com/company/gnulinuxvalencia/
+
+- name: QA Breakfast
+  image: QA_Breakfast_logo.png
+  links:
+    - https://www.eventbrite.com/e/qa-breakfast-valencia-tickets-1367038782799
 # non-participating communities
 
 # - name: HackValencia%27
@@ -158,4 +173,3 @@
 #   links:
 #     - https://twitter.com/muledev
 #     - https://meetups.mulesoft.com/valencia/
-
