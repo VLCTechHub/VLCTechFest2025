@@ -1,6 +1,6 @@
 - startTime: "9:30"
   endTime: "11:30"
-  room: Visual
+  room: Sala Collab
   title: "Introducción al modelado 3D con FreeCAD"
   description: |-
     Pretendemos tumbar la barrera inicial que puede cohibir el aprendizaje al encontrarse con una interfaz de usuario desconocida y un proceso de trabajo meticuloso y específico.
@@ -45,7 +45,7 @@
 
 - startTime: "12:00"
   endTime: "14:00"
-  room: Visual
+  room: Sala Collab
   title: "Taller de evaluación de accesibilidad - Explorando herramientas y pruebas para garantizar la inclusión / David"
   description: |-
     La accesibilidad no es solo un requerimiento legal o técnico, sino una oportunidad para crear experiencias digitales más inclusivas y usables para todas las personas. En esta charla-taller abordaremos de forma práctica y accesible los fundamentos de la evaluación de accesibilidad digital.
@@ -78,7 +78,7 @@
 
 - startTime: "16:00"
   endTime: "18:00"
-  room: Visual
+  room: Sala Collab
   title: "JavaScript for the Rest of Us"
   description: |-
     Aprender JavaScript puede parecer abrumador, pero la base sigue siendo simple y poderosa.
