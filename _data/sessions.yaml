@@ -375,3 +375,12 @@
   room: Sala Polivalente
   title: "Cierre del evento y despedida"
   description: "Breve despedida del evento por parte de los organizadores."
+
+- startTime: "18:15"
+  endTime: "20:00"
+  room: Patio
+  title: "Espacio de Networking"
+  description: "Cerramos la jornada con un espacio dedicado a la conversación y el intercambio de ideas.
+
+
+  Una oportunidad para conocer a otros asistentes, compartir experiencias del sector tecnológico y construir relaciones profesionales."
