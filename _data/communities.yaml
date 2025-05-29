@@ -142,6 +142,15 @@
   image: QA_Breakfast_logo.png
   links:
     - https://www.eventbrite.com/e/qa-breakfast-valencia-tickets-1367038782799
+
+- name: "Restarters"
+  image: restartersvlc.png
+  links:
+    - https://restartersvlc.wordpress.com/
+    - https://t.me/restartersvlc/
+    - https://www.instagram.com/restartersvlc/
+    - https://mas.to/@restartersvlc
+
 # non-participating communities
 
 # - name: HackValencia%27
