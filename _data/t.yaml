@@ -1,7 +1,7 @@
 es:
   head:
     description: 14 de junio // Las Naves // Evento gratuito // Acceso libre
-    description_1: 14 de junio // 09:30 - 19:30 // Las Naves
+    description_1: 14 de junio // 09:00 - 20:00 // Las Naves
     description_2: Un evento gratuito y de acceso libre
   navigation:
     index:
@@ -103,7 +103,7 @@ Reserva tu entrada escribiendo un mail a <a href='mailto:hola@vlctechfest.org'>h
 en:
   head:
     description: June 14th // Las Naves // Free event // Free access
-    description_1: June 14th // 09:30 - 19:30 // Las Naves
+    description_1: June 14th // 09:00 - 20:00 // Las Naves
     description_2: Free event and free access
   navigation:
     index:
@@ -204,7 +204,7 @@ See you there!"
 ca:
   head:
     description: 14 de Juny // Las Naves // Esdeveniment gratuït // Accés lliure
-    description_1: 14 de Juny // 09:30 - 19:30 // Las Naves
+    description_1: 14 de Juny // 09:00 - 20:00 // Las Naves
     description_2: Un esdeveniment gratuït i d'accés lliure
   navigation:
     index:
