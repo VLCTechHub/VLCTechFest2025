@@ -125,7 +125,7 @@
   image: phpvalencia_logo.png
   links:
     - https://twitter.com/phpvalencia
-    - https://www.meetup.com/es-ES/AWS-Valencia/
+    - https://www.meetup.com/php-valencia/
 
 - name: GNU/Linux Valencia
   image: gnuvalencia_logo.png
