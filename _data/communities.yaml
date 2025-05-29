@@ -152,6 +152,13 @@
     - https://www.instagram.com/restartersvlc/
     - https://mas.to/@restartersvlc
 
+- name: "Tech Connect"
+  image: techconnect.png
+  links:
+    - https://www.linkedin.com/company/tech-connect-meetups/
+    - https://t.me/tech_vlc
+    - https://www.instagram.com/tech_connect_vlc
+
 # non-participating communities
 
 # - name: HackValencia%27
