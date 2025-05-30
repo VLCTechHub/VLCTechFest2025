@@ -125,7 +125,7 @@
   image: phpvalencia_logo.png
   links:
     - https://twitter.com/phpvalencia
-    - https://www.meetup.com/es-ES/AWS-Valencia/
+    - https://www.meetup.com/php-valencia/
 
 - name: GNU/Linux Valencia
   image: gnuvalencia_logo.png
@@ -142,6 +142,29 @@
   image: QA_Breakfast_logo.png
   links:
     - https://www.eventbrite.com/e/qa-breakfast-valencia-tickets-1367038782799
+    - https://t.me/qa_valencia
+
+- name: "Restarters"
+  image: restartersvlc.png
+  links:
+    - https://restartersvlc.wordpress.com/
+    - https://t.me/restartersvlc/
+    - https://www.instagram.com/restartersvlc/
+    - https://mas.to/@restartersvlc
+
+- name: "Tech Connect"
+  image: techconnect.png
+  links:
+    - https://www.linkedin.com/company/tech-connect-meetups/
+    - https://t.me/tech_vlc
+    - https://www.instagram.com/tech_connect_vlc
+
+- name: "Women Techmakers Valencia"
+  image: wtmvalencia_logo.png
+  links:
+    - https://womentechmakersvalencia.com/
+    - https://www.linkedin.com/company/women-techmakers-valencia/
+
 # non-participating communities
 
 # - name: HackValencia%27

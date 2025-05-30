@@ -10,15 +10,10 @@
     La idea es enseñar a realizar piezas básicas, a partir de medidas reales, y motivar al usuario a diseñar piezas con el objetivo de introducirlo al modelado 3D, abriendo la puerta a la impresión 3d, fabricación sustractiva, etc.
 
     ⚠️ Nota: Es recomendable que los asistentes al taller acudan con FreeCAD ya instalado en sus portátiles. 💻
-  # speaker:
-  #   - name: "Restarters"
-  #     bio: "Somos un colectivo que cree que reparar y alargar la vida de los bienes materiales por nuestros propios medios forma parte del camino para conseguir la autonomía como personas y la sostenibilidad como sociedad. Apostamos por el derecho y la responsabilidad de cuidar y conocer aquello que poseemos. En una sociedad de consumo reparar es un acto revolucionario"
-  #     photo: /images/communities/restartersvlc.png
-  #     links:
-  #       - https://restartersvlc.wordpress.com/
-
   speaker:
     - name: "Restarters"
+      bio: "Somos un colectivo que cree que reparar y alargar la vida de los bienes materiales por nuestros propios medios forma parte del camino para conseguir la autonomía como personas y la sostenibilidad como sociedad. Apostamos por el derecho y la responsabilidad de cuidar y conocer aquello que poseemos. En una sociedad de consumo reparar es un acto revolucionario"
+      photo: /images/communities/restartersvlc.png
       links:
         - https://restartersvlc.wordpress.com/
 
@@ -69,12 +64,12 @@
          Esta actividad es completamente gratuita para todos los participantes pero por favor, apúntate a este evento para reservar tu plaza. Si al final no puedes venir, indícanoslo para liberar la plaza para otra persona.
 
          <a href="https://www.meetup.com/vlctechhub/events/307862702/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">¡Apúntate!</a>
-  # speaker:
-  #   - name: "Hackerspace Valencia"
-  #     bio: "Compartimos conocimiento, experiencia y pasión por la tecnología. Aquí todos enseñamos y todos aprendemos. Creemos en el software y hardware libre. Compartir es nuestra forma de innovar."
-  #     photo: /images/communities/hackerspace_logo.jpeg
-  #     links:
-  #       - https://hackvlc.es/
+  speaker:
+    - name: "Hackerspace Valencia"
+      bio: "Compartimos conocimiento, experiencia y pasión por la tecnología. Aquí todos enseñamos y todos aprendemos. Creemos en el software y hardware libre. Compartir es nuestra forma de innovar."
+      photo: /images/communities/hackerspace_logo.jpeg
+      links:
+        - https://hackvlc.es/
 
 - startTime: "16:00"
   endTime: "18:00"
