@@ -165,6 +165,12 @@
     - https://womentechmakersvalencia.com/
     - https://www.linkedin.com/company/women-techmakers-valencia/
 
+- name: "Awakatech"
+  image: awakatech.jpg
+  links:
+    - https://www.meetup.com/awakatech/
+    - https://www.linkedin.com/company/awakatech
+
 # non-participating communities
 
 # - name: HackValencia%27
