@@ -99,6 +99,7 @@ Reserva tu entrada escribiendo un mail a <a href='mailto:hola@vlctechfest.org'>h
     title: Ponentes
   footer:
     vlctechhub_description: VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con <a target="_blank" href="https://slack.vlctechhub.org">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>
+    media_coverage: Cobertura audiovisual por <a target="_blank" href="https://www.techframemedia.com/">TechFrameMedia</a>
 
 en:
   head:
@@ -200,6 +201,7 @@ See you there!"
     title: Speakers
   footer:
      vlctechhub_description: VLCTechHub promotes and encourages the different technological communities of Valencia. For this, it has <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organises events like <strong>VLCTechFest</strong>.
+     media_coverage: Media coverage by <a target="_blank" href="https://www.techframemedia.com/">TechFrameMedia</a>
 
 ca:
   head:
@@ -301,3 +303,4 @@ Ens veiem allí!"
     title: Ponents
   footer:
     vlctechhub_description: VlcTechHub promou i fomenta les diferents comunitats tecnològiques de València. Per a això compta amb <a target="_blank" href="https://slack.vlctechhub.org/" >un xat</a> on la comunitat pot compartir. També organitza esdeveniments com aquest <strong>VLCTechFest</strong>.
+    media_coverage: Cobertura audiovisual per <a target="_blank" href="https://www.techframemedia.com/">TechFrameMedia</a>
