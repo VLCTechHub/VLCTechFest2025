@@ -9,7 +9,7 @@
           {% if time != "" %}</ul></li>{%- endif -%}
           <li>
             <p class="workshop-time">
-              <span class="start">{{session.startTime}}</span> - 
+              <span class="start">{{session.startTime}}</span> -
               <span class="end">{{session.endTime}}</span>
             </p>
             <ul>
@@ -24,7 +24,9 @@
             {%- endfor -%}
           </ul>
           <p class="room">Sala: <span>{{session.room}}</span></p>
+          <span class="chevron">{%- include chevron-down.svg -%}</span>
           <div class="description">{{session.description | markdownify }}</div>
+          <span class="chevron-bottom hide">{%- include chevron-down.svg -%}</span>
         </li>
       {%- endfor -%}
       </ul></li>
@@ -33,8 +35,16 @@
 </section>
 
 <script>
-  var nodes = document.querySelectorAll('ul.workshops>li>ul>li');
+  var nodes = document.querySelectorAll('#workshops>div>ul>li>ul>li');
+  var topChevrons = document.querySelectorAll('.chevron');
+  var bottomChevrons = document.querySelectorAll('.chevron-bottom');
+  function toggleChevrons(){
+    const isOpen = document.querySelector(".open") === null;
+    topChevrons.forEach((node) => node.classList.toggle("hide", isOpen));
+    bottomChevrons.forEach((node) => node.classList.toggle("hide", !isOpen));
+  }
   function toggleOpen(){
+    toggleChevrons();
     this.classList.toggle('open');
     window.scrollTo({top:this.offsetTop});
   };
