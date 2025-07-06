@@ -4,17 +4,20 @@
     <h1>{{ sessions.title }}</h1>
     <ul class="sessions">
       {% assign time = "" %}
-      {%- for session in site.data.sessions -%}
-        {% if time != session.startTime %}
-          {% if time != "" %}</ul></li>{%- endif -%}
+        {%- for session in site.data.sessions -%}
+          {% if time != session.startTime %}
+            {% if time != "" %}
+            </ul>
+            </li>
+            {%- endif -%}
           <li>
             <p>
               <span class="start">{{session.startTime}}</span> -
               <span class="end">{{session.endTime}}</span>
             </p>
-            <ul>
+          <ul>
           {% assign time = session.startTime %}
-        {%- endif -%}
+          {%- endif -%}
 
         <li class="{{session.room | downcase}}">
           <p class="title">{{session.title}}</p>
@@ -25,31 +28,33 @@
           </ul>
           <p class="room"><span>{{session.room}}</span><br/>
           {% if session.language != "es" %}
-          <span>{{session.language}}</span>
+            <span>{{session.language}}</span>
           {%- endif -%}</p>
           <span class="chevron">{%- include chevron-down.svg -%}</span>
           <div class="description">{{session.description | markdownify }}</div>
           <span class="chevron-bottom hide">{%- include chevron-down.svg -%}</span>
         </li>
       {%- endfor -%}
-      </ul></li>
+      </ul>
+      </li>
     </ul>
   </div>
 </section>
 
 <script>
-  var topChevrons = document.querySelectorAll('.chevron');
-  var bottomChevrons = document.querySelectorAll('.chevron-bottom');
-  var nodes = document.querySelectorAll('ul.sessions>li>ul>li');
-  function toggleChevrons(){
-    const isOpen = document.querySelector(".open") === null;
+  var sessionsNodes = document.querySelectorAll('#sessions>div>ul>li>ul>li');
+  const toggleSessionsChevrons = () =>{
+    const isOpen = document.querySelector("#sessions>div>ul>li>ul>.open") !== null;
+    const topChevrons = document.querySelectorAll(".chevron");
+    const bottomChevrons = document.querySelectorAll(".chevron-bottom");
+
     topChevrons.forEach((node) => node.classList.toggle("hide", isOpen));
     bottomChevrons.forEach((node) => node.classList.toggle("hide", !isOpen));
   }
-  function toggleOpen(){
-    toggleChevrons();
+  function toggleSessionsOpen(){
     this.classList.toggle('open');
+    toggleSessionsChevrons();
     window.scrollTo({top:this.offsetTop});
   };
-  nodes.forEach((node) => node.addEventListener('click', toggleOpen));
+  sessionsNodes.forEach((node) => node.addEventListener('click', toggleSessionsOpen));
 </script>

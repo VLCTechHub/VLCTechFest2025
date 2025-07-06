@@ -35,18 +35,19 @@
 </section>
 
 <script>
-  var nodes = document.querySelectorAll('#workshops>div>ul>li>ul>li');
-  var topChevrons = document.querySelectorAll('.chevron');
-  var bottomChevrons = document.querySelectorAll('.chevron-bottom');
-  function toggleChevrons(){
-    const isOpen = document.querySelector(".open") === null;
+  var workshopsNodes = document.querySelectorAll('#workshops>div>ul>li>ul>li');
+  const toggleWorkshopsChevrons = () =>{
+    const isOpen = document.querySelector("#workshops>div>ul>li>ul>.open") !== null;
+    const topChevrons = document.querySelectorAll(".chevron");
+    const bottomChevrons = document.querySelectorAll(".chevron-bottom");
+
     topChevrons.forEach((node) => node.classList.toggle("hide", isOpen));
     bottomChevrons.forEach((node) => node.classList.toggle("hide", !isOpen));
   }
-  function toggleOpen(){
-    toggleChevrons();
+  function toggleWorkshopsOpen(){
     this.classList.toggle('open');
+    toggleWorkshopsChevrons();
     window.scrollTo({top:this.offsetTop});
   };
-  nodes.forEach((node) => node.addEventListener('click', toggleOpen));
+  workshopsNodes.forEach((node) => node.addEventListener('click', toggleWorkshopsOpen));
 </script>
