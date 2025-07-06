@@ -36,17 +36,18 @@
 
 <script>
   var workshopsNodes = document.querySelectorAll('#workshops>div>ul>li>ul>li');
-  const toggleWorkshopsChevrons = () =>{
-    const isOpen = document.querySelector("#workshops>div>ul>li>ul>.open") !== null;
-    const topChevrons = document.querySelectorAll(".chevron");
-    const bottomChevrons = document.querySelectorAll(".chevron-bottom");
-
-    topChevrons.forEach((node) => node.classList.toggle("hide", isOpen));
-    bottomChevrons.forEach((node) => node.classList.toggle("hide", !isOpen));
+  function toggleWorkshopsChevrons(querySelector, isOpen){
+    const topChevron = querySelector('.chevron');
+    const bottomChevron = querySelector('.chevron-bottom');
+    topChevron.classList.toggle('hide', isOpen);
+    bottomChevron.classList.toggle('hide', !isOpen);
   }
   function toggleWorkshopsOpen(){
+    toggleWorkshopsChevrons(
+      (q) => this.querySelector(q),
+      !this.classList.contains('open')
+    );
     this.classList.toggle('open');
-    toggleWorkshopsChevrons();
     window.scrollTo({top:this.offsetTop});
   };
   workshopsNodes.forEach((node) => node.addEventListener('click', toggleWorkshopsOpen));

@@ -43,7 +43,7 @@
 
 <script>
   var sessionsNodes = document.querySelectorAll('#sessions>div>ul>li>ul>li');
-  const toggleSessionsChevrons = (querySelector, isOpen) =>{
+  function toggleSessionsChevrons(querySelector, isOpen){
     const topChevron = querySelector('.chevron');
     const bottomChevron = querySelector('.chevron-bottom');
     topChevron.classList.toggle('hide', isOpen);
