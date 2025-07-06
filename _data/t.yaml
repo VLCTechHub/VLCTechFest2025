@@ -1,7 +1,7 @@
 es:
   head:
     description: 14 de junio // Las Naves // Evento gratuito // Acceso libre
-    description_1: 14 de junio // 09:30 - 19:30 // Las Naves
+    description_1: 14 de junio // 09:00 - 20:00 // Las Naves
     description_2: Un evento gratuito y de acceso libre
   navigation:
     index:
@@ -99,11 +99,12 @@ Reserva tu entrada escribiendo un mail a <a href='mailto:hola@vlctechfest.org'>h
     title: Ponentes
   footer:
     vlctechhub_description: VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con <a target="_blank" href="https://slack.vlctechhub.org">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>
+    media_coverage: Cobertura audiovisual por <a target="_blank" href="https://www.techframemedia.com/">TechFrameMedia</a>
 
 en:
   head:
     description: June 14th // Las Naves // Free event // Free access
-    description_1: June 14th // 09:30 - 19:30 // Las Naves
+    description_1: June 14th // 09:00 - 20:00 // Las Naves
     description_2: Free event and free access
   navigation:
     index:
@@ -200,11 +201,12 @@ See you there!"
     title: Speakers
   footer:
      vlctechhub_description: VLCTechHub promotes and encourages the different technological communities of Valencia. For this, it has <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organises events like <strong>VLCTechFest</strong>.
+     media_coverage: Media coverage by <a target="_blank" href="https://www.techframemedia.com/">TechFrameMedia</a>
 
 ca:
   head:
     description: 14 de Juny // Las Naves // Esdeveniment gratuït // Accés lliure
-    description_1: 14 de Juny // 09:30 - 19:30 // Las Naves
+    description_1: 14 de Juny // 09:00 - 20:00 // Las Naves
     description_2: Un esdeveniment gratuït i d'accés lliure
   navigation:
     index:
@@ -301,3 +303,4 @@ Ens veiem allí!"
     title: Ponents
   footer:
     vlctechhub_description: VlcTechHub promou i fomenta les diferents comunitats tecnològiques de València. Per a això compta amb <a target="_blank" href="https://slack.vlctechhub.org/" >un xat</a> on la comunitat pot compartir. També organitza esdeveniments com aquest <strong>VLCTechFest</strong>.
+    media_coverage: Cobertura audiovisual per <a target="_blank" href="https://www.techframemedia.com/">TechFrameMedia</a>

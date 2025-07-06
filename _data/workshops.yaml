@@ -1,6 +1,6 @@
 - startTime: "9:30"
   endTime: "11:30"
-  room: Visual
+  room: Sala Collab
   title: "Introducción al modelado 3D con FreeCAD"
   description: |-
     Pretendemos tumbar la barrera inicial que puede cohibir el aprendizaje al encontrarse con una interfaz de usuario desconocida y un proceso de trabajo meticuloso y específico.
@@ -10,15 +10,10 @@
     La idea es enseñar a realizar piezas básicas, a partir de medidas reales, y motivar al usuario a diseñar piezas con el objetivo de introducirlo al modelado 3D, abriendo la puerta a la impresión 3d, fabricación sustractiva, etc.
 
     ⚠️ Nota: Es recomendable que los asistentes al taller acudan con FreeCAD ya instalado en sus portátiles. 💻
-  # speaker:
-  #   - name: "Restarters"
-  #     bio: "Somos un colectivo que cree que reparar y alargar la vida de los bienes materiales por nuestros propios medios forma parte del camino para conseguir la autonomía como personas y la sostenibilidad como sociedad. Apostamos por el derecho y la responsabilidad de cuidar y conocer aquello que poseemos. En una sociedad de consumo reparar es un acto revolucionario"
-  #     photo: /images/communities/restartersvlc.png
-  #     links:
-  #       - https://restartersvlc.wordpress.com/
-
   speaker:
     - name: "Restarters"
+      bio: "Somos un colectivo que cree que reparar y alargar la vida de los bienes materiales por nuestros propios medios forma parte del camino para conseguir la autonomía como personas y la sostenibilidad como sociedad. Apostamos por el derecho y la responsabilidad de cuidar y conocer aquello que poseemos. En una sociedad de consumo reparar es un acto revolucionario"
+      photo: /images/communities/restartersvlc.png
       links:
         - https://restartersvlc.wordpress.com/
 
@@ -45,8 +40,8 @@
 
 - startTime: "12:00"
   endTime: "14:00"
-  room: Visual
-  title: "Taller de evaluación de accesibilidad - Explorando herramientas y pruebas para garantizar la inclusión / David"
+  room: Sala Collab
+  title: "Taller de evaluación de accesibilidad - Explorando herramientas y pruebas para garantizar la inclusión"
   description: |-
     La accesibilidad no es solo un requerimiento legal o técnico, sino una oportunidad para crear experiencias digitales más inclusivas y usables para todas las personas. En esta charla-taller abordaremos de forma práctica y accesible los fundamentos de la evaluación de accesibilidad digital.
 
@@ -69,16 +64,16 @@
          Esta actividad es completamente gratuita para todos los participantes pero por favor, apúntate a este evento para reservar tu plaza. Si al final no puedes venir, indícanoslo para liberar la plaza para otra persona.
 
          <a href="https://www.meetup.com/vlctechhub/events/307862702/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">¡Apúntate!</a>
-  # speaker:
-  #   - name: "Hackerspace Valencia"
-  #     bio: "Compartimos conocimiento, experiencia y pasión por la tecnología. Aquí todos enseñamos y todos aprendemos. Creemos en el software y hardware libre. Compartir es nuestra forma de innovar."
-  #     photo: /images/communities/hackerspace_logo.jpeg
-  #     links:
-  #       - https://hackvlc.es/
+  speaker:
+    - name: "Hackerspace Valencia"
+      bio: "Compartimos conocimiento, experiencia y pasión por la tecnología. Aquí todos enseñamos y todos aprendemos. Creemos en el software y hardware libre. Compartir es nuestra forma de innovar."
+      photo: /images/communities/hackerspace_logo.jpeg
+      links:
+        - https://hackvlc.es/
 
 - startTime: "16:00"
   endTime: "18:00"
-  room: Visual
+  room: Sala Collab
   title: "JavaScript for the Rest of Us"
   description: |-
     Aprender JavaScript puede parecer abrumador, pero la base sigue siendo simple y poderosa.

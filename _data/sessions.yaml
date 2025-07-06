@@ -37,12 +37,9 @@
       bio: "Diseñadora de producto amante del trabajo en equipo, los nuevos retos y el aprendizaje constante. Siempre explorando cómo hacer productos más intuitivos y funcionales."
       # photo: /images/speakers/aguedaMachado.jpg
 
-#
-# TODO: CHARLA POR CONFIRMAR
-#
 - startTime: "9:30"
   endTime: "10:30"
-  room: Gradas
+  room: Sala Visual
   language: "Talk in English 🇬🇧"
   title: "Inside the First Git Commit: Powerful Ideas Behind a Minimal Start"
   description: |-
@@ -96,7 +93,7 @@
 
 - startTime: "10:30"
   endTime: "11:30"
-  room: Gradas
+  room: Sala Visual
   language: "es"
   title: "Progreso y percepción: Cómo diseñar con tiempos de espera"
   description: |-
@@ -120,7 +117,7 @@
 
 - startTime: "12:00"
   endTime: "13:00"
-  room: Sala polivalente
+  room: Sala Polivalente
   language: "es"
   title: "De estudiantes a developers en el mundo start-up/ Salimos del grado y en una startup nos hemos colado"
   description: |-
@@ -171,7 +168,7 @@
 
 - startTime: "12:00"
   endTime: "13:00"
-  room: Gradas
+  room: Sala Visual
   language: "es"
   title: "Cómo transformar la deuda técnica en valor de mercado"
   description: |-
@@ -192,7 +189,7 @@
 
 - startTime: "13:00"
   endTime: "14:00"
-  room: Sala polivalente
+  room: Sala Polivalente
   language: "es"
   title: "¿Y si tu siguiente salto no depende de lo técnico?"
   description: |-
@@ -226,7 +223,7 @@
 
 - startTime: "13:00"
   endTime: "14:00"
-  room: Gradas
+  room: Sala Visual
   language: "es"
   title: "¡DAST como nunca te lo habían contado! Integrando ZAProxy en pruebas web."
   description: |-
@@ -258,7 +255,7 @@
 
 - startTime: "16:00"
   endTime: "17:00"
-  room: Sala polivalente
+  room: Sala Polivalente
   language: "Talk in English 🇬🇧"
   title: "Smarter Load Tests: How AI is Transforming Performance Engineering"
   description: |-
@@ -293,7 +290,7 @@
 
 - startTime: "16:00"
   endTime: "17:00"
-  room: Gradas
+  room: Sala Visual
   language: "es"
   title: "Seguridad y buenas prácticas en el desarrollo Frontend"
   description: |-
@@ -314,7 +311,7 @@
 
 - startTime: "17:00"
   endTime: "18:00"
-  room: Sala polivalente
+  room: Sala Polivalente
   language: "es"
   title: "Algoritmos, visas y talento: El viaje del migrante tech"
   description: |-
@@ -354,7 +351,7 @@
 
 - startTime: "17:00"
   endTime: "18:00"
-  room: Gradas
+  room: Sala Visual
   language: "es"
   title: "Ciberseguridad post-cuántica basada en dispositivos reconfigurables."
   description: |-
@@ -367,11 +364,20 @@
       photo: /images/speakers/pabloTrujillo.jpeg
       links:
         - https://controlpaths.com/
-        - https://github.com/controlpaths
-        - https://es.linkedin.com/in/pablo-trujillo-juan
+        - https://github.com/controlpaths/
+        - https://www.linkedin.com/in/pablo-trujillo-juan/
 
 - startTime: "18:00"
   endTime: "18:15"
   room: Sala Polivalente
   title: "Cierre del evento y despedida"
   description: "Breve despedida del evento por parte de los organizadores."
+
+- startTime: "18:15"
+  endTime: "20:00"
+  room: Patio
+  title: "Espacio de Networking"
+  description: "Cerramos la jornada con un espacio dedicado a la conversación y el intercambio de ideas.
+
+
+  Una oportunidad para conocer a otros asistentes, compartir experiencias del sector tecnológico y construir relaciones profesionales."
