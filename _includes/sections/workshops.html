@@ -9,7 +9,7 @@
           {% if time != "" %}</ul></li>{%- endif -%}
           <li>
             <p class="workshop-time">
-              <span class="start">{{session.startTime}}</span> - 
+              <span class="start">{{session.startTime}}</span> -
               <span class="end">{{session.endTime}}</span>
             </p>
             <ul>
@@ -23,8 +23,10 @@
               <li>{{speaker.name}}</li>
             {%- endfor -%}
           </ul>
-          <p class="room"><span>{{session.room}}</span></p>
+          <p class="room">Sala: <span>{{session.room}}</span></p>
+          <span class="chevron">{%- include chevron-down.svg -%}</span>
           <div class="description">{{session.description | markdownify }}</div>
+          <span class="chevron-bottom hide">{%- include chevron-down.svg -%}</span>
         </li>
       {%- endfor -%}
       </ul></li>
@@ -33,10 +35,20 @@
 </section>
 
 <script>
-  var nodes = document.querySelectorAll('li.workshops');
-  function toggleOpen(){
+  var workshopsNodes = document.querySelectorAll('#workshops>div>ul>li>ul>li');
+  function toggleWorkshopsChevrons(querySelector, isOpen){
+    const topChevron = querySelector('.chevron');
+    const bottomChevron = querySelector('.chevron-bottom');
+    topChevron.classList.toggle('hide', isOpen);
+    bottomChevron.classList.toggle('hide', !isOpen);
+  }
+  function toggleWorkshopsOpen(){
+    toggleWorkshopsChevrons(
+      (q) => this.querySelector(q),
+      !this.classList.contains('open')
+    );
     this.classList.toggle('open');
     window.scrollTo({top:this.offsetTop});
   };
-  nodes.forEach((node) => node.addEventListener('click', toggleOpen));
+  workshopsNodes.forEach((node) => node.addEventListener('click', toggleWorkshopsOpen));
 </script>

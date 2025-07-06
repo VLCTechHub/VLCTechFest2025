@@ -635,7 +635,7 @@ section {
   }
   .wrapper > p,
   article > p {
-    
+
     &:last-child {
       padding-right: 0;
     }
@@ -790,6 +790,18 @@ ul.sessions {
               @include sr-only;
             }
           }
+
+          .chevron {
+            display: inline-block;
+            margin-top: 1em;
+          }
+          .chevron-bottom {
+            display: inline-block;
+            transform: rotate(180deg);
+          }
+          .hide {
+            display: none;
+          }
         }
       }
     }
@@ -836,6 +848,14 @@ ul.sessions {
       > ul {
         margin-top: -8.75em;
         margin-bottom: 7em;
+      }
+
+      .chevron {
+        display: none;
+      }
+
+      .chevron-bottom {
+        display: none;
       }
     }
   }
@@ -1174,7 +1194,7 @@ ul.speakers {
     grid-template-columns: 1fr 1fr;
     gap: 0 3rem;
 
-    
+
     h2 {
       font-size: 1.2em;
       font-weight: bolder;

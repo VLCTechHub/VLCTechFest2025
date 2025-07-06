@@ -4,17 +4,20 @@
     <h1>{{ sessions.title }}</h1>
     <ul class="sessions">
       {% assign time = "" %}
-      {%- for session in site.data.sessions -%}
-        {% if time != session.startTime %}
-          {% if time != "" %}</ul></li>{%- endif -%}
+        {%- for session in site.data.sessions -%}
+          {% if time != session.startTime %}
+            {% if time != "" %}
+            </ul>
+            </li>
+            {%- endif -%}
           <li>
             <p>
               <span class="start">{{session.startTime}}</span> -
               <span class="end">{{session.endTime}}</span>
             </p>
-            <ul>
+          <ul>
           {% assign time = session.startTime %}
-        {%- endif -%}
+          {%- endif -%}
 
         <li class="{{session.room | downcase}}">
           <p class="title">{{session.title}}</p>
@@ -24,22 +27,35 @@
             {%- endfor -%}
           </ul>
           <p class="room"><span>{{session.room}}</span><br/>
-            {% if session.language != "es" %}
-          <span>{{session.language}}</span>
-        {%- endif -%}</p>
+          {% if session.language != "es" %}
+            <span>{{session.language}}</span>
+          {%- endif -%}</p>
+          <span class="chevron">{%- include chevron-down.svg -%}</span>
           <div class="description">{{session.description | markdownify }}</div>
+          <span class="chevron-bottom hide">{%- include chevron-down.svg -%}</span>
         </li>
       {%- endfor -%}
-      </ul></li>
+      </ul>
+      </li>
     </ul>
   </div>
 </section>
 
 <script>
-  var nodes = document.querySelectorAll('ul.sessions>li>ul>li');
-  function toggleOpen(){
+  var sessionsNodes = document.querySelectorAll('#sessions>div>ul>li>ul>li');
+  function toggleSessionsChevrons(querySelector, isOpen){
+    const topChevron = querySelector('.chevron');
+    const bottomChevron = querySelector('.chevron-bottom');
+    topChevron.classList.toggle('hide', isOpen);
+    bottomChevron.classList.toggle('hide', !isOpen);
+  }
+  function toggleSessionsOpen(){
+    toggleSessionsChevrons(
+      (q) => this.querySelector(q),
+      !this.classList.contains('open')
+    );
     this.classList.toggle('open');
     window.scrollTo({top:this.offsetTop});
   };
-  nodes.forEach((node) => node.addEventListener('click', toggleOpen));
+  sessionsNodes.forEach((node) => node.addEventListener('click', toggleSessionsOpen));
 </script>
