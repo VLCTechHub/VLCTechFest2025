@@ -43,17 +43,18 @@
 
 <script>
   var sessionsNodes = document.querySelectorAll('#sessions>div>ul>li>ul>li');
-  const toggleSessionsChevrons = () =>{
-    const isOpen = document.querySelector("#sessions>div>ul>li>ul>.open") !== null;
-    const topChevrons = document.querySelectorAll(".chevron");
-    const bottomChevrons = document.querySelectorAll(".chevron-bottom");
-
-    topChevrons.forEach((node) => node.classList.toggle("hide", isOpen));
-    bottomChevrons.forEach((node) => node.classList.toggle("hide", !isOpen));
+  const toggleSessionsChevrons = (querySelector, isOpen) =>{
+    const topChevron = querySelector('.chevron');
+    const bottomChevron = querySelector('.chevron-bottom');
+    topChevron.classList.toggle('hide', isOpen);
+    bottomChevron.classList.toggle('hide', !isOpen);
   }
   function toggleSessionsOpen(){
+    toggleSessionsChevrons(
+      (q) => this.querySelector(q),
+      !this.classList.contains('open')
+    );
     this.classList.toggle('open');
-    toggleSessionsChevrons();
     window.scrollTo({top:this.offsetTop});
   };
   sessionsNodes.forEach((node) => node.addEventListener('click', toggleSessionsOpen));
