@@ -24,6 +24,9 @@
             {%- endfor -%}
           </ul>
           <p class="room">Sala: <span>{{session.room}}</span></p>
+          {% if session.registrationLink | strip_newlines != "" %}
+          <p class="registration-link"><a href="{{session.registrationLink}}">🎫 Apúntate aquí</a></p>
+          {%- endif -%}
           <span class="chevron">{%- include chevron-down.svg -%}</span>
           <div class="description">{{session.description | markdownify }}</div>
           <span class="chevron-bottom hide">{%- include chevron-down.svg -%}</span>
